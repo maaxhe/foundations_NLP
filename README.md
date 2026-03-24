@@ -27,7 +27,7 @@ cd foundations_NLP
 
 1. Ihr öffnet eure IDE (VS Code zb) und dann holt ihr euch oben über git clone das Projekt
 2. dann könnt ihr alles verändern was ihr wollt
-3. anschließend wenn ihr happy seid macht "git add ."
+3. anschließend wenn ihr happy seid: speichern!!! dann macht "git add ."
 4. dann "git commit -m <titel der änderung oder was ihr geändert habt>
 5. dann "git push"
 6. jetzt ist alles online und für alle anderen sichtbar
