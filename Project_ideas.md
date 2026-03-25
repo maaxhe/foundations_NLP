@@ -34,6 +34,6 @@
             - Self made?
         c. Model NPC-Conversation
             - lama3b
-        Datensatz: Persona-Chat Dataset, DnD Character Database (Maluna)
-        
+        Datensatz: Persona-Chat Dataset, DnD Character Database (Maluna), Gutenberg Project Corpus (fantasy sprache), Api Docs - Open5e (aktuelle Version)
+
 
