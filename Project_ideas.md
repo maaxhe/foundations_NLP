@@ -27,3 +27,13 @@
         b. parameter descision - Wie/Welche Zutaten dürfen fehlen?
     Datensätze: RecipeNLG (cooking recipes dataset), Recipe1M, Food.com Recipes and Reviews Dataset, Epicurious Recipes Dataset
 
+5. DnD NPC generator - Starting with character creation (through prompt input), ending with personalised conversations    based on Character
+    Benötigt wird:
+        a. json Datei pro Character
+        b. Model Character creation
+            - Self made?
+        c. Model NPC-Conversation
+            - lama3b
+        Datensatz: Persona-Chat Dataset, DnD Character Database (Maluna)
+        
+
