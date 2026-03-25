@@ -1,0 +1,38 @@
+# inference_config.yaml -- Configuration for Phase 3: App Inference
+#
+# All values here are consumed by app/main.py (lifespan) and
+# app/state_extractor.py.
+
+server:
+  host: "0.0.0.0"
+  port: 8000
+  reload: true               # set to false in production
+
+models:
+  # Dialog model: generates the NPC's in-character speech.
+  # This is the base Llama-3B-Instruct served by Ollama (no fine-tuning needed).
+  dialog_model: "llama3:3b-instruct"
+
+  # Extraction model: fine-tuned model that outputs DialogState JSON.
+  # Before fine-tuning: use the same base model (lower accuracy but functional).
+  # After fine-tuning:  replace with "dnd-state-extractor:latest" once you have
+  #                     converted the LoRA-merged model to GGUF and pulled it
+  #                     into Ollama with `ollama create`.
+  extraction_model: "llama3:3b-instruct"
+
+  # HuggingFace adapter path (used when decoder_strategy = "transformers")
+  hf_adapter_path: "models/lora_adapter"
+
+decoder:
+  # "ollama"       -- call Ollama REST API (simpler, no GPU required in Python)
+  # "transformers" -- use HuggingFace + PEFT directly (requires GPU)
+  strategy: "ollama"
+  temperature: 0.0           # always use 0 for extraction (deterministic)
+  max_new_tokens: 512
+
+session:
+  max_turns: 50              # close a session after this many player turns
+
+# TODO: Add CORS origins if the frontend is served from a different host/port.
+cors:
+  allow_origins: ["*"]       # restrict to specific origins in production

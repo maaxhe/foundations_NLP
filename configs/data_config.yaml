@@ -1,0 +1,59 @@
+# data_config.yaml -- Configuration for Phase 1: Synthetic Data Generation
+#
+# All values here are consumed by data_pipeline/generator.py and
+# data_pipeline/dataset_builder.py.
+#
+# TODO: Fill in real values before running data generation.
+
+synthesis_api:
+  provider: "openai"           # "openai" | "anthropic" — which API to call
+  model:    "gpt-4o"           # model ID for the synthesis API
+  api_key_env_var: "OPENAI_API_KEY"  # name of the env var holding the key
+  temperature: 0.9             # higher = more diverse dialogs
+  max_retries: 3               # tenacity retry attempts on API errors
+
+generation:
+  n_samples:      1000         # total (dialog, JSON) pairs to generate
+  checkpoint_every: 100        # write a checkpoint JSONL every N samples
+  output_dir: "data/raw"       # where raw JSONL files land
+
+npc_pool:
+  # TODO: Expand this list. Each entry becomes a possible NPC in a scenario.
+  - name: "Grimtooth"
+    race: "Half-Orc"
+    role: "Blacksmith"
+  - name: "Mira the Fence"
+    race: "Human"
+    role: "Merchant"
+  - name: "Brother Aldous"
+    race: "Dwarf"
+    role: "Priest"
+
+quest_pool:
+  # TODO: Add more diverse quest hooks to improve aggression-level diversity.
+  - "Retrieve the Crystal Shard from the northern ruins."
+  - "Find the missing merchant caravan on the old road."
+  - "Silence the bandit leader before the harvest festival."
+
+validation:
+  run_coherence_check: false   # set to true to enable NLI coherence filtering
+  coherence_model: "cross-encoder/nli-deberta-v3-small"
+  coherence_threshold: 0.5     # minimum ENTAILMENT score to pass
+  heuristic_rules:
+    trust_aggression_threshold: 0.2  # trust < this implies suspicious/hostile
+
+dataset:
+  val_fraction: 0.1
+  seed: 42
+  output_dir: "data/processed"
+  hub_repo_id: ""              # leave empty to skip HuggingFace Hub push
+
+prompt_template: |
+  You are a D&D world-building assistant.  Given a short dialog excerpt between
+  a player and an NPC, output ONLY a valid JSON object that matches the
+  following schema exactly (no markdown, no extra keys):
+
+  {schema_json}
+
+  The NPC's name is: {npc_name}
+  Current turn index: {turn_index}

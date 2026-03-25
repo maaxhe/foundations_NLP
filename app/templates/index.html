@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>D&amp;D NPC Chat</title>
+    <!--
+    TODO: Replace this inline style block with a proper CSS file in app/static/.
+          Consider using Tailwind CSS (CDN) for rapid prototyping.
+    -->
+    <style>
+        /* TODO: Style the layout as a two-column panel:
+           Left  (70%): Chat window with scrollable dialog history.
+           Right (30%): NPC State Panel showing aggression, trust, inventory, quest.
+           Use CSS Grid: display: grid; grid-template-columns: 70fr 30fr;
+        */
+        body { font-family: monospace; background: #1a1a2e; color: #eee; margin: 0; padding: 1rem; }
+        #chat-window  { border: 1px solid #444; height: 60vh; overflow-y: auto; padding: 1rem; }
+        #state-panel  { border: 1px solid #444; padding: 1rem; }
+        #input-row    { display: flex; gap: 0.5rem; margin-top: 0.5rem; }
+        #player-input { flex: 1; background: #2a2a3e; color: #eee; border: 1px solid #555; padding: 0.5rem; }
+        #send-btn     { background: #7c3aed; color: white; border: none; padding: 0.5rem 1rem; cursor: pointer; }
+    </style>
+</head>
+<body>
+
+    <h1>&#x2694;&#xfe0f; D&amp;D NPC Chat</h1>
+
+    <div id="app-grid">
+        <!-- Chat Panel -->
+        <section>
+            <div id="chat-window">
+                <!-- TODO: Dialog turns are injected here by main.js.
+                     Each turn should be a <div class="turn player|npc">
+                     <span class="label">Player/NPC:</span> <span class="text">...</span>
+                     </div>
+                -->
+                <p id="opening-line"><em>Loading NPC...</em></p>
+            </div>
+            <div id="input-row">
+                <input
+                    id="player-input"
+                    type="text"
+                    placeholder="What do you say to the NPC?"
+                    autocomplete="off"
+                />
+                <button id="send-btn">Send</button>
+            </div>
+        </section>
+
+        <!-- State Panel -->
+        <aside id="state-panel">
+            <h2>NPC State</h2>
+            <!-- TODO: Populate these fields dynamically from the NPCResponse.current_state
+                       returned by the /chat endpoint.  Use main.js to update the DOM. -->
+            <p><strong>Aggression:</strong> <span id="state-aggression">—</span></p>
+            <p><strong>Trust:</strong> <span id="state-trust">—</span></p>
+            <p><strong>Quest:</strong> <span id="state-quest">—</span></p>
+            <p><strong>Inventory:</strong></p>
+            <ul id="state-inventory">
+                <!-- TODO: Render inventory items as <li> elements. -->
+            </ul>
+            <p><strong>Player intent:</strong> <span id="state-intent">—</span></p>
+        </aside>
+    </div>
+
+    <!--
+    TODO: Move the session_id generation and all API calls to app/static/main.js.
+          This script tag is a placeholder stub only.
+    -->
+    <script src="/static/main.js"></script>
+
+</body>
+</html>
