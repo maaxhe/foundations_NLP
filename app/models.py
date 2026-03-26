@@ -40,7 +40,7 @@ class ChatRequest(BaseModel):
     """
     player_message: str = Field(..., min_length=1, max_length=2000)
     session_id:     str = Field(...)
-    npc_name:       str = Field(default="Grimtooth") # Maybe change the default name to something funny, like... Mr. Meeseeks
+    npc_name:       str = Field(default="Grimtooth") # Maybe change the default name to something funny, like... Mr. Meeseeks (remember to change later as well)
 
 
 class NewSessionRequest(BaseModel):
@@ -54,7 +54,7 @@ class NewSessionRequest(BaseModel):
     TODO: Add `scenario_id` to load a pre-defined quest context from a
           scenarios/ directory, allowing richer initial NPC state.
     """
-    npc_name:    str            = Field(default="Grimtooth")
+    npc_name:    str            = Field(default="Grimtooth") # if default name was changed, change here as well
     player_name: Optional[str] = Field(default=None)
 
 
