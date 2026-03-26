@@ -24,6 +24,13 @@ from npc_generator.registry import NpcRegistry
 from npc_generator.spec_parser import apply_update_instruction, parse_character_specs
 from npc_generator.story_generator import StoryGenerator
 
+GENERATION_FIELDS = {
+    "temperature": float,
+    "top_p": float,
+    "max_new_tokens": int,
+    "repetition_penalty": float,
+}
+
 
 def print_line(message: str = "") -> None:
     if RICH:
@@ -41,11 +48,24 @@ def print_help() -> None:
 /status          Show the current NPC sheet
 /edit <field> <value>
 /update <text>   Apply a narrative update, e.g. "/update you are now lawful evil"
-/hyper           Adjust Qwen generation settings
+/hyper           Open the hyperparameter wizard
+/hyper show      Show current Qwen generation settings
+/hyper reset     Reset Qwen generation settings to defaults
+/hyper <field> <value> [field value ...]
 /help            Show commands
 /quit            Exit
 """
     print_line(help_text.strip())
+
+
+def format_generation_settings(engine: DialogueEngine) -> str:
+    cfg = engine.generation_config
+    return (
+        f"temperature={cfg.temperature}, "
+        f"top_p={cfg.top_p}, "
+        f"max_new_tokens={cfg.max_new_tokens}, "
+        f"repetition_penalty={cfg.repetition_penalty}"
+    )
 
 
 def render_npc_sheet(npc: NPC) -> None:
@@ -138,6 +158,49 @@ def run_hyper_wizard(engine: DialogueEngine) -> None:
         print_line("Invalid numeric value. Settings unchanged.")
 
 
+def apply_hyper_command(engine: DialogueEngine, args: str) -> None:
+    raw = args.strip()
+    if not raw:
+        run_hyper_wizard(engine)
+        return
+
+    if raw == "show":
+        print_line("Current Qwen generation settings:")
+        print_line(format_generation_settings(engine))
+        return
+
+    if raw == "reset":
+        engine.generation_config = type(engine.generation_config)()
+        print_line("Qwen generation settings reset to defaults.")
+        print_line(format_generation_settings(engine))
+        return
+
+    parts = raw.split()
+    if len(parts) % 2 != 0:
+        print_line("Use /hyper <field> <value> [field value ...], /hyper show, or /hyper reset.")
+        return
+
+    updates: dict[str, object] = {}
+    for index in range(0, len(parts), 2):
+        field_name = parts[index]
+        raw_value = parts[index + 1]
+        caster = GENERATION_FIELDS.get(field_name)
+        if caster is None:
+            print_line(f"Unknown hyperparameter '{field_name}'.")
+            print_line("Available fields: " + ", ".join(GENERATION_FIELDS))
+            return
+        try:
+            updates[field_name] = caster(raw_value)
+        except ValueError:
+            print_line(f"Invalid value for '{field_name}': {raw_value}")
+            return
+
+    engine.set_generation_config(**updates)
+    changed = ", ".join(f"{key}={value}" for key, value in updates.items())
+    print_line(f"Updated Qwen generation settings: {changed}")
+    print_line(format_generation_settings(engine))
+
+
 def chat_with_npc(npc: NPC, engine: DialogueEngine, registry: NpcRegistry, sampler: CharacterSampler) -> bool:
     print_line(f"Chatting with {npc.name}. Use 1-4 for suggestions, free text for your own line, /back to leave chat.")
 
@@ -167,7 +230,7 @@ def chat_with_npc(npc: NPC, engine: DialogueEngine, registry: NpcRegistry, sampl
                 render_npc_sheet(npc)
                 continue
             if command == "/hyper":
-                run_hyper_wizard(engine)
+                apply_hyper_command(engine, args)
                 continue
             if command == "/edit":
                 message = edit_current_npc(npc, args)
@@ -317,7 +380,7 @@ def main() -> None:
             continue
 
         if command == "/hyper":
-            run_hyper_wizard(engine)
+            apply_hyper_command(engine, args)
             continue
 
         print_line(f"Unknown command: {command}. Use /help.")

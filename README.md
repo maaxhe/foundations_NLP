@@ -41,7 +41,10 @@ All commands start with `/`.
 | `/status` | Show the current NPC sheet |
 | `/edit <field> <value>` | Edit a specific NPC field directly |
 | `/update <text>` | Apply a natural-language state update |
-| `/hyper` | Adjust Qwen generation settings |
+| `/hyper` | Open the Qwen hyperparameter wizard |
+| `/hyper show` | Show current Qwen generation settings |
+| `/hyper reset` | Reset generation settings to defaults |
+| `/hyper <field> <value>` | Set a Qwen generation hyperparameter directly |
 | `/quit` | Exit |
 
 ## Example
@@ -49,6 +52,7 @@ All commands start with `/`.
 ```text
 /create elf rogue named Mira level 7 HP 42 weapon rapier chaotic good suspicious
 /chat
+/hyper temperature 0.7 top_p 0.9 max_new_tokens 120
 /update you are now lawful evil from now on
 /edit emotional_state friendly
 /list
