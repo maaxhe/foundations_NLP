@@ -33,6 +33,7 @@ class NPC:
     goal: str = ""
     quirk: str = ""
     secret: str = ""
+    extra_traits: dict[str, str] = field(default_factory=dict)
     notes: list[str] = field(default_factory=list)
     source_prompt: str = ""
     history: list[dict[str, str]] = field(default_factory=list, repr=False)
@@ -43,10 +44,6 @@ class NPC:
             f"STR {self.Str:2d}  DEX {self.Dex:2d}  CON {self.Con:2d}  "
             f"INT {self.Int:2d}  WIS {self.Wis:2d}  CHA {self.Cha:2d}"
         )
-
-    @property
-    def short_label(self) -> str:
-        return f"{self.name} [{self.npc_id}]"
 
     def to_dict(self) -> dict[str, Any]:
         return asdict(self)

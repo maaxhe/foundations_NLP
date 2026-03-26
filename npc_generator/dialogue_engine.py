@@ -7,7 +7,6 @@ from __future__ import annotations
 import os
 import random
 from dataclasses import dataclass
-from typing import Optional
 
 from npc_generator.npc import NPC
 
@@ -56,12 +55,15 @@ def build_persona_prompt(character: dict, story: str) -> str:
     quirk = character.get("quirk", "watch people carefully")
     notes = character.get("notes", [])
     recent_notes = "; ".join(notes[-3:]) if notes else "No recent updates."
+    extra_traits = character.get("extra_traits", {})
+    extra_text = "; ".join(f"{key}: {value}" for key, value in extra_traits.items()) if extra_traits else "No extra traits."
 
     return (
         f"You are {name}, a {race} {primary_class} with the subclass or specialty '{subclass}'. "
         f"You wield {weapon}. Your alignment is {alignment} and your current emotional state is {emotional_state}. "
         f"Your background story: {story} "
         f"Your current goal is to {goal}. Your quirk is that you {quirk}. "
+        f"Extra described traits: {extra_text}. "
         f"Recent world updates affecting you: {recent_notes}. "
         f"{tone} {mannerism} "
         f"Always respond as {name} in the first person. Stay in character. Keep answers under 3 sentences."
@@ -167,25 +169,11 @@ class DialogueEngine:
         response = self.tokenizer.decode(generated_ids, skip_special_tokens=True).strip()
         return response or self._fallback_response(user_input, npc.to_dict())
 
-    def chat(
-        self,
-        npc_or_persona,
-        user_input: str,
-        history_ids: Optional[object] = None,
-        character: Optional[dict] = None,
-    ):
+    def chat(self, npc: NPC, user_input: str):
         """
         Generate a single NPC response.
         Returns (response_text, history_placeholder).
         """
-        if isinstance(npc_or_persona, NPC):
-            npc = npc_or_persona
-        else:
-            payload = character or {}
-            if "story" not in payload:
-                payload["story"] = ""
-            npc = NPC.from_dict(payload)
-
         if self.model is not None:
             try:
                 return self._qwen_chat(npc, user_input), None
@@ -210,17 +198,17 @@ class DialogueEngine:
         random.shuffle(base)
         return base[:4]
 
-    def _fallback_response(self, user_input: str, character: Optional[dict]) -> str:
+    def _fallback_response(self, user_input: str, character: dict) -> str:
         """Persona-aware rule-based response engine."""
         lower = user_input.lower()
-        name = character["name"] if character else "traveler"
-        cls = character.get("primary_class", "wanderer") if character else "wanderer"
-        race = character.get("race", "") if character else ""
-        alignment = character.get("alignment", "True Neutral") if character else "True Neutral"
-        bg = character.get("background", "humble") if character else "humble"
-        emotion = character.get("emotional_state", "curious") if character else "curious"
-        goal = character.get("goal", "keep going") if character else "keep going"
-        quirk = character.get("quirk", "watch everything") if character else "watch everything"
+        name = character["name"]
+        cls = character.get("primary_class", "wanderer")
+        race = character.get("race", "")
+        alignment = character.get("alignment", "True Neutral")
+        bg = character.get("background", "humble")
+        emotion = character.get("emotional_state", "curious")
+        goal = character.get("goal", "keep going")
+        quirk = character.get("quirk", "watch everything")
 
         greetings = {"hello", "hi", "hey", "greetings", "good day", "well met", "howdy"}
         who_kw = {"who are you", "your name", "who", "name", "introduce"}

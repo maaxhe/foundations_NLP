@@ -21,6 +21,18 @@ def test_parse_keeps_explicit_fields():
     assert overrides["emotional_state"] == "suspicious"
 
 
+def test_parse_subclass_weapon_and_extra_traits():
+    overrides = parse_character_specs(
+        "human eldritch knight noble wielding longsword +1 eye_color: amber hometown: Waterdeep",
+        sampler,
+    )
+    assert overrides["primary_class"] == "Fighter"
+    assert overrides["subclass"] == "Eldritch Knight"
+    assert overrides["weapon"] == "Longsword +1"
+    assert overrides["extra_traits"]["eye_color"] == "amber"
+    assert overrides["extra_traits"]["hometown"] == "Waterdeep"
+
+
 def test_update_instruction_changes_alignment():
     npc = NPC(name="Test")
     changes = apply_update_instruction(npc, "you are now lawful evil from now on", sampler)

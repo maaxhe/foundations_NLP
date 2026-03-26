@@ -50,6 +50,7 @@ class StoryGenerator:
         goal = character.get("goal", "find direction")
         quirk = character.get("quirk", "keeps careful notes")
         secret = character.get("secret", "is carrying old regret")
+        extra_traits = character.get("extra_traits", {})
 
         template = random.choice(STORY_TEMPLATES)
         opening = template.format(
@@ -64,6 +65,9 @@ class StoryGenerator:
             f" They currently seem {emotional_state} and are focused on {goal}. "
             f"A noticeable quirk: {quirk}. One thing they keep hidden is that they {secret}."
         )
+        if extra_traits:
+            extra_summary = "; ".join(f"{key}: {value}" for key, value in extra_traits.items())
+            addon += f" Additional details others notice: {extra_summary}."
         return opening + addon
 
 

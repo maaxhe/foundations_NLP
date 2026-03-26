@@ -5,9 +5,7 @@ CLI entry point for the NPC generator and command-based chat application.
 from __future__ import annotations
 
 import argparse
-import os
 import random
-import sys
 
 try:
     from rich.console import Console
@@ -18,8 +16,6 @@ try:
 except ImportError:
     RICH = False
     console = None
-
-sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 
 from npc_generator.character_sampler import CharacterSampler
 from npc_generator.dialogue_engine import DEFAULT_QWEN_MODEL, DialogueEngine
@@ -68,6 +64,9 @@ def render_npc_sheet(npc: NPC) -> None:
     )
     if npc.notes:
         body += "\n\nUpdates:\n- " + "\n- ".join(npc.notes[-5:])
+    if npc.extra_traits:
+        extras = "\n".join(f"- {key}: {value}" for key, value in npc.extra_traits.items())
+        body += "\n\nExtra traits:\n" + extras
 
     if RICH:
         console.print(Panel(body, title="NPC Status", border_style="cyan"))

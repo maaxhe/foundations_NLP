@@ -117,6 +117,9 @@ class CharacterSampler:
         self.known_races = sorted(self.df["race_clean"].dropna().astype(str).unique().tolist())
         self.known_classes = sorted(self.df["primary_class"].dropna().astype(str).unique().tolist())
         self.known_backgrounds = sorted(self.df["background"].dropna().astype(str).unique().tolist())
+        self.known_subclasses = self._extract_pipe_values("subclass")
+        self.known_weapons = self._extract_pipe_values("weapons")
+        self.subclass_to_class = self._build_subclass_to_class()
 
     def _load(self, path: str) -> pd.DataFrame:
         df = pd.read_csv(path, sep=";", low_memory=False)
@@ -131,6 +134,35 @@ class CharacterSampler:
         # Primary class (first class listed for multiclass chars)
         df["primary_class"] = df["justClass"].str.split("|").str[0].str.strip()
         return df
+
+    def _extract_pipe_values(self, column: str) -> list[str]:
+        if column not in self.df.columns:
+            return []
+        values: set[str] = set()
+        for raw in self.df[column].dropna().astype(str):
+            for item in raw.split("|"):
+                cleaned = item.strip()
+                if cleaned and cleaned.upper() != "NA":
+                    values.add(cleaned)
+        return sorted(values)
+
+    def _build_subclass_to_class(self) -> dict[str, str]:
+        mapping: dict[str, str] = {}
+        if "subclass" not in self.df.columns:
+            return mapping
+        for _, row in self.df.iterrows():
+            classes = [item.strip() for item in str(row.get("justClass", "")).split("|") if item.strip()]
+            subclasses = [item.strip() for item in str(row.get("subclass", "")).split("|") if item.strip()]
+            for index, subclass in enumerate(subclasses):
+                if subclass.upper() == "NA":
+                    continue
+                primary = classes[index] if index < len(classes) else (classes[0] if classes else "")
+                if primary:
+                    mapping.setdefault(subclass.lower(), primary)
+        for class_name, items in SUBCLASSES.items():
+            for subclass in items:
+                mapping.setdefault(subclass.lower(), class_name)
+        return mapping
 
     def _build_distributions(self):
         """Pre-compute weighted distributions for sampling."""
@@ -226,6 +258,7 @@ class CharacterSampler:
         character["goal"] = character.get("goal") or random.choice(GOALS)
         character["quirk"] = character.get("quirk") or random.choice(QUIRKS)
         character["secret"] = character.get("secret") or random.choice(SECRETS)
+        character["extra_traits"] = dict(character.get("extra_traits", {}))
         character["notes"] = list(character.get("notes", []))
         character["source_prompt"] = character.get("source_prompt", "")
         return character
