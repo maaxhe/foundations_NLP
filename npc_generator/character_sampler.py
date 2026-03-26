@@ -1,11 +1,12 @@
 """
-character_sampler.py
-Loads the D&D character dataset and samples realistic NPCs
-based on learned distributions (race, class, background, stats).
+Sample NPCs from the D&D dataset and fill in missing details automatically.
 """
+
+from __future__ import annotations
 
 import os
 import random
+
 import numpy as np
 import pandas as pd
 
@@ -35,6 +36,77 @@ DATA_PATH = os.path.join(
     "..", "data_sets", "dnd_character_database", "dnd_chars_all.csv"
 )
 
+SUBCLASSES = {
+    "Fighter": ["Champion", "Battle Master", "Eldritch Knight", "Cavalier"],
+    "Rogue": ["Thief", "Arcane Trickster", "Assassin", "Swashbuckler"],
+    "Cleric": ["Life Domain", "Light Domain", "War Domain", "Tempest Domain"],
+    "Barbarian": ["Berserker", "Totem Warrior", "Zealot", "Ancestral Guardian"],
+    "Paladin": ["Oath of Devotion", "Oath of Vengeance", "Oath of Glory", "Oathbreaker"],
+    "Ranger": ["Hunter", "Beast Master", "Gloom Stalker", "Fey Wanderer"],
+    "Wizard": ["Evocation", "Abjuration", "Illusion", "Divination"],
+    "Druid": ["Circle of the Moon", "Circle of the Land", "Circle of Stars", "Circle of Spores"],
+    "Monk": ["Way of Shadow", "Way of Mercy", "Way of the Open Hand", "Way of the Kensei"],
+    "Bard": ["College of Lore", "College of Valor", "College of Glamour", "College of Swords"],
+    "Sorcerer": ["Draconic Bloodline", "Wild Magic", "Shadow Magic", "Storm Sorcery"],
+    "Warlock": ["The Fiend", "The Archfey", "The Great Old One", "The Hexblade"],
+}
+
+WEAPONS = {
+    "Fighter": ["Longsword", "Spear", "Warhammer", "Greatsword"],
+    "Rogue": ["Dagger", "Rapier", "Shortbow", "Hand Crossbow"],
+    "Cleric": ["Mace", "Warhammer", "Quarterstaff", "Flail"],
+    "Barbarian": ["Greataxe", "Maul", "Handaxe", "Greatclub"],
+    "Paladin": ["Longsword", "Warhammer", "Glaive", "Morningstar"],
+    "Ranger": ["Longbow", "Shortsword", "Dual Daggers", "Spear"],
+    "Wizard": ["Quarterstaff", "Wand", "Spellbook", "Crystal Focus"],
+    "Druid": ["Oak Staff", "Sickle", "Moon-Touched Spear", "Thorn Whip"],
+    "Monk": ["Bo Staff", "Shortsword", "Nunchaku", "Kensei Blade"],
+    "Bard": ["Rapier", "Lute", "Violin Bow", "Whip"],
+    "Sorcerer": ["Arcane Focus", "Dagger", "Rune Staff", "Crystal Orb"],
+    "Warlock": ["Hexblade", "Rod", "Pact Dagger", "Eldritch Tome"],
+}
+
+EMOTIONAL_STATES = [
+    "friendly",
+    "hostile",
+    "cynical",
+    "trustful",
+    "suspicious",
+    "curious",
+    "hopeful",
+    "grieving",
+    "anxious",
+    "calm",
+    "proud",
+]
+
+GOALS = [
+    "protect a loved one",
+    "restore a damaged reputation",
+    "map an uncharted ruin",
+    "find a lost heirloom",
+    "prove their worth",
+    "make peace with an old mistake",
+    "keep dangerous knowledge hidden",
+]
+
+QUIRKS = [
+    "collects tiny trophies from every city visited",
+    "never sits with their back to a door",
+    "speaks in half-whispers when nervous",
+    "taps their weapon when thinking",
+    "quotes old proverbs at odd moments",
+    "writes down every promise they hear",
+]
+
+SECRETS = [
+    "owes a favor to the wrong person",
+    "is hiding a forbidden magical talent",
+    "forged part of their identity years ago",
+    "knows more about a local crime than they admit",
+    "is searching for someone who vanished without explanation",
+]
+
 
 class CharacterSampler:
     """Learns distributions from the D&D dataset and samples new characters."""
@@ -42,6 +114,9 @@ class CharacterSampler:
     def __init__(self, csv_path: str = DATA_PATH):
         self.df = self._load(csv_path)
         self._build_distributions()
+        self.known_races = sorted(self.df["race_clean"].dropna().astype(str).unique().tolist())
+        self.known_classes = sorted(self.df["primary_class"].dropna().astype(str).unique().tolist())
+        self.known_backgrounds = sorted(self.df["background"].dropna().astype(str).unique().tolist())
 
     def _load(self, path: str) -> pd.DataFrame:
         df = pd.read_csv(path, sep=";", low_memory=False)
@@ -96,7 +171,10 @@ class CharacterSampler:
         val = int(round(np.random.normal(mean, max(std, 1.0))))
         return max(lo, min(hi, val))
 
-    def sample_character(self) -> dict:
+    def _clean_int(self, value, lo: int, hi: int) -> int:
+        return max(lo, min(hi, int(value)))
+
+    def sample_character(self, overrides: dict | None = None) -> dict:
         """Sample a single NPC character dict from learned distributions."""
         race = self._weighted_sample(self.race_dist)
         primary_class = self._weighted_sample(self.class_dist)
@@ -114,7 +192,7 @@ class CharacterSampler:
 
         name = f"{random.choice(FIRST_NAMES)} {random.choice(LAST_NAMES)}"
 
-        return {
+        character = {
             "name": name,
             "race": race,
             "primary_class": primary_class,
@@ -126,6 +204,31 @@ class CharacterSampler:
             "AC": ac,
             **stats,
         }
+        overrides = overrides or {}
+        character.update({key: value for key, value in overrides.items() if value not in (None, "")})
+
+        character["level"] = self._clean_int(character.get("level", level), 1, 20)
+        character["HP"] = self._clean_int(character.get("HP", hp), 1, 999)
+        character["AC"] = self._clean_int(character.get("AC", ac), 5, 30)
+        for key in ["Str", "Dex", "Con", "Int", "Wis", "Cha"]:
+            character[key] = self._clean_int(character.get(key, stats[key]), 1, 20)
+
+        chosen_class = character.get("primary_class", primary_class)
+        character["subclass"] = character.get("subclass") or random.choice(
+            SUBCLASSES.get(chosen_class, ["Wanderer"])
+        )
+        character["weapon"] = character.get("weapon") or random.choice(
+            WEAPONS.get(chosen_class, ["Longsword"])
+        )
+        character["emotional_state"] = str(
+            character.get("emotional_state") or random.choice(EMOTIONAL_STATES)
+        ).lower()
+        character["goal"] = character.get("goal") or random.choice(GOALS)
+        character["quirk"] = character.get("quirk") or random.choice(QUIRKS)
+        character["secret"] = character.get("secret") or random.choice(SECRETS)
+        character["notes"] = list(character.get("notes", []))
+        character["source_prompt"] = character.get("source_prompt", "")
+        return character
 
 
 if __name__ == "__main__":

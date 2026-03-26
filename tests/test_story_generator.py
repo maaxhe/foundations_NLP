@@ -6,8 +6,14 @@ def get_char():
         "name": "Aldric Stonebrew",
         "race": "Human",
         "primary_class": "Fighter",
+        "subclass": "Champion",
         "background": "Soldier",
         "alignment": "Neutral Good",
+        "emotional_state": "friendly",
+        "weapon": "Longsword",
+        "goal": "protect the village",
+        "quirk": "writes down every promise they hear",
+        "secret": "owes a favor to the wrong person",
     }
 
 

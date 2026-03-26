@@ -1,21 +1,18 @@
 """
-chat.py — D&D NPC Generator & Chat CLI
-=======================================
-Usage:
-    python chat.py          # generate random NPC and start chat
-    python chat.py --seed 42
+CLI entry point for the NPC generator and command-based chat application.
 """
+
+from __future__ import annotations
 
 import argparse
 import os
+import random
 import sys
 
-# ── Try rich for pretty output, fall back to plain print ──────────────────────
 try:
     from rich.console import Console
     from rich.panel import Panel
-    from rich.text import Text
-    from rich import print as rprint
+
     RICH = True
     console = Console()
 except ImportError:
@@ -24,405 +21,307 @@ except ImportError:
 
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 
-from train_gpt2 import DEFAULT_HYPERPARAMS, build_training_data, train, CSV_PATH, TRAIN_FILE, MODEL_OUT
 from npc_generator.character_sampler import CharacterSampler
-from npc_generator.story_generator import StoryGenerator
-from npc_generator.quest_generator import generate_quest, quest_rewards
-from npc_generator.dialogue_engine import DialogueEngine, build_persona_prompt
+from npc_generator.dialogue_engine import DEFAULT_QWEN_MODEL, DialogueEngine
 from npc_generator.npc import NPC
-from npc_generator.player import Player, QuestEntry
+from npc_generator.registry import NpcRegistry
+from npc_generator.spec_parser import apply_update_instruction, parse_character_specs
+from npc_generator.story_generator import StoryGenerator
 
 
-def run_hyper_wizard():
-    """Interactive /hyper command: edit hyperparams and retrain GPT-2."""
-    hp = DEFAULT_HYPERPARAMS.copy()
+def print_line(message: str = "") -> None:
+    if RICH:
+        console.print(message)
+    else:
+        print(message)
+
+
+def print_help() -> None:
+    help_text = """
+/create <text>   Generate a new NPC from free text
+/list            List saved NPCs
+/list <ref>      Select an NPC by number, id, or exact name
+/chat [ref]      Chat with the current or selected NPC
+/status          Show the current NPC sheet
+/edit <field> <value>
+/update <text>   Apply a narrative update, e.g. "/update you are now lawful evil"
+/hyper           Adjust Qwen generation settings
+/help            Show commands
+/quit            Exit
+"""
+    print_line(help_text.strip())
+
+
+def render_npc_sheet(npc: NPC) -> None:
+    body = (
+        f"{npc.name} [{npc.npc_id}]\n"
+        f"{npc.race} {npc.primary_class} | {npc.subclass}\n"
+        f"Level {npc.level} | HP {npc.HP} | AC {npc.AC}\n"
+        f"Alignment: {npc.alignment}\n"
+        f"Emotional state: {npc.emotional_state}\n"
+        f"Weapon: {npc.weapon}\n"
+        f"Goal: {npc.goal}\n"
+        f"Quirk: {npc.quirk}\n"
+        f"Secret: {npc.secret}\n"
+        f"{npc.stat_block}\n\n"
+        f"Story:\n{npc.story}"
+    )
+    if npc.notes:
+        body += "\n\nUpdates:\n- " + "\n- ".join(npc.notes[-5:])
 
     if RICH:
-        console.print("\n[bold yellow]⚙  Hyperparameter Tuning[/bold yellow]")
-        console.print("[dim]Press Enter to keep current value.[/dim]\n")
+        console.print(Panel(body, title="NPC Status", border_style="cyan"))
     else:
-        print("\n=== Hyperparameter Tuning (Enter = keep current) ===")
+        print_line(body)
 
-    fields = [
-        ("epochs",       "Training epochs",          int),
-        ("batch_size",   "Batch size",                int),
-        ("lr",           "Learning rate",             float),
-        ("block_size",   "Token block size",          int),
-        ("warmup_steps", "Warmup steps",              int),
-    ]
 
-    for key, label, cast in fields:
-        current = hp[key]
+def list_npcs(registry: NpcRegistry, current_npc_id: str | None) -> None:
+    npcs = registry.all()
+    if not npcs:
+        print_line("No NPCs saved yet. Use /create to generate one.")
+        return
+    print_line("Saved NPCs:")
+    for index, npc in enumerate(npcs, start=1):
+        marker = "*" if npc.npc_id == current_npc_id else " "
+        summary = f"{index:>2}. {marker} {npc.name} [{npc.npc_id}] | {npc.race} {npc.primary_class} | {npc.emotional_state}"
+        print_line(summary)
+
+
+def build_npc_from_prompt(prompt: str, sampler: CharacterSampler, story_gen: StoryGenerator) -> NPC:
+    overrides = parse_character_specs(prompt, sampler)
+    overrides["source_prompt"] = prompt
+    char = sampler.sample_character(overrides)
+    char["story"] = story_gen.generate_story(char)
+    return NPC.from_dict(char)
+
+
+def edit_current_npc(npc: NPC, args: str) -> str:
+    parts = args.strip().split(None, 1)
+    if len(parts) != 2:
+        return "Use /edit <field> <value>."
+    field_name, value = parts
+    if field_name not in npc.__dataclass_fields__:
+        return f"Unknown field '{field_name}'."
+
+    current_value = getattr(npc, field_name)
+    if isinstance(current_value, int):
         try:
-            raw = input(f"  {label} [{current}]: ").strip()
-            if raw:
-                hp[key] = cast(raw)
-        except (ValueError, KeyboardInterrupt):
-            pass  # keep default
+            value = int(value)
+        except ValueError:
+            return f"Field '{field_name}' expects a number."
+    elif isinstance(current_value, list):
+        value = [item.strip() for item in value.split(",") if item.strip()]
+    setattr(npc, field_name, value)
+    return f"Updated {field_name} for {npc.name}."
 
-    if RICH:
-        console.print("\n[bold]Settings:[/bold]")
-        for k, v in hp.items():
-            console.print(f"  [cyan]{k}[/cyan] = [yellow]{v}[/yellow]")
-        confirm = input("\nStart training? [y/N]: ").strip().lower()
-    else:
-        print("\nSettings:", hp)
-        confirm = input("Start training? [y/N]: ").strip().lower()
 
-    if confirm != "y":
-        if RICH:
-            console.print("[dim]Training cancelled.[/dim]")
-        else:
-            print("Cancelled.")
+def run_hyper_wizard(engine: DialogueEngine) -> None:
+    cfg = engine.generation_config
+    print_line("Qwen generation settings. Press Enter to keep the current value.")
+    try:
+        temperature = input(f"temperature [{cfg.temperature}]: ").strip()
+        top_p = input(f"top_p [{cfg.top_p}]: ").strip()
+        max_new_tokens = input(f"max_new_tokens [{cfg.max_new_tokens}]: ").strip()
+        repetition_penalty = input(f"repetition_penalty [{cfg.repetition_penalty}]: ").strip()
+    except (KeyboardInterrupt, EOFError):
+        print_line("\nNo changes applied.")
         return
 
-    if RICH:
-        console.print("\n[bold cyan]Building training data...[/bold cyan]")
-    build_training_data(CSV_PATH, TRAIN_FILE)
-
-    if RICH:
-        console.print("[bold cyan]Training GPT-2 — this runs in the background.[/bold cyan]")
-        console.print("[dim]You can keep chatting; training output appears in this terminal.[/dim]\n")
-    else:
-        print("Training started...")
-
-    import threading
-    def _train():
-        train(TRAIN_FILE, MODEL_OUT, hp)
-        msg = f"\n[bold green]✓ Training complete! Model saved → {MODEL_OUT}[/bold green]"
-        if RICH:
-            console.print(msg)
-        else:
-            print(f"\nTraining complete! Model saved → {MODEL_OUT}")
-
-    threading.Thread(target=_train, daemon=True).start()
-
-
-def print_player_status(player: Player):
-    xp_bar_filled = int((player.xp / (100 * player.level)) * 20)
-    xp_bar = "█" * xp_bar_filled + "░" * (20 - xp_bar_filled)
-    if RICH:
-        console.print(Panel(
-            f"[bold]{player.name}[/bold]  •  Level [yellow]{player.level}[/yellow]\n"
-            f"XP  [{xp_bar}] {player.xp}/{100 * player.level}\n"
-            f"Gold [yellow]{player.gold}[/yellow]  •  "
-            f"Active quests [cyan]{len(player.active_quests)}[/cyan]  •  "
-            f"Completed [green]{len(player.completed_quests)}[/green]",
-            title="[bold]Player Status[/bold]", border_style="yellow"
-        ))
-    else:
-        print(f"\n=== {player.name} | Lvl {player.level} ===")
-        print(f"XP: {player.xp}/{100 * player.level}  Gold: {player.gold}")
-        print(f"Active quests: {len(player.active_quests)}  Completed: {len(player.completed_quests)}\n")
-
-
-def print_quest_log(player: Player):
-    if RICH:
-        active = "\n".join(
-            f"  [yellow]{i+1}.[/yellow] [bold]{q.title}[/bold] — from {q.giver}\n"
-            f"     {q.description[:80]}...\n"
-            f"     Reward: [green]{q.reward_xp} XP[/green]  [yellow]{q.reward_gold} gold[/yellow]"
-            for i, q in enumerate(player.active_quests)
-        ) or "  [dim]No active quests.[/dim]"
-        completed = "\n".join(
-            f"  [dim]✓ {q.title} — from {q.giver}[/dim]"
-            for q in player.completed_quests
-        ) or "  [dim]None yet.[/dim]"
-        console.print(Panel(
-            f"[bold cyan]Active[/bold cyan]\n{active}\n\n"
-            f"[bold green]Completed[/bold green]\n{completed}",
-            title="[bold]Quest Log[/bold]", border_style="cyan"
-        ))
-    else:
-        print("\n=== Active Quests ===")
-        for i, q in enumerate(player.active_quests):
-            print(f"  {i+1}. {q.title} (from {q.giver}) — {q.reward_xp}xp / {q.reward_gold}g")
-        print("\n=== Completed ===")
-        for q in player.completed_quests:
-            print(f"  ✓ {q.title}")
-        print()
-
-
-def print_divider():
-    if RICH:
-        console.rule(style="bold cyan")
-    else:
-        print("─" * 60)
-
-
-def print_npc_sheet(npc: NPC):
-    if RICH:
-        content = (
-            f"[bold]{npc.name}[/bold]\n"
-            f"[cyan]{npc.race} {npc.primary_class}[/cyan]  •  "
-            f"Level [yellow]{npc.level}[/yellow]  •  "
-            f"[magenta]{npc.alignment}[/magenta]\n"
-            f"[dim]{npc.background}[/dim]\n\n"
-            f"HP [red]{npc.HP}[/red]   AC [blue]{npc.AC}[/blue]\n"
-            f"{npc.stat_block}\n\n"
-            f"[bold green]Story:[/bold green]\n{npc.story}\n\n"
-            f"[bold yellow]Quest:[/bold yellow]\n{npc.quest}"
+    try:
+        engine.set_generation_config(
+            temperature=float(temperature) if temperature else None,
+            top_p=float(top_p) if top_p else None,
+            max_new_tokens=int(max_new_tokens) if max_new_tokens else None,
+            repetition_penalty=float(repetition_penalty) if repetition_penalty else None,
         )
-        console.print(Panel(content, title="[bold]NPC Sheet[/bold]", border_style="cyan"))
-    else:
-        print_divider()
-        print(f"  {npc.name}")
-        print(f"  {npc.race} {npc.primary_class}  |  Level {npc.level}  |  {npc.alignment}")
-        print(f"  Background: {npc.background}")
-        print(f"  HP: {npc.HP}   AC: {npc.AC}")
-        print(f"  {npc.stat_block}")
-        print_divider()
-        print(f"  Story:\n  {npc.story}")
-        print_divider()
-        print(f"  Quest:\n  {npc.quest}")
-        print_divider()
+        print_line("Generation settings updated.")
+    except ValueError:
+        print_line("Invalid numeric value. Settings unchanged.")
 
 
-def chat_loop(npc: NPC, engine: DialogueEngine, player: Player, char: dict):
-    if RICH:
-        console.print(
-            f"\n[bold cyan]You approach {npc.name}...[/bold cyan]\n"
-            "[dim]Type your message. Commands: 'quit' / 'new' / 'quest' / 'hyper'[/dim]\n"
-        )
-    else:
-        print(f"\nYou approach {npc.name}...")
-        print("Commands: 'quit' / 'new' / 'quest' / 'hyper'\n")
-
-    history = None
-
-    import random
-
-    ALL_OPTIONS = [
-        "Tell me about yourself.",
-        "What do you need help with?",
-        "What can you tell me about this area?",
-        "Do you have a quest for me?",
-        "What's your story?",
-        "What do you think about magic?",
-        "Have you heard any rumors lately?",
-        "What do you know about the roads ahead?",
-        "Are you a fighter or a talker?",
-        "What brings you to this place?",
-        "Do you trust strangers?",
-        "What do you fear most?",
-    ]
-    QUEST_OPTIONS = [
-        "I'll take the quest.",
-        "Tell me more about the reward.",
-        "How dangerous is it?",
-        "Who else knows about this?",
-        "How long will it take?",
-        "Can I bring companions?",
-    ]
-    FAREWELL = "I need to go. Farewell."
-
-    state = {"quest_mode": False}
-
-    def fresh_options(exclude=None):
-        if state["quest_mode"]:
-            pool = [o for o in QUEST_OPTIONS if o != exclude]
-            return random.sample(pool, min(3, len(pool))) + [FAREWELL]
-        pool = [o for o in ALL_OPTIONS if o != exclude]
-        return random.sample(pool, 3) + [FAREWELL]
-
-    current_options = fresh_options()
-
-    def show_options():
-        if RICH:
-            console.print("\n[dim]── Quick replies ──[/dim]")
-            for i, opt in enumerate(current_options, 1):
-                console.print(f"  [yellow]{i}[/yellow]  {opt}")
-            console.print("[dim]  or type anything freely[/dim]\n")
-        else:
-            print("\n── Quick replies ──")
-            for i, opt in enumerate(current_options, 1):
-                print(f"  {i}  {opt}")
-            print("  or type anything freely\n")
-
-    show_options()
+def chat_with_npc(npc: NPC, engine: DialogueEngine, registry: NpcRegistry, sampler: CharacterSampler) -> bool:
+    print_line(f"Chatting with {npc.name}. Use 1-4 for suggestions, free text for your own line, /back to leave chat.")
 
     while True:
+        options = engine.suggest_replies(npc)
+        print_line("")
+        for index, option in enumerate(options, start=1):
+            print_line(f"{index}. {option}")
+        print_line("Free text is also allowed.")
+
         try:
             raw = input("You: ").strip()
         except (KeyboardInterrupt, EOFError):
-            print("\nFarewell, traveler.")
-            break
+            print_line("\nLeaving chat.")
+            return False
 
         if not raw:
             continue
 
-        # number shortcut → expand to full option text
-        if raw.isdigit() and 1 <= int(raw) <= len(current_options):
-            user_input = current_options[int(raw) - 1]
-            current_options[:] = fresh_options(exclude=user_input)
-            if RICH:
-                console.print(f"[dim]> {user_input}[/dim]")
-            else:
-                print(f"> {user_input}")
-        else:
-            user_input = raw
-
-        cmd = user_input.lower().strip()
-
-        if cmd in ("quit", "exit", "q", FAREWELL.lower()):
-            print(f"\n{npc.name}: Safe travels, adventurer.")
-            break
-        if cmd == "new":
-            return "new"
-        if cmd == "status":
-            print_player_status(player)
-            continue
-        if cmd == "quests":
-            print_quest_log(player)
-            continue
-        if cmd.startswith("complete"):
-            # complete [number] or just "complete" → complete first quest
-            parts = cmd.split()
-            idx = int(parts[1]) - 1 if len(parts) > 1 and parts[1].isdigit() else 0
-            result = player.complete_quest(idx)
-            if result is None:
-                print("No quest at that number.")
-            else:
-                quest, leveled_up = result
-                if RICH:
-                    console.print(f"\n[green]✓ Quest completed: {quest.title}[/green]")
-                    console.print(f"  +{quest.reward_xp} XP  +{quest.reward_gold} gold")
-                    if leveled_up:
-                        console.print(f"\n[bold yellow]⬆  LEVEL UP! You are now level {player.level}![/bold yellow]")
+        if raw.startswith("/"):
+            command, _, args = raw.partition(" ")
+            command = command.lower()
+            if command == "/back":
+                registry.upsert(npc)
+                return False
+            if command == "/status":
+                render_npc_sheet(npc)
+                continue
+            if command == "/hyper":
+                run_hyper_wizard(engine)
+                continue
+            if command == "/edit":
+                message = edit_current_npc(npc, args)
+                registry.upsert(npc)
+                print_line(message)
+                continue
+            if command == "/update":
+                changes = apply_update_instruction(npc, args, sampler)
+                registry.upsert(npc)
+                if changes:
+                    print_line(f"Updated: {', '.join(sorted(changes.keys()))}")
                 else:
-                    print(f"\n✓ Quest completed: {quest.title}")
-                    print(f"  +{quest.reward_xp} XP  +{quest.reward_gold} gold")
-                    if leveled_up:
-                        print(f"\n*** LEVEL UP! You are now level {player.level}! ***")
+                    print_line("Stored the update as a note.")
+                continue
+            if command == "/quit":
+                registry.upsert(npc)
+                return True
+            print_line("Only /back, /status, /edit, /update, /hyper, and /quit are available inside chat.")
             continue
-        if cmd == "hyper":
-            run_hyper_wizard()
-            continue
 
-        # quest accept
-        if cmd in ("quest", "tell me about your quest.") or "quest" in cmd:
-            user_input = "Tell me about your quest." if cmd == "quest" else user_input
-            state["quest_mode"] = True
-        elif cmd in ("i'll take the quest.", "i'll take the quest"):
-            xp, gold = quest_rewards(char)
-            entry = QuestEntry(
-                title=npc.quest[:50].rstrip(".") + ".",
-                description=npc.quest,
-                giver=npc.name,
-                reward_xp=xp,
-                reward_gold=gold,
-            )
-            player.add_quest(entry)
-            state["quest_mode"] = False
-            if RICH:
-                console.print(f"\n[green]Quest accepted! Reward: {xp} XP + {gold} gold[/green]")
-                console.print(f"[dim]Type 'complete' when you're done.[/dim]\n")
-            else:
-                print(f"\nQuest accepted! Reward: {xp} XP + {gold} gold")
+        user_input = raw
+        if raw.isdigit() and 1 <= int(raw) <= len(options):
+            user_input = options[int(raw) - 1]
+            print_line(f"> {user_input}")
 
-        response, history = engine.chat(
-            persona_prompt=npc.persona_prompt,
-            user_input=user_input,
-            history_ids=history,
-            character=npc.__dict__,
-        )
-
-        if RICH:
-            console.print(f"\n[bold cyan]{npc.name}:[/bold cyan] {response}\n")
-        else:
-            print(f"\n{npc.name}: {response}\n")
-
-        show_options()
-
-    return "done"
+        response, _ = engine.chat(npc, user_input)
+        npc.record_turn("user", user_input)
+        npc.record_turn("assistant", response)
+        registry.upsert(npc)
+        print_line(f"{npc.name}: {response}")
 
 
-def generate_npc(sampler: CharacterSampler, story_gen: StoryGenerator):
-    char = sampler.sample_character()
-    story = story_gen.generate_story(char)
-    quest = generate_quest(char)
-    persona = build_persona_prompt(char, story)
-
-    npc = NPC(
-        name=char["name"],
-        race=char["race"],
-        primary_class=char["primary_class"],
-        background=char["background"],
-        alignment=char["alignment"],
-        level=char["level"],
-        HP=char["HP"],
-        AC=char["AC"],
-        Str=char["Str"],
-        Dex=char["Dex"],
-        Con=char["Con"],
-        Int=char["Int"],
-        Wis=char["Wis"],
-        Cha=char["Cha"],
-        story=story,
-        quest=quest,
-        persona_prompt=persona,
-    )
-    return npc, char
-
-
-def main():
-    parser = argparse.ArgumentParser(description="D&D NPC Generator")
+def main() -> None:
+    parser = argparse.ArgumentParser(description="NPC Generator Command App")
     parser.add_argument("--seed", type=int, default=None, help="Random seed")
-    parser.add_argument("--no-chat", action="store_true", help="Only generate NPC, no chat")
+    parser.add_argument("--model", default=DEFAULT_QWEN_MODEL, help="Qwen model name or local path")
+    parser.add_argument("--no-model", action="store_true", help="Skip Qwen loading and use fallback responses")
     args = parser.parse_args()
 
     if args.seed is not None:
-        import random, numpy as np
+        import numpy as np
+
         random.seed(args.seed)
         np.random.seed(args.seed)
 
-    if RICH:
-        console.print("[bold magenta]\n⚔  D&D NPC Generator  ⚔[/bold magenta]\n")
-    else:
-        print("\n=== D&D NPC Generator ===\n")
+    sampler = CharacterSampler()
+    story_gen = StoryGenerator()
+    engine = DialogueEngine(model_name=args.model, load_model=not args.no_model)
+    registry = NpcRegistry()
+    current_npc_id: str | None = None
 
-    if RICH:
-        with console.status("[cyan]Loading models...[/cyan]"):
-            sampler = CharacterSampler()
-            story_gen = StoryGenerator()
-            engine = DialogueEngine() if not args.no_chat else None
-    else:
-        print("Loading models...")
-        sampler = CharacterSampler()
-        story_gen = StoryGenerator()
-        engine = DialogueEngine() if not args.no_chat else None
-
-    # ask for player name
-    try:
-        player_name = input("Enter your name, adventurer: ").strip() or "Adventurer"
-    except (KeyboardInterrupt, EOFError):
-        player_name = "Adventurer"
-    player = Player(name=player_name)
-
-    if RICH:
-        console.print(f"\n[dim]Commands: 'status' · 'quests' · 'complete [n]' · 'new' · 'quit' · 'hyper'[/dim]\n")
+    print_line("NPC Generator Command App")
+    print_line(f"Chat backend: {engine.describe_backend()}")
+    print_help()
 
     while True:
-        if RICH:
-            with console.status("[cyan]Generating NPC...[/cyan]"):
-                npc, char = generate_npc(sampler, story_gen)
-        else:
-            print("\nGenerating NPC...")
-            npc, char = generate_npc(sampler, story_gen)
-
-        print_npc_sheet(npc)
-
-        if args.no_chat:
+        prompt = f"{current_npc_id or 'npc'}> "
+        try:
+            raw = input(prompt).strip()
+        except (KeyboardInterrupt, EOFError):
+            print_line("\nBye.")
             break
 
-        result = chat_loop(npc, engine, player, char)
-        if result != "new":
+        if not raw:
+            continue
+        if not raw.startswith("/"):
+            print_line("Commands start with /. Use /create, /chat, or /help.")
+            continue
+
+        command, _, args = raw.partition(" ")
+        command = command.lower()
+        args = args.strip()
+
+        if command in {"/quit", "/exit"}:
+            print_line("Bye.")
             break
 
-        if RICH:
-            console.print("\n[dim]Generating a new NPC...[/dim]\n")
-        else:
-            print("\nGenerating a new NPC...\n")
+        if command == "/help":
+            print_help()
+            continue
+
+        if command in {"/create", "/generate", "/new"}:
+            if not args:
+                try:
+                    args = input("Describe the NPC: ").strip()
+                except (KeyboardInterrupt, EOFError):
+                    print_line("\nCancelled.")
+                    continue
+            npc = build_npc_from_prompt(args, sampler, story_gen)
+            registry.upsert(npc)
+            current_npc_id = npc.npc_id
+            render_npc_sheet(npc)
+            continue
+
+        if command == "/list":
+            if not args:
+                list_npcs(registry, current_npc_id)
+                continue
+            npc = registry.resolve(args)
+            if npc is None:
+                print_line(f"No NPC found for '{args}'.")
+                continue
+            current_npc_id = npc.npc_id
+            render_npc_sheet(npc)
+            continue
+
+        current_npc = registry.resolve(current_npc_id) if current_npc_id else None
+
+        if command == "/status":
+            if current_npc is None:
+                print_line(f"{registry.count()} NPC(s) saved. No active NPC selected.")
+            else:
+                render_npc_sheet(current_npc)
+            continue
+
+        if command == "/chat":
+            npc = registry.resolve(args) if args else current_npc
+            if npc is None:
+                print_line("Select an NPC first with /list or create one with /create.")
+                continue
+            current_npc_id = npc.npc_id
+            should_quit = chat_with_npc(npc, engine, registry, sampler)
+            if should_quit:
+                print_line("Bye.")
+                break
+            continue
+
+        if command == "/edit":
+            if current_npc is None:
+                print_line("Select an NPC first.")
+                continue
+            message = edit_current_npc(current_npc, args)
+            registry.upsert(current_npc)
+            print_line(message)
+            continue
+
+        if command == "/update":
+            if current_npc is None:
+                print_line("Select an NPC first.")
+                continue
+            changes = apply_update_instruction(current_npc, args, sampler)
+            registry.upsert(current_npc)
+            if changes:
+                print_line(f"Updated: {', '.join(sorted(changes.keys()))}")
+            else:
+                print_line("Stored the update as a note.")
+            continue
+
+        if command == "/hyper":
+            run_hyper_wizard(engine)
+            continue
+
+        print_line(f"Unknown command: {command}. Use /help.")
 
 
 if __name__ == "__main__":

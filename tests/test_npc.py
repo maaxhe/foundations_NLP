@@ -4,7 +4,8 @@ from npc_generator.npc import NPC
 def make_npc():
     return NPC(
         name="Test Hero", race="Human", primary_class="Fighter",
-        background="Soldier", alignment="Neutral Good",
+        subclass="Champion", background="Soldier", alignment="Neutral Good",
+        emotional_state="friendly", weapon="Longsword",
         level=5, HP=50, AC=15,
         Str=16, Dex=12, Con=14, Int=10, Wis=11, Cha=9,
     )
@@ -26,4 +27,5 @@ def test_stat_block():
 def test_optional_fields():
     npc = make_npc()
     assert npc.story == ""
-    assert npc.quest == ""
+    assert npc.goal == ""
+    assert npc.notes == []

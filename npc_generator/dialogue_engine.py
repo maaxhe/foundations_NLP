@@ -1,233 +1,246 @@
 """
-dialogue_engine.py
-NPC dialogue system using DialoGPT conditioned on a persona prefix.
-
-The model is fine-tuned (or prompted) with the NPC's persona so responses
-stay in character. Uses the PersonaChat dataset for additional fine-tuning
-context if available.
+NPC dialogue system with optional Qwen inference and a deterministic fallback.
 """
 
-import os
-from typing import List, Optional
+from __future__ import annotations
 
-# Persona tone modifiers per alignment
+import os
+import random
+from dataclasses import dataclass
+from typing import Optional
+
+from npc_generator.npc import NPC
+
 ALIGNMENT_TONE = {
-    "Lawful Good":    "You are honorable, direct, and kind. You uphold the law.",
-    "Neutral Good":   "You are warm, helpful, and genuine.",
-    "Chaotic Good":   "You are free-spirited, bold, and care deeply about doing right.",
+    "Lawful Good": "You are honorable, direct, and kind. You uphold the law.",
+    "Neutral Good": "You are warm, helpful, and genuine.",
+    "Chaotic Good": "You are free-spirited, bold, and care deeply about doing right.",
     "Lawful Neutral": "You are formal, disciplined, and impartial.",
-    "True Neutral":   "You are reserved, observant, and speak carefully.",
-    "Chaotic Neutral":"You are unpredictable, witty, and march to your own drum.",
-    "Lawful Evil":    "You are cold, calculating, and choose your words for maximum effect.",
-    "Neutral Evil":   "You are self-serving and guarded. Every word is a transaction.",
-    "Chaotic Evil":   "You are menacing, erratic, and enjoy unsettling others.",
+    "True Neutral": "You are reserved, observant, and speak carefully.",
+    "Chaotic Neutral": "You are unpredictable, witty, and march to your own drum.",
+    "Lawful Evil": "You are cold, calculating, and choose your words for maximum effect.",
+    "Neutral Evil": "You are self-serving and guarded. Every word is a transaction.",
+    "Chaotic Evil": "You are menacing, erratic, and enjoy unsettling others.",
 }
 
 CLASS_MANNERISMS = {
-    "Fighter":   "You speak plainly and value action over words.",
-    "Wizard":    "You tend to use precise, sometimes overly technical language.",
-    "Rogue":     "You choose your words carefully and rarely reveal more than needed.",
-    "Cleric":    "You often reference your faith and speak with quiet conviction.",
-    "Ranger":    "You are brief, observant, and comfortable with silence.",
-    "Paladin":   "You are earnest and formal, with a strong moral compass.",
+    "Fighter": "You speak plainly and value action over words.",
+    "Wizard": "You tend to use precise, sometimes overly technical language.",
+    "Rogue": "You choose your words carefully and rarely reveal more than needed.",
+    "Cleric": "You often reference your faith and speak with quiet conviction.",
+    "Ranger": "You are brief, observant, and comfortable with silence.",
+    "Paladin": "You are earnest and formal, with a strong moral compass.",
     "Barbarian": "You speak bluntly, sometimes too loud, always honest.",
-    "Bard":      "You are charming, verbose, and love a good story.",
-    "Druid":     "You speak with reverence for nature and think in long timescales.",
-    "Sorcerer":  "You are intense and prone to cryptic remarks about fate.",
-    "Warlock":   "You are guarded, enigmatic, and occasionally ominous.",
-    "Monk":      "You are calm, measured, and choose every word with intention.",
+    "Bard": "You are charming, verbose, and love a good story.",
+    "Druid": "You speak with reverence for nature and think in long timescales.",
+    "Sorcerer": "You are intense and prone to cryptic remarks about fate.",
+    "Warlock": "You are guarded, enigmatic, and occasionally ominous.",
+    "Monk": "You are calm, measured, and choose every word with intention.",
 }
+
+DEFAULT_QWEN_MODEL = os.getenv("QWEN_MODEL", "Qwen/Qwen2.5-1.5B-Instruct")
 
 
 def build_persona_prompt(character: dict, story: str) -> str:
-    """Build a system/persona string that anchors DialoGPT responses."""
+    """Build a system/persona string that anchors Qwen or fallback responses."""
     name = character["name"]
     race = character["race"]
-    cls = character["primary_class"]
+    primary_class = character["primary_class"]
+    subclass = character.get("subclass", "Wanderer")
     alignment = character.get("alignment", "True Neutral")
     tone = ALIGNMENT_TONE.get(alignment, "You speak plainly.")
-    mannerism = CLASS_MANNERISMS.get(cls, "You speak naturally.")
+    mannerism = CLASS_MANNERISMS.get(primary_class, "You speak naturally.")
+    emotional_state = character.get("emotional_state", "curious")
+    weapon = character.get("weapon", "an adventurer's weapon")
+    goal = character.get("goal", "stay alive")
+    quirk = character.get("quirk", "watch people carefully")
+    notes = character.get("notes", [])
+    recent_notes = "; ".join(notes[-3:]) if notes else "No recent updates."
 
     return (
-        f"You are {name}, a {race} {cls}. "
-        f"{story} "
+        f"You are {name}, a {race} {primary_class} with the subclass or specialty '{subclass}'. "
+        f"You wield {weapon}. Your alignment is {alignment} and your current emotional state is {emotional_state}. "
+        f"Your background story: {story} "
+        f"Your current goal is to {goal}. Your quirk is that you {quirk}. "
+        f"Recent world updates affecting you: {recent_notes}. "
         f"{tone} {mannerism} "
-        f"Always respond as {name} in the first person. Keep answers under 3 sentences."
+        f"Always respond as {name} in the first person. Stay in character. Keep answers under 3 sentences."
     )
 
 
+@dataclass
+class GenerationConfig:
+    temperature: float = 0.9
+    top_p: float = 0.9
+    max_new_tokens: int = 96
+    repetition_penalty: float = 1.15
+
+
 class DialogueEngine:
-    """
-    NPC dialogue engine — tries Claude API first, falls back to rule-based.
-    """
+    """Qwen-backed NPC dialogue engine with a deterministic fallback mode."""
 
-    CLAUDE_MODEL = "claude-haiku-4-5"
-
-    def __init__(self, model_name: str = "microsoft/DialoGPT-small"):
+    def __init__(self, model_name: str = DEFAULT_QWEN_MODEL, load_model: bool = False):
         self.model_name = model_name
         self.model = None
         self.tokenizer = None
-        self._claude = None
-        self._load_model()
+        self.generation_config = GenerationConfig()
+        self.load_error: str | None = None
+        self._torch = None
+        self._device = None
+        if load_model:
+            self._load_model()
 
-    GPT2_MODEL_PATH = os.path.join(os.path.dirname(__file__), "..", "models", "gpt2_dialogue")
-
-    def _load_model(self):
+    def _load_model(self) -> None:
         try:
-            from transformers import GPT2LMHeadModel, GPT2Tokenizer
             import torch
-            path = os.path.abspath(self.GPT2_MODEL_PATH)
-            if not os.path.isdir(path):
-                print("[INFO] No fine-tuned GPT-2 found, using rule-based responses.")
-                return
-            self.tokenizer = GPT2Tokenizer.from_pretrained(path)
-            self.tokenizer.pad_token = self.tokenizer.eos_token
-            self.model = GPT2LMHeadModel.from_pretrained(path)
-            self.model.eval()
+            from transformers import AutoModelForCausalLM, AutoTokenizer
+
             self._torch = torch
-            print("[INFO] Loaded fine-tuned GPT-2 NPC model.")
-        except Exception as e:
-            print(f"[WARNING] Could not load GPT-2: {e}")
+            self._device = "cuda" if torch.cuda.is_available() else "cpu"
+            dtype = torch.float16 if self._device == "cuda" else torch.float32
+            self.tokenizer = AutoTokenizer.from_pretrained(self.model_name)
+            self.model = AutoModelForCausalLM.from_pretrained(
+                self.model_name,
+                torch_dtype=dtype,
+            )
+            self.model.to(self._device)
+            self.model.eval()
+            self.load_error = None
+            print(f"[INFO] Loaded Qwen model: {self.model_name}")
+        except Exception as exc:
+            self.model = None
+            self.tokenizer = None
+            self.load_error = str(exc)
+            print(f"[WARNING] Could not load Qwen model '{self.model_name}': {exc}")
 
-    def _gpt2_chat(self, character: dict, user_input: str, history: list) -> tuple[str, list]:
+    def describe_backend(self) -> str:
+        if self.model is not None:
+            return f"Qwen ({self.model_name})"
+        if self.load_error:
+            return f"rule-based fallback (Qwen unavailable: {self.load_error})"
+        return "rule-based fallback"
+
+    def set_generation_config(
+        self,
+        *,
+        temperature: float | None = None,
+        top_p: float | None = None,
+        max_new_tokens: int | None = None,
+        repetition_penalty: float | None = None,
+    ) -> None:
+        if temperature is not None:
+            self.generation_config.temperature = temperature
+        if top_p is not None:
+            self.generation_config.top_p = top_p
+        if max_new_tokens is not None:
+            self.generation_config.max_new_tokens = max_new_tokens
+        if repetition_penalty is not None:
+            self.generation_config.repetition_penalty = repetition_penalty
+
+    def _qwen_chat(self, npc: NPC, user_input: str) -> str:
         torch = self._torch
-        name = character.get("name", "NPC")
-        race = character.get("race", "")
-        cls = character.get("primary_class", "")
-        alignment = character.get("alignment", "True Neutral")
-        tone = ALIGNMENT_TONE.get(alignment, "")
+        messages = [
+            {"role": "system", "content": build_persona_prompt(npc.to_dict(), npc.story)},
+        ]
+        for turn in npc.history[-10:]:
+            role = "assistant" if turn["role"] == "assistant" else "user"
+            messages.append({"role": role, "content": turn["content"]})
+        messages.append({"role": "user", "content": user_input})
 
-        # build prompt in the same format the model was trained on
-        context = ""
-        for turn in history[-6:]:
-            context += turn
-        context += f"Player: {user_input}\nNPC:"
-
-        inputs = self.tokenizer(context, return_tensors="pt", truncation=True, max_length=200)
+        prompt = self.tokenizer.apply_chat_template(
+            messages,
+            tokenize=False,
+            add_generation_prompt=True,
+        )
+        inputs = self.tokenizer(prompt, return_tensors="pt").to(self._device)
         with torch.no_grad():
             output = self.model.generate(
                 **inputs,
-                max_new_tokens=60,
+                max_new_tokens=self.generation_config.max_new_tokens,
                 do_sample=True,
-                temperature=0.85,
-                top_p=0.92,
-                repetition_penalty=1.4,
+                temperature=self.generation_config.temperature,
+                top_p=self.generation_config.top_p,
+                repetition_penalty=self.generation_config.repetition_penalty,
                 pad_token_id=self.tokenizer.eos_token_id,
             )
-        generated = self.tokenizer.decode(output[0], skip_special_tokens=True)
-        after_name = generated.split("NPC:")[-1].strip()
-        # cut at first newline or sentence end
-        for stop in ["\n", "Player:", "<NPC>"]:
-            if stop in after_name:
-                after_name = after_name.split(stop)[0].strip()
-        # cut at sentence boundary if too long
-        if len(after_name) > 120:
-            for p in [". ", "! ", "? "]:
-                idx = after_name.find(p)
-                if 10 < idx < 120:
-                    after_name = after_name[:idx + 1]
-                    break
-
-        if not after_name or len(after_name) < 3:
-            return self._fallback_response(user_input, character), history
-
-        new_history = history + [f"Player: {user_input}\nNPC: {after_name}\n"]
-        return after_name, new_history
+        generated_ids = output[0][inputs["input_ids"].shape[1]:]
+        response = self.tokenizer.decode(generated_ids, skip_special_tokens=True).strip()
+        return response or self._fallback_response(user_input, npc.to_dict())
 
     def chat(
         self,
-        persona_prompt: str,
+        npc_or_persona,
         user_input: str,
         history_ids: Optional[object] = None,
         character: Optional[dict] = None,
     ):
         """
         Generate a single NPC response.
-        Returns (response_text, new_history).
+        Returns (response_text, history_placeholder).
         """
+        if isinstance(npc_or_persona, NPC):
+            npc = npc_or_persona
+        else:
+            payload = character or {}
+            if "story" not in payload:
+                payload["story"] = ""
+            npc = NPC.from_dict(payload)
+
         if self.model is not None:
             try:
-                history = history_ids if isinstance(history_ids, list) else []
-                return self._gpt2_chat(character or {}, user_input, history)
-            except Exception as e:
-                print(f"[WARNING] GPT-2 error: {e}")
+                return self._qwen_chat(npc, user_input), None
+            except Exception as exc:
+                print(f"[WARNING] Qwen generation failed, using fallback: {exc}")
 
-        return self._fallback_response(user_input, character), None
+        return self._fallback_response(user_input, npc.to_dict()), None
 
-        tok = self.tokenizer
-        torch = self._torch
-
-        # Encode: persona prefix + user input + EOS
-        persona_enc = tok.encode(persona_prompt + tok.eos_token, return_tensors="pt")
-        user_enc = tok.encode(user_input + tok.eos_token, return_tensors="pt")
-
-        if history_ids is not None:
-            bot_input = torch.cat([history_ids, user_enc], dim=-1)
-        else:
-            bot_input = torch.cat([persona_enc, user_enc], dim=-1)
-
-        # Limit context length to avoid OOM
-        if bot_input.shape[-1] > 900:
-            bot_input = torch.cat([persona_enc, user_enc], dim=-1)
-
-        attention_mask = (bot_input != tok.eos_token_id).long()
-        with torch.no_grad():
-            output = self.model.generate(
-                bot_input,
-                attention_mask=attention_mask,
-                max_new_tokens=80,
-                do_sample=True,
-                temperature=0.75,
-                top_p=0.90,
-                repetition_penalty=1.3,
-                pad_token_id=tok.eos_token_id,
-            )
-
-        response = tok.decode(
-            output[:, bot_input.shape[-1]:][0], skip_special_tokens=True
-        ).strip()
-
-        # Fallback if empty
-        if not response:
-            response = self._fallback_response(user_input, character)
-
-        return response, output
+    def suggest_replies(self, npc: NPC) -> list[str]:
+        base = [
+            "Tell me about yourself.",
+            "How are you feeling right now?",
+            "What do you want most at the moment?",
+            f"What should I know about your {npc.weapon.lower()}?",
+            "What part of your past still defines you?",
+            "What do you think of me so far?",
+        ]
+        if npc.emotional_state in {"hostile", "suspicious", "cynical"}:
+            base.append("Why are you so guarded?")
+        if npc.notes:
+            base.append("How did the recent events change you?")
+        random.shuffle(base)
+        return base[:4]
 
     def _fallback_response(self, user_input: str, character: Optional[dict]) -> str:
         """Persona-aware rule-based response engine."""
-        import random
-
         lower = user_input.lower()
         name = character["name"] if character else "traveler"
         cls = character.get("primary_class", "wanderer") if character else "wanderer"
         race = character.get("race", "") if character else ""
         alignment = character.get("alignment", "True Neutral") if character else "True Neutral"
         bg = character.get("background", "humble") if character else "humble"
-        tone = ALIGNMENT_TONE.get(alignment, "You speak plainly.")
-        mannerism = CLASS_MANNERISMS.get(cls, "")
+        emotion = character.get("emotional_state", "curious") if character else "curious"
+        goal = character.get("goal", "keep going") if character else "keep going"
+        quirk = character.get("quirk", "watch everything") if character else "watch everything"
 
-        # ── keyword buckets ───────────────────────────────────────────────────
-        greetings  = {"hello", "hi", "hey", "greetings", "good day", "well met",
-                      "darkness", "friend", "salute", "howdy"}
-        who_kw     = {"who are you", "your name", "who", "name", "introduce"}
-        quest_kw   = {"quest", "job", "task", "work", "mission", "help", "need"}
-        fight_kw   = {"fight", "battle", "combat", "weapon", "war", "enemy", "attack", "danger"}
-        trade_kw   = {"buy", "sell", "trade", "gold", "coin", "price", "shop", "merchant"}
-        info_kw    = {"where", "town", "road", "map", "direction", "know", "tell me", "news"}
-        farewell_kw= {"bye", "farewell", "goodbye", "leave", "go now", "see you"}
-        threat_kw  = {"die", "kill", "threat", "hurt", "blood", "destroy"}
+        greetings = {"hello", "hi", "hey", "greetings", "good day", "well met", "howdy"}
+        who_kw = {"who are you", "your name", "who", "name", "introduce"}
+        quest_kw = {"quest", "job", "task", "work", "mission", "help", "need"}
+        fight_kw = {"fight", "battle", "combat", "weapon", "war", "enemy", "attack", "danger"}
+        trade_kw = {"buy", "sell", "trade", "gold", "coin", "price", "shop", "merchant"}
+        info_kw = {"where", "town", "road", "map", "direction", "know", "tell me", "news"}
+        farewell_kw = {"bye", "farewell", "goodbye", "leave", "go now", "see you"}
+        threat_kw = {"die", "kill", "threat", "hurt", "blood", "destroy"}
         compliment_kw = {"good", "great", "brave", "strong", "wise", "well done", "impressive"}
 
-        # ── alignment-flavored openers ────────────────────────────────────────
-        evil_warn  = alignment in ("Lawful Evil", "Neutral Evil", "Chaotic Evil")
-        chaotic    = "Chaotic" in alignment
-        lawful     = "Lawful" in alignment
+        evil_warn = alignment in ("Lawful Evil", "Neutral Evil", "Chaotic Evil")
+        chaotic = "Chaotic" in alignment
+        lawful = "Lawful" in alignment
 
         if any(g in lower for g in greetings):
             options = [
                 f"Well met, stranger. I am {name}.",
-                f"*nods* {name}. And you are?",
-                f"Greetings. I don't often get visitors — what brings you to me?",
+                f"*nods* {name}. I am feeling {emotion} today. And you are?",
+                f"Greetings. I do not often get visitors. What brings you to me?",
             ]
             if evil_warn:
                 options = [
@@ -236,108 +249,83 @@ class DialogueEngine:
                 ]
             elif chaotic:
                 options = [
-                    f"Ha! A face I haven't seen before. {name}'s the name.",
-                    f"*spins around* Oh! Didn't hear you coming. {name}, at your service — maybe.",
+                    f"Ha! A face I have not seen before. {name}'s the name.",
+                    f"*spins around* Oh! Did not hear you coming. {name}, at your service. Maybe.",
                 ]
             return random.choice(options)
 
         if any(w in lower for w in who_kw):
             return (
-                f"I am {name}, a {race} {cls} of {bg} background. "
-                f"{ALIGNMENT_TONE.get(alignment, '')} What more do you need to know?"
+                f"I am {name}, a {race} {cls} from a {bg} background. "
+                f"I have been focused on {goal}, and I am known for someone who {quirk}. "
+                f"What more do you need to know?"
             )
 
         if any(q in lower for q in quest_kw):
             options = [
-                f"Aye, I do have something that needs doing. Are you willing to listen?",
-                f"Since you ask — there is a matter I cannot handle alone. Interested?",
-                f"*lowers voice* There is work, if you have the stomach for it.",
+                f"I do not hand out quests here, but I can tell you what I am dealing with if you insist.",
+                f"I am focused on {goal}. If you want to help, ask the right questions.",
+                f"*lowers voice* I have my own concerns, not a task board.",
             ]
             return random.choice(options)
 
         if any(f in lower for f in fight_kw):
             if cls in ("Fighter", "Barbarian", "Paladin", "Ranger"):
-                return f"Combat? *{name} grips their weapon.* I've seen enough battles to know when one is coming."
-            elif cls in ("Wizard", "Sorcerer", "Warlock"):
+                return f"Combat? *{name} grips their weapon.* I know exactly what {bg.lower()} steel feels like in a bad situation."
+            if cls in ("Wizard", "Sorcerer", "Warlock"):
                 return f"Brute force is a last resort. I have other ways of dealing with enemies."
-            else:
-                return f"I try to avoid unnecessary conflict. But I am no easy target."
+            return "I try to avoid unnecessary conflict. But I am no easy target."
 
         if any(t in lower for t in trade_kw):
             options = [
-                f"I'm not a merchant. But I may know someone who deals in such things.",
-                f"Gold, is it? *shrugs* I have little interest in coin beyond what keeps me moving.",
+                "I am not a merchant. But I may know someone who deals in such things.",
+                "Gold has its uses, but I care more about leverage than coin.",
             ]
             if evil_warn:
-                options = [f"Everything has a price. What exactly are you offering?"]
+                options = ["Everything has a price. What exactly are you offering?"]
             return random.choice(options)
 
         if any(i in lower for i in info_kw):
             options = [
-                f"I've traveled these roads. What do you want to know?",
-                f"*thinks for a moment* The last I heard... things have changed out there.",
-                f"Information costs nothing, I suppose. Ask your question.",
+                "I have traveled these roads. What do you want to know?",
+                "The last I heard, things changed faster than people admit.",
+                "Information costs nothing, I suppose. Ask your question.",
             ]
             return random.choice(options)
 
         if any(f in lower for f in farewell_kw):
             options = [
-                f"Safe travels, adventurer. Watch the roads.",
-                f"*nods* Until next time.",
-                f"Go well. This world has enough graves.",
+                "Safe travels. Watch the roads.",
+                "*nods* Until next time.",
+                "Go well. This world has enough graves already.",
             ]
             return random.choice(options)
 
         if any(t in lower for t in threat_kw):
             if evil_warn:
-                return f"*smiles coldly* Is that a threat? Interesting choice."
-            elif cls in ("Barbarian", "Fighter"):
-                return f"*stands up slowly* Say that again. I dare you."
-            else:
-                return f"I would choose your next words carefully."
+                return "*smiles coldly* Is that a threat? Interesting choice."
+            if cls in ("Barbarian", "Fighter"):
+                return "*stands up slowly* Say that again. I dare you."
+            return "I would choose your next words carefully."
 
         if any(c in lower for c in compliment_kw):
             options = [
-                f"*raises an eyebrow* ...Thank you. I suppose.",
-                f"Flattery. I've learned not to trust it — but I appreciate the thought.",
-                f"Kind words. Don't expect me to go soft because of them.",
+                "*raises an eyebrow* ...Thank you. I suppose.",
+                "Flattery is a dangerous tool, but I appreciate the attempt.",
+                "Kind words are rare enough that I remember them.",
             ]
             return random.choice(options)
 
-        # ── generic fallbacks ─────────────────────────────────────────────────
         generic = [
             f"*{name} considers your words.* Go on.",
-            f"Hmm. I'm not sure what to make of that.",
-            f"*shifts weight* You're an odd one. I'll give you that.",
-            f"I've heard stranger things. What's your point?",
-            f"...Keep talking. I'm listening.",
+            "Hmm. I am not sure what to make of that.",
+            "You are an odd one. I will give you that.",
+            "I have heard stranger things. What is your point?",
+            "Keep talking. I am listening.",
+            f"I am still focused on {goal}. If you want my trust, be direct.",
         ]
         if chaotic:
-            generic.append(f"*laughs unexpectedly* Sorry — you just reminded me of something. What were you saying?")
+            generic.append("*laughs unexpectedly* Sorry, you reminded me of something. What were you saying?")
         if lawful:
-            generic.append(f"Speak plainly. I have little patience for riddles.")
+            generic.append("Speak plainly. I have little patience for riddles.")
         return random.choice(generic)
-
-
-def download_persona_dataset(save_dir: str = "data_sets/persona_chat"):
-    """
-    Download a small persona-grounded dialogue dataset from HuggingFace.
-    Uses 'bavard/personachat_truecased' — ~5MB, persona-conditioned dialogues.
-    """
-    try:
-        from datasets import load_dataset
-        os.makedirs(save_dir, exist_ok=True)
-        print("Downloading PersonaChat dataset (~5MB)...")
-        ds = load_dataset("bavard/personachat_truecased", split="train")
-        # Save as jsonl
-        out_path = os.path.join(save_dir, "personachat_train.jsonl")
-        ds.to_json(out_path)
-        print(f"Saved {len(ds)} examples → {out_path}")
-        return out_path
-    except Exception as e:
-        print(f"[WARNING] Could not download PersonaChat: {e}")
-        return None
-
-
-if __name__ == "__main__":
-    download_persona_dataset()

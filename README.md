@@ -1,116 +1,80 @@
 # Foundations of NLP
 
-A repository for exploring foundational NLP concepts — built around a D&D NPC Generator with GPT-2 fine-tuning and a playable chat interface.
+Command-line NPC generator for D&D-style characters with slash commands, persistent storage, and a Qwen-based chat backend.
 
 ## Contributors
 
 Ole, Maluna, Max
 
----
-
 ## Installation
 
-**Requirements:** Python 3.11+, conda or venv recommended.
+Python 3.11+ is recommended.
 
 ```bash
-git clone https://github.com/maaxhe/foundations_NLP.git
-cd foundations_NLP
 pip install -r requirements.txt
-pip install 'transformers[torch]' accelerate rich
 ```
 
----
+If you want real model-based chat instead of the built-in fallback responses, make sure a Qwen model is available locally or downloadable via Hugging Face. The default model name is `Qwen/Qwen2.5-1.5B-Instruct`.
 
-## Training the Dialogue Model
-
-Before chatting you need to fine-tune GPT-2 on the dialogue dataset:
-
-```bash
-python train_dialogue.py
-```
-
-This trains GPT-2 on the Synthetic Persona Chat dataset (~10 min on Apple Silicon).
-The model is saved to `models/gpt2_dialogue/` and loaded automatically on the next run.
-
-To also train the NPC story model:
-
-```bash
-python train_gpt2.py
-```
-
----
-
-## Starting the Chat
+## Start The App
 
 ```bash
 python chat.py
 ```
 
-Enter your name, then start talking to randomly generated D&D NPCs.
+If you want to skip model loading and use the fallback dialogue logic directly:
 
----
+```bash
+python chat.py --no-model
+```
 
-## Chat Commands
+## Main Commands
+
+All commands start with `/`.
 
 | Command | What it does |
 |---|---|
-| `status` | Show your level, XP, gold |
-| `quests` | Show active and completed quests |
-| `complete` | Complete your first active quest and collect rewards |
-| `complete 2` | Complete quest number 2 |
-| `new` | Generate a new NPC |
-| `hyper` | Adjust GPT-2 hyperparameters and retrain |
-| `quit` | Exit |
+| `/create <text>` | Generate a new NPC from a free-text description |
+| `/list` | Show all saved NPCs |
+| `/list <ref>` | Load an NPC by list number, id, or name |
+| `/chat [ref]` | Chat with the current or selected NPC |
+| `/status` | Show the current NPC sheet |
+| `/edit <field> <value>` | Edit a specific NPC field directly |
+| `/update <text>` | Apply a natural-language state update |
+| `/hyper` | Adjust Qwen generation settings |
+| `/quit` | Exit |
 
-**Quick replies:** Type a number (1–4) to use a preset dialogue option. Options rotate after each use. Quest-related options appear automatically when talking about quests.
+## Example
 
----
+```text
+/create elf rogue named Mira level 7 HP 42 weapon rapier chaotic good suspicious
+/chat
+/update you are now lawful evil from now on
+/edit emotional_state friendly
+/list
+```
 
-## Gameplay
+## Behavior
 
-- Talk to NPCs and accept quests with **"I'll take the quest."**
-- Complete quests by typing `complete` — you earn **XP** and **gold**
-- Collect enough XP to **level up** (100 XP × current level)
-- Use `new` to find a new NPC and take on more quests
-
----
+- Unspecified fields are generated automatically from the D&D dataset.
+- Provided details such as `HP`, `level`, `race`, `weapon`, `subclass`, or alignment are kept.
+- NPC emotional state is stored explicitly and can be generated, edited, or updated later.
+- Generated NPCs are saved to `data_sets/generated_npcs.json`.
+- There are no player levels and no quest system in the current command app.
 
 ## Project Structure
 
-```
+```text
 foundations_NLP/
-├── chat.py                  # main entry point
-├── train_gpt2.py            # fine-tunes GPT-2 on NPC stories
-├── train_dialogue.py        # fine-tunes GPT-2 on dialogue data
-├── npc_generator/
-│   ├── character_sampler.py # samples NPCs from D&D dataset
-│   ├── story_generator.py   # generates NPC backstories
-│   ├── quest_generator.py   # generates quests for the player
-│   ├── dialogue_engine.py   # GPT-2 powered NPC responses
-│   ├── player.py            # player state (level, XP, quest log)
-│   └── npc.py               # NPC dataclass
-├── data_sets/
-│   ├── dnd_character_database/
-│   └── Synthetic_Persona_Chat/
-├── models/
-│   ├── gpt2_npc/            # story model
-│   └── gpt2_dialogue/       # dialogue model
-├── notebooks/
-│   └── 04_hyperparameter_report.ipynb
-└── tests/
-```
-
----
-
-## Git Workflow
-
-```bash
-git add .
-git commit -m "beschreibung der änderung"
-git push
-```
-
-Neueste Änderungen holen:
-```bash
-git pull
+|-- chat.py
+|-- npc_generator/
+|   |-- character_sampler.py
+|   |-- dialogue_engine.py
+|   |-- npc.py
+|   |-- registry.py
+|   |-- spec_parser.py
+|   `-- story_generator.py
+|-- data_sets/
+|-- tests/
+`-- requirements.txt
 ```

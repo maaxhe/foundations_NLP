@@ -10,7 +10,7 @@ def test_loads():
 
 def test_sample_has_keys():
     char = sampler.sample_character()
-    for key in ["name", "race", "primary_class", "level", "HP", "AC", "Str"]:
+    for key in ["name", "race", "primary_class", "subclass", "weapon", "emotional_state", "goal", "level", "HP", "AC", "Str"]:
         assert key in char
 
 
