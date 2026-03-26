@@ -1,13 +1,8 @@
-torch>=2.0.0
-fastapi>=0.111.0
-uvicorn[standard]>=0.29.0
-pydantic>=2.0.0
-
-# NPC Generator
-transformers>=4.40.0
-accelerate>=0.30.0
-datasets>=2.18.0
-pandas>=2.0.0
+# Core NPC generator
 numpy>=1.24.0
-matplotlib>=3.7.0
+pandas>=2.0.0
 rich>=13.0.0
+
+# Qwen / Transformers backend
+torch>=2.0.0
+transformers>=4.40.0
