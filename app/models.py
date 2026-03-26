@@ -40,7 +40,7 @@ class ChatRequest(BaseModel):
     """
     player_message: str = Field(..., min_length=1, max_length=2000)
     session_id:     str = Field(...)
-    npc_name:       str = Field(default="Grimtooth")
+    npc_name:       str = Field(default="Grimtooth") # Maybe change the default name to something funny, like... Mr. Meeseeks
 
 
 class NewSessionRequest(BaseModel):
