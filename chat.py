@@ -18,10 +18,15 @@ except ImportError:
     console = None
 
 from npc_generator.character_sampler import CharacterSampler
+from npc_generator.character_builder import (
+    build_npc_from_prompt_lm,
+    build_npc_from_prompt_regex,
+    can_build_with_language_model,
+)
 from npc_generator.dialogue_engine import DEFAULT_QWEN_MODEL, DialogueEngine
 from npc_generator.npc import NPC
 from npc_generator.registry import NpcRegistry
-from npc_generator.spec_parser import apply_update_instruction, parse_character_specs
+from npc_generator.spec_parser import apply_update_instruction
 from npc_generator.story_generator import StoryGenerator
 
 GENERATION_FIELDS = {
@@ -42,6 +47,7 @@ def print_line(message: str = "") -> None:
 def print_help() -> None:
     help_text = """
 /create <text>   Generate a new NPC from free text
+/create-lm <text> Generate a new NPC via language-model analysis
 /list            List saved NPCs
 /list <ref>      Select an NPC by number, id, or exact name
 /delete <ref>    Remove an NPC from the registry
@@ -108,11 +114,16 @@ def list_npcs(registry: NpcRegistry, current_npc_id: str | None) -> None:
 
 
 def build_npc_from_prompt(prompt: str, sampler: CharacterSampler, story_gen: StoryGenerator) -> NPC:
-    overrides = parse_character_specs(prompt, sampler)
-    overrides["source_prompt"] = prompt
-    char = sampler.sample_character(overrides)
-    char["story"] = story_gen.generate_story(char)
-    return NPC.from_dict(char)
+    return build_npc_from_prompt_regex(prompt, sampler, story_gen)
+
+
+def build_npc_from_prompt_with_lm(
+    prompt: str,
+    sampler: CharacterSampler,
+    story_gen: StoryGenerator,
+    engine: DialogueEngine,
+) -> NPC:
+    return build_npc_from_prompt_lm(prompt, sampler, story_gen, engine)
 
 
 def edit_current_npc(npc: NPC, args: str) -> str:
@@ -298,7 +309,7 @@ def main() -> None:
         if not raw:
             continue
         if not raw.startswith("/"):
-            print_line("Commands start with /. Use /create, /chat, or /help.")
+            print_line("Commands start with /. Use /create, /create-lm, /chat, or /help.")
             continue
 
         command, _, args = raw.partition(" ")
@@ -321,6 +332,25 @@ def main() -> None:
                     print_line("\nCancelled.")
                     continue
             npc = build_npc_from_prompt(args, sampler, story_gen)
+            registry.upsert(npc)
+            current_npc_id = npc.npc_id
+            render_npc_sheet(npc)
+            continue
+
+        if command in {"/create-lm", "/generate-lm", "/new-lm"}:
+            if not can_build_with_language_model(engine):
+                print_line(
+                    "LM character creation is unavailable because the Qwen model is not loaded. "
+                    "Start the app without --no-model and make sure the model loads successfully."
+                )
+                continue
+            if not args:
+                try:
+                    args = input("Describe the NPC for LM creation: ").strip()
+                except (KeyboardInterrupt, EOFError):
+                    print_line("\nCancelled.")
+                    continue
+            npc = build_npc_from_prompt_with_lm(args, sampler, story_gen, engine)
             registry.upsert(npc)
             current_npc_id = npc.npc_id
             render_npc_sheet(npc)

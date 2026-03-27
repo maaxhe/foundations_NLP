@@ -206,7 +206,7 @@ class CharacterSampler:
     def _clean_int(self, value, lo: int, hi: int) -> int:
         return max(lo, min(hi, int(value)))
 
-    def sample_character(self, overrides: dict | None = None) -> dict:
+    def sample_character(self, overrides: dict | None = None, *, fill_personality_details: bool = True) -> dict:
         """Sample a single NPC character dict from learned distributions."""
         race = self._weighted_sample(self.race_dist)
         primary_class = self._weighted_sample(self.class_dist)
@@ -258,9 +258,14 @@ class CharacterSampler:
         character["emotional_state"] = str(
             character.get("emotional_state") or random.choice(EMOTIONAL_STATES)
         ).lower()
-        character["goal"] = character.get("goal") or random.choice(GOALS)
-        character["quirk"] = character.get("quirk") or random.choice(QUIRKS)
-        character["secret"] = character.get("secret") or random.choice(SECRETS)
+        if fill_personality_details:
+            character["goal"] = character.get("goal") or random.choice(GOALS)
+            character["quirk"] = character.get("quirk") or random.choice(QUIRKS)
+            character["secret"] = character.get("secret") or random.choice(SECRETS)
+        else:
+            character["goal"] = character.get("goal", "")
+            character["quirk"] = character.get("quirk", "")
+            character["secret"] = character.get("secret", "")
         character["extra_traits"] = dict(character.get("extra_traits", {}))
         character["notes"] = list(character.get("notes", []))
         character["source_prompt"] = character.get("source_prompt", "")

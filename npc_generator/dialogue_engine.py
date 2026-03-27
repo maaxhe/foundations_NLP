@@ -177,8 +177,63 @@ class DialogueEngine:
         if repetition_penalty is not None:
             self.generation_config.repetition_penalty = repetition_penalty
 
+    def _generate_from_messages(
+        self,
+        messages: list[dict[str, str]],
+        *,
+        temperature: float | None = None,
+        top_p: float | None = None,
+        max_new_tokens: int | None = None,
+        repetition_penalty: float | None = None,
+    ) -> str:
+        prompt = self.tokenizer.apply_chat_template(
+            messages,
+            tokenize=False,
+            add_generation_prompt=True,
+        )
+        inputs = self.tokenizer(prompt, return_tensors="pt").to(self._device)
+        with self._torch.no_grad():
+            output = self.model.generate(
+                **inputs,
+                max_new_tokens=max_new_tokens or self.generation_config.max_new_tokens,
+                do_sample=True,
+                temperature=temperature if temperature is not None else self.generation_config.temperature,
+                top_p=top_p if top_p is not None else self.generation_config.top_p,
+                repetition_penalty=(
+                    repetition_penalty
+                    if repetition_penalty is not None
+                    else self.generation_config.repetition_penalty
+                ),
+                pad_token_id=self.tokenizer.eos_token_id,
+            )
+        generated_ids = output[0][inputs["input_ids"].shape[1]:]
+        return self.tokenizer.decode(generated_ids, skip_special_tokens=True).strip()
+
+    def generate_text(
+        self,
+        messages: list[dict[str, str]],
+        *,
+        temperature: float | None = None,
+        top_p: float | None = None,
+        max_new_tokens: int | None = None,
+        repetition_penalty: float | None = None,
+    ) -> str | None:
+        """Generate text from arbitrary chat-style messages when the model is loaded."""
+        if self.model is None or self.tokenizer is None or self._torch is None:
+            return None
+        try:
+            return self._generate_from_messages(
+                messages,
+                temperature=temperature,
+                top_p=top_p,
+                max_new_tokens=max_new_tokens,
+                repetition_penalty=repetition_penalty,
+            )
+        except Exception as exc:
+            print(f"[WARNING] Qwen structured generation failed: {exc}")
+            return None
+
     def _qwen_chat(self, npc: NPC, user_input: str) -> str:
-        torch = self._torch
         messages = [
             {"role": "system", "content": build_persona_prompt(npc.to_dict(), npc.story)},
         ]
@@ -187,24 +242,7 @@ class DialogueEngine:
             messages.append({"role": role, "content": turn["content"]})
         messages.append({"role": "user", "content": user_input})
 
-        prompt = self.tokenizer.apply_chat_template(
-            messages,
-            tokenize=False,
-            add_generation_prompt=True,
-        )
-        inputs = self.tokenizer(prompt, return_tensors="pt").to(self._device)
-        with torch.no_grad():
-            output = self.model.generate(
-                **inputs,
-                max_new_tokens=self.generation_config.max_new_tokens,
-                do_sample=True,
-                temperature=self.generation_config.temperature,
-                top_p=self.generation_config.top_p,
-                repetition_penalty=self.generation_config.repetition_penalty,
-                pad_token_id=self.tokenizer.eos_token_id,
-            )
-        generated_ids = output[0][inputs["input_ids"].shape[1]:]
-        response = self.tokenizer.decode(generated_ids, skip_special_tokens=True).strip()
+        response = self._generate_from_messages(messages)
         return response or self._fallback_response(user_input, npc.to_dict())
 
     def chat(self, npc: NPC, user_input: str):
