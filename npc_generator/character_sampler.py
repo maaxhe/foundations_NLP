@@ -195,7 +195,7 @@ class CharacterSampler:
     def _weighted_sample(self, dist: pd.Series) -> str:
         return np.random.choice(dist.index, p=dist.values)
 
-    def _sample_stat(self, mean: float, std: float, lo: int = 1, hi: int = 20) -> int:
+    def _sample_stat(self, mean: float, std: float, lo: int = 4, hi: int = 20) -> int:
         if np.isnan(mean):
             mean = 10.0
         if np.isnan(std):
@@ -219,7 +219,10 @@ class CharacterSampler:
         stats = {col: self._sample_stat(*params[col]) for col in ["Str", "Dex", "Con", "Int", "Wis", "Cha"]}
 
         level = max(1, min(20, int(round(np.random.normal(*self.level_params)))))
-        hp = max(1, int(round(np.random.normal(*self.hp_params))))
+
+        con = stats["Con"]
+
+        hp = max(((int)((con-8)/2)+4)*level + 10, int(round(np.random.normal(*self.hp_params))))
         ac = max(5, min(25, int(round(np.random.normal(*self.ac_params)))))
 
         name = f"{random.choice(FIRST_NAMES)} {random.choice(LAST_NAMES)}"
