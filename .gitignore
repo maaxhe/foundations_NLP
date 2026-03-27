@@ -1,3 +1,5 @@
 __pycache__/
 *.pyc
 data_sets/generated_npcs.json
+.env
+telegram_bot.py
