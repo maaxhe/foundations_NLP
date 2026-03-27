@@ -11,10 +11,14 @@ Ole, Maluna, Max
 Python 3.11+ is recommended.
 
 ```bash
+python -m venv .venv
+.venv\Scripts\activate
 pip install -r requirements.txt
 ```
 
 If you want real model-based chat instead of the built-in fallback responses, make sure a Qwen model is available locally or downloadable via Hugging Face. The default model name is `Qwen/Qwen2.5-1.5B-Instruct`.
+
+If Qwen fails to load with a message about `pytorch_model.bin`, your local Hugging Face cache may only contain tokenizer files and not the actual model weights yet. In that case, remove the cached model folder under `%USERPROFILE%\.cache\huggingface\hub\models--Qwen--Qwen2.5-1.5B-Instruct` and start the app again so the weights can download cleanly.
 
 ## Start The App
 

@@ -7,6 +7,7 @@ from __future__ import annotations
 import os
 import random
 from dataclasses import dataclass
+from pathlib import Path
 
 from npc_generator.npc import NPC
 
@@ -38,6 +39,39 @@ CLASS_MANNERISMS = {
 }
 
 DEFAULT_QWEN_MODEL = os.getenv("QWEN_MODEL", "Qwen/Qwen2.5-1.5B-Instruct")
+
+
+def describe_local_model_cache(model_name: str) -> str | None:
+    """Return a short diagnostic if the local Hugging Face cache looks incomplete."""
+    if "/" not in model_name:
+        return None
+
+    org, repo = model_name.split("/", 1)
+    cache_dir = Path.home() / ".cache" / "huggingface" / "hub" / f"models--{org}--{repo}"
+    snapshots_dir = cache_dir / "snapshots"
+    if not snapshots_dir.exists():
+        return None
+
+    snapshot_dirs = [path for path in snapshots_dir.iterdir() if path.is_dir()]
+    if not snapshot_dirs:
+        return f"Found cache folder at '{cache_dir}', but it contains no model snapshot."
+
+    weight_patterns = ("*.safetensors", "*.bin")
+    has_weights = any(
+        any(snapshot.glob(pattern) for pattern in weight_patterns)
+        for snapshot in snapshot_dirs
+    )
+    if has_weights:
+        return None
+
+    cached_files: set[str] = set()
+    for snapshot in snapshot_dirs:
+        cached_files.update(path.name for path in snapshot.iterdir())
+    files_text = ", ".join(sorted(cached_files)) if cached_files else "no files"
+    return (
+        f"Local cache exists at '{cache_dir}', but it only contains {files_text} "
+        "and no model weight files (.safetensors or .bin)."
+    )
 
 
 def build_persona_prompt(character: dict, story: str) -> str:
@@ -112,8 +146,12 @@ class DialogueEngine:
         except Exception as exc:
             self.model = None
             self.tokenizer = None
-            self.load_error = str(exc)
-            print(f"[WARNING] Could not load Qwen model '{self.model_name}': {exc}")
+            details = [str(exc)]
+            cache_hint = describe_local_model_cache(self.model_name)
+            if cache_hint:
+                details.append(cache_hint)
+            self.load_error = " ".join(details)
+            print(f"[WARNING] Could not load Qwen model '{self.model_name}': {self.load_error}")
 
     def describe_backend(self) -> str:
         if self.model is not None:
