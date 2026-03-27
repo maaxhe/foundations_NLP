@@ -40,6 +40,10 @@ class NpcRegistry:
         self._npcs[npc.npc_id] = npc
         self.save()
 
+    def remove(self, npc: NPC) -> None:
+        del self._npcs[npc.npc_id]
+        self.save()
+
     def all(self) -> list[NPC]:
         return list(self._npcs.values())
 

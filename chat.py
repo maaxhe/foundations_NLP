@@ -44,6 +44,7 @@ def print_help() -> None:
 /create <text>   Generate a new NPC from free text
 /list            List saved NPCs
 /list <ref>      Select an NPC by number, id, or exact name
+/delete <ref>    Remove an NPC from the registry
 /chat [ref]      Chat with the current or selected NPC
 /status          Show the current NPC sheet
 /edit <field> <value>
@@ -335,6 +336,17 @@ def main() -> None:
                 continue
             current_npc_id = npc.npc_id
             render_npc_sheet(npc)
+            continue
+
+        if command == "/remove" or command == "/delete" or command == "/kill":
+            if not args:
+                print_line(f"Please enter the ID of the NPC you want to remove.")
+                continue
+            npc = registry.resolve(args)
+            if npc is None:
+                print_line(f"No NPC found for '{args}'.")
+                continue
+            registry.remove(npc)
             continue
 
         current_npc = registry.resolve(current_npc_id) if current_npc_id else None
