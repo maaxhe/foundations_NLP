@@ -235,6 +235,8 @@ def _complete_character_with_model(
         max_new_tokens=210,
         repetition_penalty=1.02,
     )
+
+    print(f"Model response for character completion:\n{response}\n")
     payload = _load_json_object(response)
     return _normalize_payload(payload, sampler)
 
