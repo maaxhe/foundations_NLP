@@ -1,0 +1,81 @@
+Checkpoint directory: depth-8
+Prompt: '\n'
+num_samples=3, max_new_tokens=500, temperature=0.8, top_k=200, device=cuda
+================================================================================
+
+=== Sample 1 ===
+
+And they bring with the sweeter and them about.
+Stirr'd the gates such at her heart to be deal'd.
+
+BUCKINGHAM:
+What's the king
+Your proceeding in this night, and is the neck.
+
+GLOUCESTER:
+It is not like your waters like death.
+
+LADY ANNE:
+I can, my lord, why soul my lord
+To tell thee in your life? I'll live to dry
+If your mother rivers and merry soul
+And struck you noble to suffer my soul.
+
+GLOUCESTER:
+If you should not, as I see!
+
+LADY ANNE:
+I am a barged match. Knock, gentle reption!
+
+GLOUCEST
+
+--------------------------------------------------------------------------------
+
+=== Sample 2 ===
+
+Men part keep my thoughts and hand happily
+The power of strength.
+
+CORIOLANUS:
+Go, come, boy, promine and my stouth:
+Your mother fortune and more I am born:
+I think it stay, 'tis a pedigross so upon
+To remember of you.
+
+CORIOLANUS:
+What, lord?
+
+VOLUMNIA:
+I'll have been swept but with some voices,
+And, to suffer Italy speak:
+Which is't pass'd, that bears no man to see thee,
+Ship of no noble eyes and approach. Then thou stand'st
+The last king car him for the crown, and thou'lt not keep
+To know her
+
+--------------------------------------------------------------------------------
+
+=== Sample 3 ===
+
+Men than you for all, I have no man when you can,
+The necession of your for succession, must be
+By your enemies.
+
+MENENIUS:
+O, much is the dishonour
+Is a valiant and power their city, and be anger
+Their old diately.
+
+LEONTES:
+His master.
+
+First Lord:
+He that still for Hereford!
+The marks of the old consume and his death!
+How he comes, make he it short to be brief?
+Hath the noble head is dead? a pipering tears
+Most villain who spoke him to be off the crown?
+The clog of Hereford's sons: whose swee
+
+--------------------------------------------------------------------------------
+

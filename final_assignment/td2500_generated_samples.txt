@@ -1,0 +1,78 @@
+Checkpoint directory: td2500
+Prompt: '\n'
+num_samples=3, max_new_tokens=500, temperature=0.8, top_k=200, device=cuda
+================================================================================
+
+=== Sample 1 ===
+
+
+ANGELO:
+And cowards is not this: well, be gone.
+
+ISABELLA:
+You have rather humble had been than a full of my face,
+a baze of war.
+
+ANGELO:
+I cannot lie in this mine, sir, in this maid;
+Good gift to the house of Caesar no more.
+
+ANGELO:
+Here's a minister.
+
+ISABELLA:
+I would think your life, do you know the king whereof
+I' the doubt, and she shall be good; therefore none, the son
+shore when they know of when here?
+
+ISABELLA:
+I shall too discharge by her gracious honour and tears,--
+
+DUKE VINCENTI
+
+--------------------------------------------------------------------------------
+
+=== Sample 2 ===
+
+Men pardon, I will not stay them of a child,
+And that they will and show their sons as their
+Of my countryman.
+
+DUKE VINCENTIO:
+Ay, the world of Claudio is over a mouth
+That I have heard too so understood as heaven their loves
+Than she is deserved. How now!
+
+ISABELLA:
+What, ho!
+
+ANGELO:
+Swear me, what dost thou not?
+
+ISABELLA:
+In this desire
+My living sons a dishonour'd of mine own own?
+
+DUKE VINCENTIO:
+Ground be that thou shalt help me much a dish
+For this reward, that would have most excepted 
+
+--------------------------------------------------------------------------------
+
+=== Sample 3 ===
+
+Mercutio, though all the two conceit. Most good
+Comfort to another comes him home to be more thine
+One to this noble executioner,
+Hove-timed continuation! and but I have a cause
+Of prayers to ease me of blame at my breast,
+Seeing made my hand; and I, if that stick me
+Were never but that present of the world
+Did from the murder, and butchers love in state,
+All traded the duke and harship-dagger of her blood,
+Even lived be present a thing widow of the friend,
+Begars theirs appear their lightning,
+
+
+--------------------------------------------------------------------------------
+

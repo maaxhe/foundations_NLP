@@ -1,0 +1,82 @@
+Checkpoint directory: lr-1e-4
+Prompt: '\n'
+num_samples=3, max_new_tokens=500, temperature=0.8, top_k=200, device=cuda
+================================================================================
+
+=== Sample 1 ===
+
+
+ANGELO:
+And comfort is to be made to bear the and runk,
+Beating her back against the tracketh.
+
+ISABELLA:
+O heavy day! God my lords, to thy heart!
+O hourly cause, we send in this maid;
+Give me the like in a warmourly sorrow;
+And she comes your princess, why she have not
+To this deserved should that move him when evils,
+So that she shall be commpounded his businesss.
+
+LEONTES:
+Are my lord.
+
+PAULINA:
+I thank your grace?
+
+Provost:
+Hark!
+Prithee, sir, here's statute the cause.
+
+CLAUDIO:
+Affective y
+
+--------------------------------------------------------------------------------
+
+=== Sample 2 ===
+
+Men pardon, marry, she's head; and have myself and fortune
+Will and show the head of war, or the much friends.
+
+DUKE VINCENTIO:
+Ay, my liege.
+
+LUCIO:
+Ay, but the duke word of this moveth offended
+death.
+
+ISABELLA:
+It is the gracious should have need out of accusataion.
+
+DUKE VINCENTIO:
+I will not leave you well not a subjects
+how you were durb place and now this man to doo
+me under our fellows.
+
+ISABELLA:
+I will not so the silent were behold to him
+convey as his choice, would have us you gone.
+
+
+
+--------------------------------------------------------------------------------
+
+=== Sample 3 ===
+
+Messenger:
+The peace, I have no more dislace in the princess;
+Than thou that hast done, marry mine eyes
+Should not find to his mistress' death;
+The broken and barnIne myself the cause.
+
+LADY ANNE:
+Therefore, nay, like fellow, but made my hands:
+To shepherd, for her blood weep more love,
+Have my old consul, and so something than arms
+A man barnard his; and flower and his despair!
+But his deserves voices, that thou art boe
+Thy banished banishment by the tender therein,
+And yet he will rejoice to t
+
+--------------------------------------------------------------------------------
+

@@ -1,0 +1,80 @@
+Checkpoint directory: block-64
+Prompt: '\n'
+num_samples=3, max_new_tokens=500, temperature=0.8, top_k=200, device=cuda
+================================================================================
+
+=== Sample 1 ===
+
+
+Clown:
+So, who does it become
+The poor best envy.
+One more gates shall this use at the free?
+
+DUKE VINCENTIO:
+What's your mother?
+
+LEONTES:
+I am a slanderous estimation of mine issue;
+Whither the knee and leving selfsame to his humble,
+And so she as speak you love.
+I cannot sigh your brother mother
+To Warwick down in the maid, this she had not poor
+more struck and noble tribunes of his land,
+And let him fain and grant my friends!
+
+QUEEN ELIZABETH:
+That's the discontentation
+of your charges are 
+
+--------------------------------------------------------------------------------
+
+=== Sample 2 ===
+
+Men pass'd, marry, she's his way of a change.
+
+DUKE OF YORK:
+Art thou stand in this law before the courts:
+I should so, my lords, I have not sorrow to be
+sooner: if it be to the party to the state, as the earth,
+Thy brother gracious shall deserve it for thy child.
+
+ROMEO:
+The noble master is but an one of countenance
+I had seen in the devil of points.
+
+DUKE VINCENTIO:
+Who is it?
+
+LEONTES:
+I am too lap you?
+
+POMPEY:
+Why then you give me kings as he may part.
+
+BENVOLIO:
+You are gone! Good king!
+
+C
+
+--------------------------------------------------------------------------------
+
+=== Sample 3 ===
+
+Me run, and we have it fought for him:
+The gain of spirits and none to choose his presence,
+And not so means till this sovereign care words,
+As the rest of blood of his cares in care,
+And be a fellow of honourable hour,
+Reiden to make my harmy particular,
+That which is he here for love of grace
+To the world and frantic rough his hands and be night,
+All makes thy dear hold my son Buckingham?
+Good queen, for you, my virgin; I am not the
+people of your father, and let him so.
+
+ESCALUS:
+And slain th
+
+--------------------------------------------------------------------------------
+

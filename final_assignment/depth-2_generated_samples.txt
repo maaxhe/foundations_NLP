@@ -1,0 +1,69 @@
+Checkpoint directory: depth-2
+Prompt: '\n'
+num_samples=3, max_new_tokens=500, temperature=0.8, top_k=200, device=cuda
+================================================================================
+
+=== Sample 1 ===
+
+
+KING RICHARD II:
+Say thou be made to be executed:
+On thy colour! start thou use thy business
+And ten with my father's blood with the toft,
+I can tell thee to thy father.
+
+KING RICHARD II:
+Then do not my liege, my elder die and liege;
+But by my princession you love's not do't, and your highness that
+I am not when I in the king, so we will deeds power
+As for the king of thy fault; and thought thy flesh,
+If thou hadst not true-letters, yet say adopt thou art not in courtesy?
+
+SIR STEPHEN SCROOP:
+M
+
+--------------------------------------------------------------------------------
+
+=== Sample 2 ===
+
+Men part, being my soul throne.
+
+GEORGE:
+Why, what news? when that? what says he is the county?
+
+KING EDWARD IV:
+Now, lords, in poor break some weapons the last,
+And the Lord Norfolk's droom of York safety Richard:
+What Clifford she shall do I do,
+To make him hear his charge Edward a king.
+
+CLARENCE:
+Come, come, let's go.
+Farewell, help.
+
+KING HENRY VI:
+So well, my lord, your uncle, shall I stay a king;
+For what I say, there were were believed thy ground.
+
+QUEEN MARGARET:
+Then, for Gloucester, e
+
+--------------------------------------------------------------------------------
+
+=== Sample 3 ===
+
+Me run my repent,
+For I have no more consul, if thou didst another
+Than thou hast done, marry mine ears;
+Thou in thy deep I thy hand, wouldst scarce
+Is an all the Iniquital action,
+And fit to thee keep in a draw morning tear
+Of what thou hast even with me; so thou wert so,
+That thou livest thy fortune of justice stoop,
+Make her chains made thy fair country's death?
+And thou bear her heart defence, now thy tongue,
+That bear the morning than my soul's eyes and my life,
+And yet I'll give my life th
+
+--------------------------------------------------------------------------------
+

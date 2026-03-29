@@ -1,0 +1,84 @@
+Checkpoint directory: lr-5e-3
+Prompt: '\n'
+num_samples=3, max_new_tokens=500, temperature=0.8, top_k=200, device=cuda
+================================================================================
+
+=== Sample 1 ===
+
+
+KING RICHARD II:
+Say to you that set unbear it.
+
+BUCKINGHAM:
+Take the city of King Richard that are sworn,
+And fall out of the other to title both!
+What littles is the news? ladiest thou tell'st the king!
+
+BUCKINGHAM:
+Thy gracious lord chamberlain is plain,
+To stay with die to the queen thousand king.
+Why, thou Catesby with thy right, which he is done,
+To be the dangerous fortune's honour's fearful England,
+Prove my own royal beauty object
+And all his grace to his true rately replied
+And from t
+
+--------------------------------------------------------------------------------
+
+=== Sample 2 ===
+
+Menening, sir, you shall have hanged him his meaning.
+
+CAMILLO:
+I would not be so longer.
+
+CAMILLO:
+Why, what shall welcome to him?
+
+MAMILLIUS:
+See he before him indeed!
+
+POLIXENES:
+Sir, to him upon his common and you'll prove
+The court-pleasure.
+
+FLORIZEL:
+Nor bear these which
+Men at Tibert Such and Corioli
+When you shall see his brother, and put on instruction,
+Set the offices of our fees, such a crown,
+The when he comes not to Bohemia to your honour
+And crave choose of the gates of your grave
+
+--------------------------------------------------------------------------------
+
+=== Sample 3 ===
+
+MARCIUS:
+He was.
+
+First Senator:
+We will hear her:
+He shall not like the moon, and to be respected
+Of his worthy body to their voices!
+
+All:
+Is't pleased for your I have a cause.
+
+CORIOLANUS:
+By my pain blame at my breasts,
+And witness there is wont to make your life,
+He would promise your tribunes consumed.
+
+CORIOLANUS:
+How! O my heart!
+Go your gard; I have torney'd him to bear
+By such desire and not the power.
+
+CORIOLANUS:
+No, I think that you have been made flowers
+The people's arrivalrying.
+
+
+--------------------------------------------------------------------------------
+

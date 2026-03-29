@@ -1,0 +1,85 @@
+Checkpoint directory: dropout-0-1
+Prompt: '\n'
+num_samples=3, max_new_tokens=500, temperature=0.8, top_k=200, device=cuda
+================================================================================
+
+=== Sample 1 ===
+
+
+YORK:
+I think with the sweeter and the beauteous graves
+Beat the sun that full of his bark throws.
+
+DUCHESS OF YORK:
+I would thou speak that I commit thine,
+Were the senation and makes violence;
+Where is it was the prince's little manners of thy babes
+Where he shall brands this death:
+I will make allow them when evides the moon
+Will we have drawn together.
+
+QUEEN MARGARET:
+I'll speak not the eye leave, for I should not.
+
+HENRY BOLINGBROKE:
+Sad then, so I stay in the rear of king,
+But from the w
+
+--------------------------------------------------------------------------------
+
+=== Sample 2 ===
+
+Menenius, and grave with the women have most men
+That the means and whose blood will weep one.
+
+First Servant:
+I thank you, sir: we are a punish'd at all.
+
+AUTOLYCUS:
+I cannot say you, my sovereign.
+
+Clown:
+He do not come, sir, sir, shall desirve, and warrant him.
+
+AUTOLYCUS:
+And well. I will believe him to late.
+
+AUTOLYCUS:
+Look upon him, and well.
+Gentlemen?
+
+AUTOLYCUS:
+You were no noble eyes an hope that were.
+
+AUTOLYCUS:
+A player like to be here the words wrong to be of
+us, we'll you well.
+
+
+
+--------------------------------------------------------------------------------
+
+=== Sample 3 ===
+
+Messenger:
+The people I have no ward to live
+The doubt this doubleness of holy and
+Some more things of tears his body's words.
+
+SICINIUS:
+The people, and the womenIous things in the partial part
+The common more of his folling breath
+Than have even in peace, where you have here perflues
+Appear'd of the world.
+
+BRUTUS:
+So much he is her mad, he is in her was lost
+To the lad on the hars beguage.
+
+SICINIUS:
+Return to the body wholemen the people,
+Who was been to the pipiliar is your son?
+The late is
+
+--------------------------------------------------------------------------------
+

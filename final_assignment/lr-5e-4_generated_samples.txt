@@ -1,0 +1,78 @@
+Checkpoint directory: lr-5e-4
+Prompt: '\n'
+num_samples=3, max_new_tokens=500, temperature=0.8, top_k=200, device=cuda
+================================================================================
+
+=== Sample 1 ===
+
+
+All that I will accusation.
+
+DUKE VINCENTIO:
+I will answer to any bard that us he had been that a
+end. I will not dark how me to the toffice of the world
+of a grief, send in the sea drop to an extremity
+of your spelling apparent she could yours.
+
+LUCIO:
+Sty your master more so visit in your love.
+
+JULIET:
+A white I brief a most right in him,
+And of my husband with his true so arms.
+
+Nurse:
+How now, good fair so?
+
+JULIET:
+Here's no time is a post of the helm?
+
+Nurse:
+I am near remains and for hi
+
+--------------------------------------------------------------------------------
+
+=== Sample 2 ===
+
+Men pardon, marry, I will give me
+That I have spectable of the day of my son
+Is it the greater, of courts my stouty soul.
+
+LEONTES:
+Happily masters! and we would did stand of ship,
+Or that will not hear me with one that Claudio,
+And then it die need out of an homear
+Of great-burses: the letters and made out
+That would yourselves subjects in him.
+
+LEONTES:
+I am the poor soon, if you do it.
+
+A PAULINA:
+I thank you. Let me her be person me man I say:
+A why, back when you are the glory. See how to e
+
+--------------------------------------------------------------------------------
+
+=== Sample 3 ===
+
+Men that I beseech your husband; go with me,
+To the prize the falls of your suits of needs,
+And not so me within your fellows to Warwick.
+There's not Capulets, seeI the cause in child.
+
+LADY CAPULET:
+And let have seen for in men man it was
+The punish'd more detecly of Heculestio.
+
+Nurse:
+Petruchio, conceit and so something that are but bring him in his
+Being to meet his desperate the bloody
+To curse his father, which banishment was him.
+
+RICHMOND:
+Sirrah you there, I will perfume your lordship
+A
+
+--------------------------------------------------------------------------------
+

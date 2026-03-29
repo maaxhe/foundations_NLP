@@ -1,0 +1,75 @@
+Checkpoint directory: baseline
+Prompt: '\n'
+num_samples=3, max_new_tokens=500, temperature=0.8, top_k=200, device=cuda
+================================================================================
+
+=== Sample 1 ===
+
+
+Clown:
+So, we will keep you them against our hands.
+
+CAMILLO:
+Not banish him with his back: let a husband, he have
+a bazy of the fair of it.
+
+Clown:
+Indeed, beg it well as will in the overship.
+
+AUTOLYCUS:
+What is like him an else thou hast stuff alive, why, who
+say nothing but look'd that delivered on this which is a
+well-man tribune and recovered of his guard, hanging.
+
+AUTOLYCUS:
+Why, there is Montagues, Prince, how the house!
+
+Clown:
+I am a brace against mine own bar tears, but I
+am a court
+
+--------------------------------------------------------------------------------
+
+=== Sample 2 ===
+
+Men pardon, mary me with his eye so prevails.
+
+DUKE OF AUMERLE:
+The sentence has the world I would confess thee,
+And with my name in their strongest ends
+To vent it in my tongue. My counsel
+Hath made me a gracious living loves
+To the ground deed entreat of all the king,
+That but we make the house of Angelo walk him;
+And, in some submit his unbuccoronable,
+The merried that is imposterous streets and approaches
+May that the ruin person of my purson;
+And you are welcome.
+
+CLAUDIO:
+Let him be still 
+
+--------------------------------------------------------------------------------
+
+=== Sample 3 ===
+
+Men take me with all the two complains.
+
+VOLUMNIA:
+Her else hours and away or words, he makes me
+To see them his body for Ireland, if we
+The child of Corioli was none.
+
+CORIOLANUS:
+A lord, to the good man!
+
+CORIOLANUS:
+I had a fellow to shrieke to the settled thou for Hecules
+Approloging the manner conceit o' the voices
+To the fair Jupite, and the world have torne
+A palace of your first: as you are but no power
+With a bettern and week and a tooth with tears, as light
+As of eyes, so are you have 
+
+--------------------------------------------------------------------------------
+

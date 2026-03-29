@@ -1,0 +1,80 @@
+Checkpoint directory: td1000
+Prompt: '\n'
+num_samples=3, max_new_tokens=500, temperature=0.8, top_k=200, device=cuda
+================================================================================
+
+=== Sample 1 ===
+
+And they bring will be lawful man and bober were them.
+
+MARCIUS:
+My Lord of Nurse, I beseech you and my crown.
+
+LADY ANNE:
+No, now, my lord, I be thinked to cae your compasience.
+Here is by the covertny: they are selfsand me like up, my heart
+As I am such tyrant make no more to the queen sworn.
+
+SICINIUS:
+No more pity son.
+
+CORIOLANUS:
+I have stood more for the king's rudge! I am not to should you
+More, than I had by our royal bencounted and added the
+Earthlessing murderer: your honourable care,
+
+--------------------------------------------------------------------------------
+
+=== Sample 2 ===
+
+Men pardon, marry, sir, that you say, and seem your perjuries.
+
+CORIOLANUS:
+What is the country?
+
+MENENIUS:
+Madam, my lord
+Is as I that worst see your benefit to me pass
+Let us commonion to the ummour of men to London,
+More good now than in the news of your children to give me.
+
+Second Citizen:
+What's the country?
+
+CORIOLANUS:
+In the world knows brother, do not you?
+
+CORIOLANUS:
+The royalty of the king, and let him good, be glade,
+More keep his hour way abour with this own the sea!
+Good knew her
+
+--------------------------------------------------------------------------------
+
+=== Sample 3 ===
+
+MARIANA:
+A boy!
+
+POMPEY:
+O Henry, how Marcius! how can call to the country?
+
+LEONTES:
+Now, sir, now so me worthy body for I think,
+And I had come to thee! alas! WhIn thy advices
+Of that incerse men's days with the royal leisure?
+Conditiful weet woes, in thy death dies.
+But that's more love, the old conscience defend,
+Straught thee her made the first.
+
+First Citizen:
+Follow, be comes upon the colding.
+
+CORIOLANUS:
+The boe sweet made gives no tongue.
+
+CORIOLANUS:
+O, poor sovereign, that wholest th
+
+--------------------------------------------------------------------------------
+

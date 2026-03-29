@@ -1,0 +1,93 @@
+Checkpoint directory: block-128
+Prompt: '\n'
+num_samples=3, max_new_tokens=500, temperature=0.8, top_k=200, device=cuda
+================================================================================
+
+=== Sample 1 ===
+
+
+KING RICHARD II:
+Say that stars is thy bed witch'd to my chair,
+As we have put on his back to him.
+
+DUCHESS OF YORK:
+Ay, I mean, the tof is my cousin;
+And that you must have lain my drop to the queen.
+
+DUKE OF YORK:
+No doubt, thou must have prove a son, why holy abuse
+By patient some thing demand.
+
+DUKE OF YORK:
+
+GLOUCESTER:
+
+EXETER:
+No, good my Lord Northumberland.
+
+HENRY PERCY:
+I have forgot me to a word.
+
+RIVERS:
+Then and supposed, discraction and Edward's prince.
+
+GLOUCESTER:
+My Lord of Nor
+
+--------------------------------------------------------------------------------
+
+=== Sample 2 ===
+
+Men pardon's armours.
+
+HENRY BOLINGBROKE:
+Good night!
+
+KING RICHARD III:
+What, with all your honour than our shouts sound up.
+
+RICHARD:
+So strongest thou think'st me to cheer:
+And I cannot stay to the rest Romans.
+
+WARWICK:
+Ay, son, thou look'st of our queen: how a word
+That Edward did sleep our son?
+
+Second Keeper:
+A pardon of the holy mind
+My sovereign, when I might have died on her.
+
+KING HENRY VI:
+But I'll be thanked by all thee, and thou shalt
+Forbad, in what to make thee the crown.
+
+GLOUCE
+
+--------------------------------------------------------------------------------
+
+=== Sample 3 ===
+
+Men then break a flower out of a gentlewoman
+To the prison; to the choler of his place, make amiss
+the leads of fine execution.
+
+DUCHESS OF YORK:
+What, woe banished in this acting,
+And till you be kept in a dolt a horse;
+Till be man is there the other sense of the fore,
+Death more little than thou art of justified,
+That must have lived thee by this condition.
+
+AUFIDIUS:
+Thou art more beloved.
+
+SICINIUS:
+Return, play.
+
+CORIOLANUS:
+Ay, the nurse may be bolder, and pity instruction
+Be all holy tong
+
+--------------------------------------------------------------------------------
+

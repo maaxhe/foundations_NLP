@@ -1,0 +1,66 @@
+Checkpoint directory: 256-4heads
+Prompt: '\n'
+num_samples=3, max_new_tokens=500, temperature=0.8, top_k=200, device=cuda
+================================================================================
+
+=== Sample 1 ===
+
+
+ANGELO:
+And cowards it be stir; it is not deep at and my child.
+
+ISABELLA:
+Nurse, I beseech you, men will play for a
+man to hear them; for I can tell you
+Which you were hein; and make over-pasting life
+Does with self-word, and the middle by star;
+For the tyranny of your dies, and you think,
+You make one wounded, evil you are done fall our means,--
+
+ANGELO:
+
+ISABELLA:
+Tush, I'll say. Why, my fellows I take for her blood.
+
+DUKE VINCENTIO:
+Hark, and you are strifice straight no more stones;
+Even y
+
+--------------------------------------------------------------------------------
+
+=== Sample 2 ===
+
+Men part keeps your face, and hand hath most meet;
+There in the and shame blind of the greatest gentleman:
+I should so, my lords, I love thee shall be be
+For the duke soldier's counterfeition:
+Here comes me from her, and I shall not show it.
+I do, so may I do remember again,
+Ere we must be for my life to scold and like a
+more honour; for I know thee and now thy young I do:
+She shall show the sun of Romeo hollow to be it,
+but when we were too much an inch being recomped
+of the glory fly, in the e
+
+--------------------------------------------------------------------------------
+
+=== Sample 3 ===
+
+Men than the power of Welshmen are under the cord,
+That disance and that hath loved the market--
+The king within it is so fair like a word,
+And the rest of blood of his cause in blood,
+And that beggar with me at my breathest confess
+That have ever I did; but still for Henry's mood
+Whereof great of the world and friends report?
+
+Second Keeper:
+We shall die.
+
+Provost:
+For they say here is: they are pleased it so,
+Whose base whole was here with you careful spirit,
+And bring you of Richard words wer
+
+--------------------------------------------------------------------------------
+
