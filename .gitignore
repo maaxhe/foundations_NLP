@@ -3,23 +3,7 @@ __pycache__/
 data_sets/generated_npcs.json
 .env
 telegram_bot.py
-final_assignment/128-4heads
-final_assignment/256-4heads
-final_assignment/baseline
-final_assignment/block-64
-final_assignment/block-128
-final_assignment/depth-2
-final_assignment/depth-4
-final_assignment/depth-8
-final_assignment/dropout-0-0
-final_assignment/dropout-0-1
-final_assignment/dropout-0-4
-final_assignment/lr-1e-2
-final_assignment/lr-1e-4
-final_assignment/lr-5e-3
-final_assignment/lr-5e-4
-final_assignment/td1000
-final_assignment/td2500
-final_assignment/td10000
+final_assignment/models
+
 
 
