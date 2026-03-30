@@ -5,76 +5,73 @@ num_samples=3, max_new_tokens=500, temperature=0.8, top_k=200, device=cuda
 
 === Sample 1 ===
 
-And they bring will be lawful man and bober were them.
+And they bring will be love to be set be so letter?
 
-MARCIUS:
-My Lord of Nurse, I beseech you and my crown.
+QUEEN MARGARET:
+What is nothing but state?
 
-LADY ANNE:
-No, now, my lord, I be thinked to cae your compasience.
-Here is by the covertny: they are selfsand me like up, my heart
-As I am such tyrant make no more to the queen sworn.
+GLOUCESTER:
+What's a wind of thousand of this blood?
 
-SICINIUS:
-No more pity son.
+KING EDWARD IV:
+Even in this maid overtal thou long'st.
 
-CORIOLANUS:
-I have stood more for the king's rudge! I am not to should you
-More, than I had by our royal bencounted and added the
-Earthlessing murderer: your honourable care,
+GLOUCESTER:
+For all thy mind with a childish how you love's king.
+
+YORK:
+What's you demand?
+
+GLOUCESTER:
+Good by, the most right in him, whose movereign
+To kill thrust for their honour's fellowers than first?
+
+KING EDWARD IV:
+What, didst advance? What stovein court?
+
+LADY GREY:
+Who comfort? 
 
 --------------------------------------------------------------------------------
 
 === Sample 2 ===
 
-Men pardon, marry, sir, that you say, and seem your perjuries.
+Men be so bestruction of the earth; and myself and fortune
+Will any the crown of the world-den, of courts:
+I should so, my lords, I love the sovereign.
 
-CORIOLANUS:
-What is the country?
+GREMIO:
+I may so, to the grace to time:
+Here is the god talk: there I shall now the side heir,
+To make hear the king grace but with some voice;
+Where is the lords thing, and should have mine.
 
-MENENIUS:
-Madam, my lord
-Is as I that worst see your benefit to me pass
-Let us commonion to the ummour of men to London,
-More good now than in the news of your children to give me.
+PRINCE EDWARD:
+Wherefore is our imposter now the sun of York?
 
-Second Citizen:
-What's the country?
+GLOUCESTER:
+So, brother, Blassake, of Aufidius part.
 
-CORIOLANUS:
-In the world knows brother, do not you?
-
-CORIOLANUS:
-The royalty of the king, and let him good, be glade,
-More keep his hour way abour with this own the sea!
-Good knew her
+BUCKINGHAM:
+Would have most the gione
 
 --------------------------------------------------------------------------------
 
 === Sample 3 ===
 
 MARIANA:
-A boy!
+Ay, you are too the news of my lord,
+Who, sir Lord Bona, whom you are and my better thines so?
 
-POMPEY:
-O Henry, how Marcius! how can call to the country?
-
-LEONTES:
-Now, sir, now so me worthy body for I think,
-And I had come to thee! alas! WhIn thy advices
-Of that incerse men's days with the royal leisure?
-Conditiful weet woes, in thy death dies.
-But that's more love, the old conscience defend,
-Straught thee her made the first.
-
-First Citizen:
-Follow, be comes upon the colding.
-
-CORIOLANUS:
-The boe sweet made gives no tongue.
-
-CORIOLANUS:
-O, poor sovereign, that wholest th
+CLARENCE:
+You should think a word, and a born ware:
+Shall I have a cause of a loving senate keep.
+The doubter borne expection nature have each of it;
+So doth a forward thrant last mask grace of the world
+Did from the murderer of my master of the county.
+What's now heaven be come? The daggerous precious power
+Whose boels hobeyonded to the tongue's foe? The glale poor son eyes,
+But where is wel
 
 --------------------------------------------------------------------------------
 

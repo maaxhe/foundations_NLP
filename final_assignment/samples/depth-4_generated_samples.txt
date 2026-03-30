@@ -7,83 +7,62 @@ num_samples=3, max_new_tokens=500, temperature=0.8, top_k=200, device=cuda
 
 
 KING RICHARD III:
-The law is my cheek of Buckingham--
+The last throats of Barbary, Signior Clarence
+Hath not her heart to be the thought with my father,
+An one he only made it for the land;
+Who ever we send, will in the orator,
+Be the next way about lost to the tent;
+Honest thou art in thy tyranny.
 
-QUEEN ELIZABETH:
-When we will tell death and swear a happy day,
-God men on the office of the world,
-Which if ever I heard it to revenge,
-Be the king is warm'd like to earl the mild;
-And what is it in the which shame
-To this deadly blood to thee and in the duke?
-The envious sun shall be now past of his burthen'd torture!
-I am not too far for all of my soul.
-Farewell. What, what thou hast advanced to help?
+HORTENSIO:
+Against my lord; my lord, and I have desired thee
+For thou wilt press thee of thy burthern nuns,
+Which thou art meft the male of the fiery death?
 
-GREMIO:
-Nay, no, remember not thy w
+BENVOLIO:
+Bring forth and brawling forth in this earth,
+When thou art for th
 
 --------------------------------------------------------------------------------
 
 === Sample 2 ===
 
-Men particularly too?
+Men pardon'd thy throat three hands and myself,
+Some presently tardy with glistering watch;
+The morning speaks they shall not ask the people.
 
-ROMEO:
-Is so a tempted-up of spirit?
+LADY ANNE:
+Holy father! what says it? here being a king!
+When my lords, they shall change their duty?
 
-JULIET:
-It is the swin that I mean of confession?
+GLOUCESTER:
+Not bear their waving wraths slew them, and dearly lack.
 
-ROMEO:
-What sirs he?
+LADY ANNE:
+Thou art a hair of points in the eager sea,
+And in their horns them further: I this is beggar intend.
 
-JULIET:
-What is't your voice?
+GLOUCESTER:
 
-CAPULET:
-Peace, here is me: it is so.
+LADY ANNE:
+Happy been at homic, would I were too know?
 
-JULIET:
-I shall be so, sir.
-
-ROMEO:
-I have, sir; and where are they speak.
-
-ROMEO:
-I will not be not so well as this arm, sir?
-
-FRANCISCA:
-I think not so.
-Can you not be of the determined to such a common on what they
-will say it were believed to be the word.
-
-BENVOLIO:
-Would you were learned?
-
-
+G
 
 --------------------------------------------------------------------------------
 
 === Sample 3 ===
 
-MARIANA:
-I would find thee son of the Montague's,
-The king and the conaction of the sea,
-Whose these will we his infirm tongues it is worth
-And all the garden beauty to take the cause.
-
-LUCIO:
-Men know you me at my brother's conward is.
-
-DUKE VINCENTIO:
-But you have in him that he loved you to come to stand
-a deed worthy duty?
-
-Provost:
-Rescue this captain, but then, if I do lose thee sound
-with virtues to you, since by this business of your own care
-To see your pipering in your son and yours is
+Men take it well, and I'll send the war, that I woo'd not
+Say 'I,' not we'll not well entreat the sea;
+Be we his infirm to his life and which he should see
+Be call'd in the air world, and be an end
+Being the warlike true side, two natures
+With patentain that stabbings and terms the hours.'
+And told thee, just defend thee, wherefore be not so;
+But how I would torment thee, thou art as bold any oath
+As blow to thy lave and dangerous things number
+And fortenance thee, this our queen and all thyself
 
 --------------------------------------------------------------------------------
 

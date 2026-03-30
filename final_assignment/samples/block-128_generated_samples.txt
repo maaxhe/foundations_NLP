@@ -6,88 +6,73 @@ num_samples=3, max_new_tokens=500, temperature=0.8, top_k=200, device=cuda
 === Sample 1 ===
 
 
-KING RICHARD II:
-Say that stars is thy bed witch'd to my chair,
-As we have put on his back to him.
+Clown:
+So, we'll fit up you that were absent: and that's the earth
+are the public by the world's feast.
 
-DUCHESS OF YORK:
-Ay, I mean, the tof is my cousin;
-And that you must have lain my drop to the queen.
+POLIXENES:
+You have dances
+More in heaven in this business,
+She had that Henry over-beated me now:
+And as I else now, as the heart is, so she are,
+Where he's not known, this dead many world that
+moves more dower by the time, and he will not pass
+The forename of his trifles are great liver'd in exchange.
 
-DUKE OF YORK:
-No doubt, thou must have prove a son, why holy abuse
-By patient some thing demand.
-
-DUKE OF YORK:
-
-GLOUCESTER:
-
-EXETER:
-No, good my Lord Northumberland.
-
-HENRY PERCY:
-I have forgot me to a word.
-
-RIVERS:
-Then and supposed, discraction and Edward's prince.
-
-GLOUCESTER:
-My Lord of Nor
+PRINCE:
+So doth his bear, do it:
+Saddle is here, my disposition, that remains
+He made hi
 
 --------------------------------------------------------------------------------
 
 === Sample 2 ===
 
-Men pardon's armours.
+Men part, and summer'd, that that
+The centre of your head is made well.
 
-HENRY BOLINGBROKE:
-Good night!
+MENENIUS:
+Have you bound to? for yours, that love
+Is as forlorecasions, every beautives, if you
+cannot stake you both so use us, you shall say,
+'tis move the court, if I condemn more.
 
-KING RICHARD III:
-What, with all your honour than our shouts sound up.
+FRIAR LAURENCE:
+This is a thousand bum on my despite.
 
-RICHARD:
-So strongest thou think'st me to cheer:
-And I cannot stay to the rest Romans.
+PARIS:
+I'll tell you, my lord,
+I pray thee, do not your time of time.
 
-WARWICK:
-Ay, son, thou look'st of our queen: how a word
-That Edward did sleep our son?
+Lords:
+Whereupon mine own despair?
 
-Second Keeper:
-A pardon of the holy mind
-My sovereign, when I might have died on her.
-
-KING HENRY VI:
-But I'll be thanked by all thee, and thou shalt
-Forbad, in what to make thee the crown.
-
-GLOUCE
+PAULINA:
+And help me much as he;
+For thou must continue of mine ear;
+To know our
 
 --------------------------------------------------------------------------------
 
 === Sample 3 ===
 
-Men then break a flower out of a gentlewoman
-To the prison; to the choler of his place, make amiss
-the leads of fine execution.
+Men take it off. This deep shall seem to the crown,
+That we hope, with child her well be rest to death.
 
-DUCHESS OF YORK:
-What, woe banished in this acting,
-And till you be kept in a dolt a horse;
-Till be man is there the other sense of the fore,
-Death more little than thou art of justified,
-That must have lived thee by this condition.
+Clown:
+By him, by his life; and here scarce shall be with In
+repeal'd in the day, and all in this blament of his
+faces
+and will take him of the great time.
 
-AUFIDIUS:
-Thou art more beloved.
+First Watchman:
+Now, I say, good fortune with him to the truth:
+Where have I stand it in so dishonour'd head?
 
-SICINIUS:
-Return, play.
-
-CORIOLANUS:
-Ay, the nurse may be bolder, and pity instruction
-Be all holy tong
+Second Watchman:
+Then comes the letters to lay that plant make him speak
+And three ten thousand plains him of Rome,
+That art th
 
 --------------------------------------------------------------------------------
 

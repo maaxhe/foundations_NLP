@@ -6,80 +6,75 @@ num_samples=3, max_new_tokens=500, temperature=0.8, top_k=200, device=cuda
 === Sample 1 ===
 
 
-YORK:
-I think with the sweeter and the beauteous graves
-Beat the sun that full of his bark throws.
+KING RICHARD II:
+Shall I, be ready?
 
-DUCHESS OF YORK:
-I would thou speak that I commit thine,
-Were the senation and makes violence;
-Where is it was the prince's little manners of thy babes
-Where he shall brands this death:
-I will make allow them when evides the moon
-Will we have drawn together.
+QUEEN ELIZABETH:
+Stand alaudy and thee unquit thy friends.
+
+QUEEN:
+How now, stay! when he between for thy counsel?
+
+QUEEN ELIZABETH:
+Wilt thou think 'tis not to do not be?
 
 QUEEN MARGARET:
-I'll speak not the eye leave, for I should not.
+Hence, my gracious lord, and the world's north,
+This words thy world that more would do either words do right.
 
-HENRY BOLINGBROKE:
-Sad then, so I stay in the rear of king,
-But from the w
+GLOUCESTER:
+King Edward was murderer, who resolved the wretch,
+Unto the duke?
+
+KING EDWARD IV:
+Brother, and dark your graces of blood?
+
+GLOUCESTER:
+Who says they
 
 --------------------------------------------------------------------------------
 
 === Sample 2 ===
 
-Menenius, and grave with the women have most men
-That the means and whose blood will weep one.
+Menenius, we are the find of that bears myself:
+Some presentime and who should so be welcome,
+Though I fear the whilst brough as deal peace,
+Is the dead of over that thou would not help?
 
-First Servant:
-I thank you, sir: we are a punish'd at all.
+JOHN OF GAUNT:
+O money, sweet to privy, perhaps!
+A ducation of my heart!
+Hath what we have swear the wife of him?
 
-AUTOLYCUS:
-I cannot say you, my sovereign.
+HENRY BOLINGBROKE:
+O come, is good I sweet posterity,
+To this resolution and so thou shalt stumble.
 
-Clown:
-He do not come, sir, sir, shall desirve, and warrant him.
+DUKE OF YORK:
+What thou art thee?
 
-AUTOLYCUS:
-And well. I will believe him to late.
-
-AUTOLYCUS:
-Look upon him, and well.
-Gentlemen?
-
-AUTOLYCUS:
-You were no noble eyes an hope that were.
-
-AUTOLYCUS:
-A player like to be here the words wrong to be of
-us, we'll you well.
-
-
+DUKE OF AUMERLE:
+If thou wert, thou would have more than thee
 
 --------------------------------------------------------------------------------
 
 === Sample 3 ===
 
-Messenger:
-The people I have no ward to live
-The doubt this doubleness of holy and
-Some more things of tears his body's words.
+Menenius is well,
+For I have no wretched to accept him to
+Say your complexions:
+The senters of the people worthy body for his wrong;
+Whose declined hath not his enIought a cat,
+To take him to each other blame at my brain.
 
-SICINIUS:
-The people, and the womenIous things in the partial part
-The common more of his folling breath
-Than have even in peace, where you have here perflues
-Appear'd of the world.
+Second Gentleman:
+Nor words, sir; so thou wert not that himself of grace
+of the world and fruit throughly, and bear him love in state,
+All trouble house that he first: there cannot be the state think ere his
+more till than the came of the death.
+How now, what we are well?
 
-BRUTUS:
-So much he is her mad, he is in her was lost
-To the lad on the hars beguage.
-
-SICINIUS:
-Return to the body wholemen the people,
-Who was been to the pipiliar is your son?
-The late is
+LUC
 
 --------------------------------------------------------------------------------
 

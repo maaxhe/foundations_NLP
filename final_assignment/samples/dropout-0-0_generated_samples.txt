@@ -5,59 +5,63 @@ num_samples=3, max_new_tokens=500, temperature=0.8, top_k=200, device=cuda
 
 === Sample 1 ===
 
-And they be deswered in their majesty body
-Of tale rude the gate
-My Lord  Serus are to be together.
+And they be done as that were made them be
+Of tame and my daughters: they are well, they
+see had a enjoin'd of hand, to his man of the
+officer be this nown butes is enteranced at Hell; oversaries
+Will be on that speltia discourse shall charges up;
+Or she would have stands patiently to thy worship
+Is moan-sound thy highness that she had not me
+A poor of thy burthen my breathful arms.
+Lowman thou may pound, and thee by off,
+Her son! still is a honest with her biding straight.
 
-First Servant:
-O, my lord
-You speakfully cousin, well I can live,--
-Become at Hereford the deep in this is wantone,
-With the deep of our loyalth.
-Marry, let me see, sir, for I live whom
-Is would that more nought the in the easy,
-Crivail of death of the enforments of his trief son; if his should pray honour affects, I have reshored!
-And by a ward and his great honour to a rate
-His his change care,
+HERMIONE:
+And follow
 
 --------------------------------------------------------------------------------
 
 === Sample 2 ===
 
-Menenius kneel you shall have hath had enought and forth,
-With taunts and blind will be yours.
+Men pardon, marry: I will give me
+That I have spoke them and madam. Here's conjunct your body.
 
-First Servingman:
-What, man and so that would see I do beheld.
+TYBALT:
+I may south so, my man should be joy.
 
-LEONTES:
-Now, 'tis knock, sir: he is a sir! 'tis ta'en!
-'Tis is my sun?
+LADY ANNE:
+Have to-morrow!
 
-MARIANA:
-It is a mortal and babakes again,--in with so! why, shall we do so?
+PAMPEY:
+My life time: in shall be my lords:
+I'll the gods them have done for move thereon
+Thanks begins; but what same is butle monder
+To lack to this, and advise, if I spurb with
+The sed Capulets, the open is often now the sun.
+This you outward that was but specives beloved,
+And the pain crown change, would have counterported
 
-MERCIIUS:
-Be come I say, let it be post to not with the earth,
-To might the north eyes and approaches with their heart.
-
-ESCALUS:
-He shall have hear and watch the officer, for him the ginge
 
 --------------------------------------------------------------------------------
 
 === Sample 3 ===
 
-Messure an unforced in the senate of his tears
-And serve that I am not were sun
-To meet me within so with to his body for I
-On my trusty here, call me with you. WhI have a castle doth of your
-eyes keep you me at my breathes; and many sons
-wither this is that you a for Hereford's land; I
-pray, my life end just a friend crown'd receliqualike; I am in so draw lord, and
-the duke of her subjects, and vonzing the state this bell; now
-was he deceased me with teny more, and fine years! what was nothing
+Men that I beseech your husband;
+And he shall be, he is disadoubles:
+Why, how not your embrance,
+The king were not, if your tongue is word,
+And all the gods have winds that and to the sea
+Of any inkerity one ta'en infect sir,
+His majesty hands of the inford of the fortune,
+That hums belong'd, thought too just the soul,
+Make her and be mad, and this still belove's hour,
+When he could have prevented to be the son.
 
+THOMAS MOWBRAY:
+I think, no thomachine tender therein fine.
+
+HENRY BOLINGBROKE:
+The
 
 --------------------------------------------------------------------------------
 

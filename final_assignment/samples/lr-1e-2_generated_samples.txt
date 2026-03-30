@@ -6,69 +6,67 @@ num_samples=3, max_new_tokens=500, temperature=0.8, top_k=200, device=cuda
 === Sample 1 ===
 
 
+DUCHESS OF YORK:
+Shall be blessed to bear the arthrone?
+
+DUKE OF YORK:
+You put on his back that all are not a king,
+You have banish'd of your brother with this mirth,
+You have time in overtainted me nor play.
+
+DUCHESS OF YORK:
+How my dear loves mine early yet love!
+I came to-day to be the Tower, and only son,
+Had I brook'd my curse and his eyes so.
+
 ANGELO:
-And comfort is not the dispost?
+The women repair so;
+And he must not male on, to find the wood.
 
-AUTOLYCUS:
-'Tis the hands arm that us hath been to law,
-And with my faces a wize our and speakful the covery;
-I like their entent, will it there by the execution
-With a mostless dise of the march in the princess,
-why hold not know passion of themself.
-
-MENENIUS:
-In the do evily o' the doubt,
-The chief worst to the rester and thrust fire;
-And his shall by all of the fielder bones.
-
-MENENIUS:
-Well, say advant, and he maiding straight.
-
-CORIOLANUS:
-Why look
+HENRY BOLINGBROKE:
+Sad all his great honour to my long Richard,
+And for hi
 
 --------------------------------------------------------------------------------
 
 === Sample 2 ===
 
-Mene to the mary though of a that
-That he severence between throan them as to me the weep of
-Of my counts my stophy soul. And as I that was thou ever
-About ove maded and before in meetime.
+Men pleased me you of the gatest of all.
+When you may the gentleman? when you mistake you on,
+The scorn speaks of castle. And you have ever
+Of his pardon's love, if you cannot stake you being:
+He does be fellow, sir, come, sir, sir, then; you come.
 
-VOLUMNIA:
-Why, go that not come, sir, sir, then is dead.
+FLORIZEL:
+Noble lord, sir.
 
-VOLUMNIA:
-Not bear that speak.
+POLIXENES:
+Provost, let her son, he would yourself I say.
 
-VOLUMNIA:
-By your lady! I should not a very come I say;
-Not shall purself not with the powerson:
-Mister no not the submore poor and whose no mother.
+POLIXENES:
+I am in the external time of the other nor the fellow.
 
-MENENIUS:
-No, sir; he's the power watch the
-did to revercy, or he in t
+SICINIUS:
+Be that the custom, we well all the hands of bed
+By this is our terrible. So the good 
 
 --------------------------------------------------------------------------------
 
 === Sample 3 ===
 
-Menerate it we soft it fell not whence not
-too him spirition; for with you bring well
-be resentings and endering, your son, in much a work,
-and a bears and be be and as to their call as in the commontrade,
-and to they felling breams it while gentleman
-and death his course, that humstands there coldresent.
+Men than you swear'd, I have no mark.
+My lord, how spirit the cause to you or war
+But we wish mine enemy and his breath to his life;
+Whose days a blood and block of him to their close,
+As come as we to do as take their please birth.
+They have eatient in the determiness,
+Deserved upon my prince forth their beauty: 'tis not hand,
+That they be loved his; the flower doth him quench.
 
-Second Servingman:
-I had been be be not is condin.
-
-Second Citizen:
-He is have been seem cannot be to you,
-What's a person; whith you not you think tendemned,
-The fing year the gate wholer we 
+ANTHASAMUS:
+So planet, sir; that's very for him;
+You have widow'd your father, and let him so.
+I am as a law old and 
 
 --------------------------------------------------------------------------------
 

@@ -5,77 +5,79 @@ num_samples=3, max_new_tokens=500, temperature=0.8, top_k=200, device=cuda
 
 === Sample 1 ===
 
-And they bring with the sweeter and them about.
-Stirr'd the gates such at her heart to be deal'd.
 
-BUCKINGHAM:
-What's the king
-Your proceeding in this night, and is the neck.
+All:
+If this is a pursuivant man to my bed,
+I'll graze you to answer. What is this true?
 
-GLOUCESTER:
-It is not like your waters like death.
+CORIOLANUS:
+Her mother's noble lord
+You shall bear your marriage.
 
-LADY ANNE:
-I can, my lord, why soul my lord
-To tell thee in your life? I'll live to dry
-If your mother rivers and merry soul
-And struck you noble to suffer my soul.
+CORIOLANUS:
+I hear them, lieve them.
 
-GLOUCESTER:
-If you should not, as I see!
+AUFIDIUS:
+Fear me, less have me like a children!
 
-LADY ANNE:
-I am a barged match. Knock, gentle reption!
+CORIOLANUS:
+The very senators of their powers, their king
+Will not their strength forth a chest-meast,--
 
-GLOUCEST
+VOLUMNIA:
+Ay, but not the son; if he must not know him,
+The Paris Marcius Marcius!
+
+VOLUMNIA:
+What canst thou not? Veril?
+
+MARCIUS:
+It is a man to y
 
 --------------------------------------------------------------------------------
 
 === Sample 2 ===
 
-Men part keep my thoughts and hand happily
-The power of strength.
+Men part, and summer'd with me masters;
+And so put all well through themselves with their faces
+Than their cost at mighty motions,
+That which she did shepherve from Clarence,
+This move their sons double and flatterers,
+Makes such nights, for her eyes may shape have wrought
+This contract fever unlawful despised shooking herself.
 
-CORIOLANUS:
-Go, come, boy, promine and my stouth:
-Your mother fortune and more I am born:
-I think it stay, 'tis a pedigross so upon
-To remember of you.
+GLOUCESTER:
 
-CORIOLANUS:
-What, lord?
+YORK:
+My lord, we must be the offence of our feast.
 
-VOLUMNIA:
-I'll have been swept but with some voices,
-And, to suffer Italy speak:
-Which is't pass'd, that bears no man to see thee,
-Ship of no noble eyes and approach. Then thou stand'st
-The last king car him for the crown, and thou'lt not keep
-To know her
+Lord Mayor:
+These eyes so the sileness of behalf as heaven.
+
+Lord Marshal:
+My lord is not Gloucester's 
 
 --------------------------------------------------------------------------------
 
 === Sample 3 ===
 
-Men than you for all, I have no man when you can,
-The necession of your for succession, must be
-By your enemies.
+Men tale present flowers, which we did not
+But hear the disadventure of the sun
+And see me with a silk men: but I do revenge them,
+And then, I call them at black of him.
 
-MENENIUS:
-O, much is the dishonour
-Is a valiant and power their city, and be anger
-Their old diately.
+FRIAR LAURENCE:
+And all diversadventurations from him:
+His majesty have eaten friends, for his country
+That himself spurr'd him; consort'd his storm,
+Makes him all the sun blies his; and fled redeem'd
+When he comes upon himself himself.
 
-LEONTES:
-His master.
+GLOUCESTER:
+You shall not tell you, them that I end.
 
-First Lord:
-He that still for Hereford!
-The marks of the old consume and his death!
-How he comes, make he it short to be brief?
-Hath the noble head is dead? a pipering tears
-Most villain who spoke him to be off the crown?
-The clog of Hereford's sons: whose swee
+LADY ANNE:
+Why, you came on me; for t
 
 --------------------------------------------------------------------------------
 

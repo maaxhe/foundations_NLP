@@ -7,57 +7,57 @@ num_samples=3, max_new_tokens=500, temperature=0.8, top_k=200, device=cuda
 
 
 ANGELO:
-And comfort is to be made to bear the and runk,
-Beating her back against the tracketh.
+And comfort is to be made to beat the and runk,
+Beating her raitor, as he hath as distructed
+To right himself that he would make it his good.
 
 ISABELLA:
-O heavy day! God my lords, to thy heart!
-O hourly cause, we send in this maid;
-Give me the like in a warmourly sorrow;
-And she comes your princess, why she have not
-To this deserved should that move him when evils,
-So that she shall be commpounded his businesss.
+Now, sir, in this maid; God know him to him.
 
-LEONTES:
-Are my lord.
+LUCIO:
+A little and like a children!
 
-PAULINA:
-I thank your grace?
+ISABELLA:
+When he is the foot of the queen's odd to keep along;
+And Clifford, and do rive him for his soul
+As he shall be noble to such a great fortune in
+More which Prince I am.
 
-Provost:
-Hark!
-Prithee, sir, here's statute the cause.
+HENRY BOLINGBROKE:
+Sad all his gracious love.
 
-CLAUDIO:
-Affective y
+DUKE VINCENTIO:
+After he wi
 
 --------------------------------------------------------------------------------
 
 === Sample 2 ===
 
-Men pardon, marry, she's head; and have myself and fortune
-Will and show the head of war, or the much friends.
+Men pardon, marry, I will give me beat;
+And to put your remembrance that I know.
 
-DUKE VINCENTIO:
-Ay, my liege.
+QUEEN MARGARET:
+My lord, I should so, my lords, I love thee.
 
-LUCIO:
-Ay, but the duke word of this moveth offended
-death.
+KING EDWARD IV:
+Lady, and Lord: so know thy sovereign hearts and take:
+Which is my subject with heavy dear men
+That hath been but comfort an execution.
 
-ISABELLA:
-It is the gracious should have need out of accusataion.
+LADY CAPULET:
+Nay, I know me, and surve me in him.
 
-DUKE VINCENTIO:
-I will not leave you well not a subjects
-how you were durb place and now this man to doo
-me under our fellows.
+CAPULET:
+I will make thee in my determined.
 
-ISABELLA:
-I will not so the silent were behold to him
-convey as his choice, would have us you gone.
+GLOUCESTER:
+And then to bad the Lucio.
 
+BRAKENBURY:
+As he thinks before the Lord Warwick now.
 
+CLARENCE:
+Y
 
 --------------------------------------------------------------------------------
 
@@ -67,16 +67,22 @@ Messenger:
 The peace, I have no more dislace in the princess;
 Than thou that hast done, marry mine eyes
 Should not find to his mistress' death;
-The broken and barnIne myself the cause.
+The broken and barnIne myself the city,
+Of the beasts of my lady, to liberty side,
+Awake it was well with a scorn determined.
 
-LADY ANNE:
-Therefore, nay, like fellow, but made my hands:
-To shepherd, for her blood weep more love,
-Have my old consul, and so something than arms
-A man barnard his; and flower and his despair!
-But his deserves voices, that thou art boe
-Thy banished banishment by the tender therein,
-And yet he will rejoice to t
+DUKE OF AUMERLE:
+How now! What now, beat the next Margaret?
+
+DUKE VINCENTIO:
+Shall you shall be the law of the hause.
+
+LUCIO:
+What buy the other lawful express'd my head?
+
+LUCIO:
+This been made with this offence, sir, and let me
+
 
 --------------------------------------------------------------------------------
 

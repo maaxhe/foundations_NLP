@@ -6,65 +6,68 @@ num_samples=3, max_new_tokens=500, temperature=0.8, top_k=200, device=cuda
 === Sample 1 ===
 
 
-KING RICHARD II:
-Shall I, by my crown about that hath slain,
-Take the baby thy heart. What that are now?
-
 DUCHESS OF YORK:
-When we have fitted to my help
-That seizeless have laid the rovers and him prove
-A traitor like to ear.
+She would the disposition of all the streams
+To seek him foul command? We thank you, and my faces
+To meet the other to the court and now
+Which you were access to make the space.
+Where is the justice of the court?
 
-KING RICHARD II:
-That say well we may see my father gone:
-I will make all a pardon to evident,
-And for the city of his soul were to her brand
-That first should make him in Pomfret,
-For I do wish.
+DUKE OF YORK:
+I am such tyranny of thy foot?
 
-HENRY BOLINGBROKE:
-Sadness he is too hot to true.
+DUKE OF YORK:
+A mother's ancient brother's leave, and with her,
+We stand to the seatest of three proud;
+And he must not know her forfeit in my own.
 
-QUEEN ELIZABETH:
-What w
+KING EDWARD IV:
+That same heaven, that he stares and fire to chance!
+And,
 
 --------------------------------------------------------------------------------
 
 === Sample 2 ===
 
-Men pardon, marry, she's the ear of a chamber-spirit
-Which it ready that she has to the city,
-That confesses should suspect and so discoverse
-That part he would not pass before his head,
-To show his sight and talk: there is my suit
-Where is the news of the way? bear the warlike coward!
+Men pleased me yourself; the dumbs of all severals,
+And set the air whom I can swear to yours.
 
-DUKE VINCENTIO:
-What say you?
+JULIET:
+I may stay as long to ask your evils.
 
-ISABELLA:
-I say, what was the very noble earth
-That he shall not have sentenced a lips,
-That which no more of meaning of kindred at the rest,
-And that the other is not for the gates
+LADY CAPULET:
+I tell thee, because I meet thee what my heart
+Thou art not content; and therefore I have,
+To make heart a belong with but with some victory
+And death to call the people and subject.
+
+LADY CAPULET:
+And that you have told me of thy face.
+
+CAPULET:
+I thank you, that I have learn'd to keep your hands:
+So sit was done for the greater you welcome
 
 --------------------------------------------------------------------------------
 
 === Sample 3 ===
 
-Men than I beseech your husband; and her mother,
-Look not take all the war of my wealth,
-As if they shall we his brother with their absence,
-And see the next woman nor for their close.
+Messenger:
+The people, the sinking of Montague had been
+Till of an extremes should see, make this sister,
+And in their sovereign things there scald at him.
 
-LADY CAPULET:
-And leave to their pleasure will take him get to
-The morn of the forward, that he lives the remember
-Of the battle that writ there.
-Ah, ha! Good Catesby; the clothes of the duke and hand!
-Perhaps of honour, that thou art bound to her!
-Where is he no cause to your gracious service:
-And thou hast some
+Shepherd:
+You are in company, and all in this blame
+In my breasts death man's life
+To exposite and descent your friends and mine:
+And, then live to me as defend the murderer.
+
+HERMIONE:
+This is some justice of the law of the head of
+The war and but from the place. And I have mute to
+the tongue of my son, there was no man of the root of him
+A
 
 --------------------------------------------------------------------------------
 

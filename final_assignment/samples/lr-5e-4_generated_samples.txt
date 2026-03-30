@@ -6,73 +6,82 @@ num_samples=3, max_new_tokens=500, temperature=0.8, top_k=200, device=cuda
 === Sample 1 ===
 
 
-All that I will accusation.
+KING RICHARD II:
+Shall we be made to be a deer with a mind?
 
-DUKE VINCENTIO:
-I will answer to any bard that us he had been that a
-end. I will not dark how me to the toffice of the world
-of a grief, send in the sea drop to an extremity
-of your spelling apparent she could yours.
+QUEEN ELIZABETH:
+Ay, be that ding of end the morning throne.
 
-LUCIO:
-Sty your master more so visit in your love.
+QUEEN ELIZABETH:
+I would the wind, even weeping in the sea,
+Who the duke in heaven and sendless die all thee,
+The very burther stand years in the roome.
 
-JULIET:
-A white I brief a most right in him,
-And of my husband with his true so arms.
+KING RICHARD II:
+Bear thou not the treasure with thy right.
 
-Nurse:
-How now, good fair so?
+QUEEN ELIZABETH:
+Nor God king thrust for the great king,
+I may not still to the whole remember!
 
-JULIET:
-Here's no time is a post of the helm?
-
-Nurse:
-I am near remains and for hi
+QUEEN ELIZABETH:
+That he must have known to kill thee from thee.
 
 --------------------------------------------------------------------------------
 
 === Sample 2 ===
 
-Men pardon, marry, I will give me
-That I have spectable of the day of my son
-Is it the greater, of courts my stouty soul.
+Men part kneels.
 
-LEONTES:
-Happily masters! and we would did stand of ship,
-Or that will not hear me with one that Claudio,
-And then it die need out of an homear
-Of great-burses: the letters and made out
-That would yourselves subjects in him.
+FLORIZEL:
+Our honourables,
+She was at earth.
 
-LEONTES:
-I am the poor soon, if you do it.
+CORIOLANUS:
+What is the consul?
 
-A PAULINA:
-I thank you. Let me her be person me man I say:
-A why, back when you are the glory. See how to e
+CORIOLANUS:
+Why, come, my monart, that would show her
+Be thou to did thee to the people. Here come to thee
+Than talk you, good my son?
+
+MARCIUS:
+I do, sir; and with all what we have content of.
+
+CORIOLANUS:
+What lady, I will, my son?
+
+CORIOLANUS:
+My consider,
+I was the poor country's deed nose. O my mother!
+
+MARCIUS:
+Ay, and here well met like to the MOWBray, be reward, the
+duke in the colour wombs. 
 
 --------------------------------------------------------------------------------
 
 === Sample 3 ===
 
-Men that I beseech your husband; go with me,
-To the prize the falls of your suits of needs,
-And not so me within your fellows to Warwick.
-There's not Capulets, seeI the cause in child.
+Men than I be show'd, I will not hear it to avoid,
+Than till of any that have loved me, make me not so.
 
-LADY CAPULET:
-And let have seen for in men man it was
-The punish'd more detecly of Heculestio.
+KING RICHARD II:
+I thank to my knee, sir, where I did call night.
 
-Nurse:
-Petruchio, conceit and so something that are but bring him in his
-Being to meet his desperate the bloody
-To curse his father, which banishment was him.
+QUEEN ELIZABETH:
+What sign is dead? O, therefore sing,
+Sweet in the wear of my part death,
+And in his employ'd that I give to the earth,
+Which to prove his death, and still it is conducted.
 
-RICHMOND:
-Sirrah you there, I will perfume your lordship
-A
+KING RICHARD II:
+When such desert cannot be the English king.
+
+KING RICHARD II:
+What means of ends and leg to see it of Richard?
+
+QUEEN E
 
 --------------------------------------------------------------------------------
 

@@ -5,65 +5,64 @@ num_samples=3, max_new_tokens=500, temperature=0.8, top_k=200, device=cuda
 
 === Sample 1 ===
 
+And they bring with the sweet man!
+They be done angry tribunes and barn their will,
+And free lascales with my father, and to heaven from their bloods.
 
-KING RICHARD II:
-Say thou be made to be executed:
-On thy colour! start thou use thy business
-And ten with my father's blood with the toft,
-I can tell thee to thy father.
+JULIET:
+Which is not will it till God save the prince.
 
-KING RICHARD II:
-Then do not my liege, my elder die and liege;
-But by my princession you love's not do't, and your highness that
-I am not when I in the king, so we will deeds power
-As for the king of thy fault; and thought thy flesh,
-If thou hadst not true-letters, yet say adopt thou art not in courtesy?
+Nurse:
+Ah, nor what they would by my grief;
+Or why she is she rather is dead.
 
-SIR STEPHEN SCROOP:
-M
+Nurse:
+Not a lady, nurse, nurse! when they saw her have no son,
+So she is a pardon breathe son; if he would find leave a fair
+When I do not die. But, if you warrant you be so,
+To have prevented it not conceal'd to
 
 --------------------------------------------------------------------------------
 
 === Sample 2 ===
 
-Men part, being my soul throne.
+Men passion may be so long and master they
+come not by well.
 
-GEORGE:
-Why, what news? when that? what says he is the county?
+First Citizen:
+What news withdraw of confesses should sul.
 
-KING EDWARD IV:
-Now, lords, in poor break some weapons the last,
-And the Lord Norfolk's droom of York safety Richard:
-What Clifford she shall do I do,
-To make him hear his charge Edward a king.
+AEdile:
+What is the sea of his health and dissolutions course?
+Your will make you fear the next to prove him hence,
+Where is it not he was barbarism
+That but we must be found, and denied
+In the crown, as your subjects in his present.
 
-CLARENCE:
-Come, come, let's go.
-Farewell, help.
-
-KING HENRY VI:
-So well, my lord, your uncle, shall I stay a king;
-For what I say, there were were believed thy ground.
-
-QUEEN MARGARET:
-Then, for Gloucester, e
+Provost:
+He that of the duke on him a subject prove of what thou wilt say
+This is beloved so he more about what to heaven
+Than the queen's body
 
 --------------------------------------------------------------------------------
 
 === Sample 3 ===
 
-Me run my repent,
-For I have no more consul, if thou didst another
-Than thou hast done, marry mine ears;
-Thou in thy deep I thy hand, wouldst scarce
-Is an all the Iniquital action,
-And fit to thee keep in a draw morning tear
-Of what thou hast even with me; so thou wert so,
-That thou livest thy fortune of justice stoop,
-Make her chains made thy fair country's death?
-And thou bear her heart defence, now thy tongue,
-That bear the morning than my soul's eyes and my life,
-And yet I'll give my life th
+Men that I bear
+The proceed now when I did save the princess;
+That it are born and my behave briefs and ends
+Since the son at the time of Tranio; but then they say,
+And take the city and the deadly place,
+And all their woes and witness where they were
+The devotion of her weep mock'd by our brother;
+How does the friends rid their hatred brought them still
+Well bring up the duke of the bending of York.
+
+RIVERS:
+My loving for his monument shall be my greater son.
+
+QUEEN:
+Here is the garland, and th
 
 --------------------------------------------------------------------------------
 

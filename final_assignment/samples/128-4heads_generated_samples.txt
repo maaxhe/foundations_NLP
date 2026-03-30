@@ -7,66 +7,78 @@ num_samples=3, max_new_tokens=500, temperature=0.8, top_k=200, device=cuda
 
 
 ANGELO:
-And come, which you that you bear to take and my cold.
+And come, which you that you bear to take and my daughters:
+Whither us he had been that are away,
+And none a wife our absent to the heart
+Of would be empire, sentenced time,
+Thou tell thee none: though I see line on my life,
+The mayor carries that you love's not
+To this love my life to thee, only son her eyes,
+I'll make thee with in his son of his business;
+And first of some thought thy fled at thee Prince,
+So murder, being, you are advance.
 
-MENENIUS:
-No word, they see had a find your hearts,
-You have been some forth your milent,
-Which you enter content you drop the country of
-To be a most plant of his husband him.
-
-DUKE VINCENTIO:
-How may I can pate at one of your life.
-
-ESCALUS:
-For the instruction, so will now me strong
-The fortune of my cruptains are of the fire
-I may our worship. For I am.
-
-HENRY BOLINGBROKE:
-Sadain the Earl of England's arms,
-His lips hands cared
+EDWARD:
+It is to marches you to change thee,
 
 --------------------------------------------------------------------------------
 
 === Sample 2 ===
 
-Men part, being my soul of a that
-That empless on my heart's lady.
+Men pardon, I shall be not been honour;
+And then they the man.
 
 CORIOLANUS:
-Conceivens, Edward, that perform these brother speed
-My worsess and the people to my part
-Less this mover some still and be fearful stribes,
-Which sun is my side and entreat to danger.
+What is they bear him,
+Shall permise that lome this poor of worshipe?
+In a better the duke socience sighs exception:
+He shall be gone as not come, she sun?
+What, if I condemn me to do home, what
+They but we must be the manner, these ladys?
 
-TYBALT:
-Think we must be the man and despite of the right.
+Citizen:
+Well, good desire
+My sovereign, where you for a pity understand?
 
-PETRUCHIO:
-Therefore, brother, do this man this offence
-The should eyes more protest is be than the must
-Than to be the crown'd the body twatch of York?
+First Murderer:
+For what thou was much persons before the hand!
 
-SICINIUS:
-This give 
+Second Servingman:
+You thank upon thee, or 
 
 --------------------------------------------------------------------------------
 
 === Sample 3 ===
 
 Messenger:
-The seal is full not when her the view,
-Than till of an expactions, and the embravely
-The kind within in her to high him a word,
-And all the good sword I have a caning death;
-And say me kneel blame at my breather
-And witness what she would in this state for Henry's mother;
-For therefore the world and friends Margaret's life,
-Than this is conduct loss and hanged my son:
-And by my mind pronounce I have my virtue;
-I never we in the poor off Edward's death!
-Here so in the son of Romeo, th
+The seals, I husband where it me again,
+Than till of an expactions, and to be rest the
+sink to whither.
+
+CAPULET:
+The king was now,
+And where's day bear not that is no commanded.
+
+BALTHASBY:
+And me, the Lord Hastings, my highness she would in
+the determines.
+
+DORSET:
+Then below great of the world.
+
+CAMILLO:
+Are he have lied me?
+
+FLORIZEL:
+O doubtless! What's the news hears begun?
+
+Second Senator:
+The king and leave them?
+
+ISABELLA:
+Am I know, sir, there plains yet of Romeo?
+
+AUFIDIUS:
 
 --------------------------------------------------------------------------------
 

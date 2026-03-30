@@ -7,74 +7,70 @@ num_samples=3, max_new_tokens=500, temperature=0.8, top_k=200, device=cuda
 
 
 Clown:
-So, who does it become
-The poor best envy.
-One more gates shall this use at the free?
+So, who is a proud blood, and but by that great Mercure?
 
-DUKE VINCENTIO:
-What's your mother?
-
-LEONTES:
-I am a slanderous estimation of mine issue;
-Whither the knee and leving selfsame to his humble,
-And so she as speak you love.
-I cannot sigh your brother mother
-To Warwick down in the maid, this she had not poor
-more struck and noble tribunes of his land,
-And let him fain and grant my friends!
-
-QUEEN ELIZABETH:
-That's the discontentation
-of your charges are 
+CORIOLANUS:
+That I do as delay as,
+If I will not dark how my tongue to the child
+Of words but somewhat necessities there best it;
+Where is it was the prince, and the midnighty state
+Of splitty and make no more sights
+To thy woes to adversaries when every I had
+too right in him as poor good sir
+To know the fields are great upon thy fleece,
+That Prince Edward and Lord Angelo saw honest
+To Edward's in the cause. So reprove and for hi
 
 --------------------------------------------------------------------------------
 
 === Sample 2 ===
 
-Men pass'd, marry, she's his way of a change.
+Men pardon me summon the highest son,
+And seem and forth and madam straight in the cloudy of
+the multitus' citizens will turn and the people.
 
-DUKE OF YORK:
-Art thou stand in this law before the courts:
-I should so, my lords, I have not sorrow to be
-sooner: if it be to the party to the state, as the earth,
-Thy brother gracious shall deserve it for thy child.
-
-ROMEO:
-The noble master is but an one of countenance
-I had seen in the devil of points.
+LUCIO:
+Ah, sir! that did I beseech you the stimple is all
+the grace of your golden changed with you.
 
 DUKE VINCENTIO:
-Who is it?
+Ha! here's a countenance of thy burthen's death
+In some rive, and advised in his knee.
 
-LEONTES:
-I am too lap you?
+ROMEO:
+Let me them for a piteous steel,
+In their gracious and lip and grieves us.
 
-POMPEY:
-Why then you give me kings as he may part.
+ESCALUS:
+He shall be convert.
 
 BENVOLIO:
-You are gone! Good king!
+You shall not fly.
 
-C
+Messeng
 
 --------------------------------------------------------------------------------
 
 === Sample 3 ===
 
-Me run, and we have it fought for him:
-The gain of spirits and none to choose his presence,
-And not so means till this sovereign care words,
-As the rest of blood of his cares in care,
-And be a fellow of honourable hour,
-Reiden to make my harmy particular,
-That which is he here for love of grace
-To the world and frantic rough his hands and be night,
-All makes thy dear hold my son Buckingham?
-Good queen, for you, my virgin; I am not the
-people of your father, and let him so.
+Men than to wash against the common with the country,
+And take all the children gallow, methinks,
+A several pointing the beauty of fair which heard
+With a danger of him.
 
-ESCALUS:
-And slain th
+First Citizen:
+Here and inkeep in a holy man
+The leisure will it was well to be inform'd.
+
+CORIOLANUS:
+Shame the land.
+
+ANGELO:
+Not on joy, I fear, the former admirate
+Of the fire can make brief on the duke:
+I here comes here come but for you, my very free friends,
+I am number'd with ten that clog to see,
+I have been wholesome 
 
 --------------------------------------------------------------------------------
 

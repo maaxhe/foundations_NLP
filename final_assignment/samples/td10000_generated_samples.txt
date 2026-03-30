@@ -6,58 +6,59 @@ num_samples=3, max_new_tokens=500, temperature=0.8, top_k=200, device=cuda
 === Sample 1 ===
 
 
-Clown:
-So, we will be one blowned with beauteous graves
-with hands: but he hath been to come those, and that
-then and though thou shalt be thy lives. Think, before thee, mine
-are not too true, but none: thou art pelican a
-ward thus, once to put thee. O, why, what then a
-dozen and whom the odd to a lack, who which
-is as the most riverence of the soldiers; the other noble
-that one is honour'd, the letters, and see the of the
-house!
+ANGELO:
+And cowards it was the diseasence of the graves
+Bearing him to the purpose of back: lay and sweet more
+Than the people of the officience, mark dispatch'd
+The senation of Hermione to the queen.
 
-COMINIUS:
-Worthy hand, that did court all no vex to change him;
-
+DUKE VINCENTIO:
+The walls have concluded up himself
+At fall to us. But, this love my life lies and oath,
+And that it seems myself will not meet his mouth
+To under him not the son; which must not know
+Into fail or death? If you shall find you
+Are all his gracious honour accase
+His profession carel
 
 --------------------------------------------------------------------------------
 
 === Sample 2 ===
 
-Men pardon, mary me with his eye so prevails.
+Men part of marriage.
 
-DUKE OF AUMERLE:
-This world I have no success, whom I do speak.
+ROMEO:
+It says an house put on the meats and shows
+That with the blood of much friends.
 
-DUKE OF YORK:
-My lord, if thou hadst not been straight to be so
-so knock my soul in death, and that I should love a knees:
-But do I do, so may I want bear thee from thee;
-A soul violent was deadly lack'd to speak the crown;
-Now I know thy noble daughter fell me of thee.
-
-Lord Marshal:
-Be gone; and will I not take my speedly love,
-That have wrong'd me at home a worthing taught.
-
-WARWICK
+ROMEO:
+What an old that was thou ever with moved,
+And thou to the flatterings of the hand,
+Or Romeo's side to make his heart, and he need out
+And throat his palace but with some victory:
+For thou welcomest in her tears of his heir,
+And brother'd with thy soul, to this determinate.
+Thy mother right will I not stand all thee,
+Stamp of some merry in my watchers all thee,
+And from my gaole
 
 --------------------------------------------------------------------------------
 
 === Sample 3 ===
 
-Men take me with all the two complaints, that I would not
-say I am not well short to be married
-By my father's son, I have a great of woe.
-If that we have done seeIng my advice:
-'Tis a fitted fair keep, but only many and side,
-Away with him to purchase: that stick for Henry's mother,
-Who hath made thee to bear the parts of thee
-That thought this is still below redeem'd the king.
-But Henry, my lord, but no more, my victory!
-On my mine own name, my wife, even dearly parts,
-With the father of the h
+Messenger:
+The seal'd of the news of his most bed,
+He shall not leave away or words, not weep to jest;
+Being his body's body grave for their children breasts.
+Speak not, a cause of prayers' sakes
+In the blamentation of pleasure, manhing shall
+I would inforgive the forlish her mother brother's mood;
+Upon my babes many through have made me be loath.
+
+MONTAGUE:
+Hortensio, the king must be gracious pronounce!
+Unstand the babes have way till we have been from your late,
+And so it is not a judge of th
 
 --------------------------------------------------------------------------------
 
