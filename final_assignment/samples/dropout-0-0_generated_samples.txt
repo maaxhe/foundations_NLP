@@ -5,63 +5,58 @@ num_samples=3, max_new_tokens=500, temperature=0.8, top_k=200, device=cuda
 
 === Sample 1 ===
 
-And they be done as that were made them be
-Of tame and my daughters: they are well, they
-see had a enjoin'd of hand, to his man of the
-officer be this nown butes is enteranced at Hell; oversaries
-Will be on that speltia discourse shall charges up;
-Or she would have stands patiently to thy worship
-Is moan-sound thy highness that she had not me
-A poor of thy burthen my breathful arms.
-Lowman thou may pound, and thee by off,
-Her son! still is a honest with her biding straight.
 
-HERMIONE:
-And follow
+NORTHUMBERLAND:
+Now, sir, by my father be done.
+
+BORNARDINE:
+Take the babe, us he had bar dill'd,
+But when he wanton of her heavens, to his heart
+His noise, and if ever he will is the or time,
+Which now of the sepulchred of his husbace,
+And stand never let in love shall do this love
+To like the makest lips of thy high wear me,
+And shall him he power with the excure throperform;
+And he must not half off thy days dog not.
+What shall thy discovers doth have stood?
+And so all no vrols' chaster? Why
 
 --------------------------------------------------------------------------------
 
 === Sample 2 ===
 
-Men pardon, marry: I will give me
-That I have spoke them and madam. Here's conjunct your body.
-
-TYBALT:
-I may south so, my man should be joy.
-
-LADY ANNE:
-Have to-morrow!
-
-PAMPEY:
-My life time: in shall be my lords:
-I'll the gods them have done for move thereon
-Thanks begins; but what same is butle monder
-To lack to this, and advise, if I spurb with
-The sed Capulets, the open is often now the sun.
-This you outward that was but specives beloved,
-And the pain crown change, would have counterported
-
+Menen:
+Make married from his losses a child, means, between
+Yet and show he is so not us, or while confess
+I should solemng and poison in the sea
+Which he is at a map to be so sighs victory
+Of these six manner and yield Clarence;
+The good duke is enough to do him;
+The charic-but with some vows make more stools
+Which in her spences by his sweet points in the east,
+Though to make offer his cheer to the mother with.
+Thou wilt shame, we were thou should thy blood;
+But, thou would have more exceeding
 
 --------------------------------------------------------------------------------
 
 === Sample 3 ===
 
-Men that I beseech your husband;
-And he shall be, he is disadoubles:
-Why, how not your embrance,
-The king were not, if your tongue is word,
-And all the gods have winds that and to the sea
-Of any inkerity one ta'en infect sir,
-His majesty hands of the inford of the fortune,
-That hums belong'd, thought too just the soul,
-Make her and be mad, and this still belove's hour,
-When he could have prevented to be the son.
+Men than it was. Then, let me know us Marquina's,
+The necks of Edward's fools, and more mannerly
+Than fee we his in her worth to Warwick.
+The scare of Barnardine aI have a case:
+O, that is the fiend to do't! O, there's plead, brother,
+I shall even me in the deed idows.
 
-THOMAS MOWBRAY:
-I think, no thomachine tender therein fine.
+DUKE OF AUMERLE:
+How now, lords, the band of York?
 
-HENRY BOLINGBROKE:
-The
+KING RICHARD II:
+Give me me so down lost of the lady of your field:
+He was not but no more, monthou will not quiet your hate,
+And so tender the queen's of your chair and last,
+A
 
 --------------------------------------------------------------------------------
 

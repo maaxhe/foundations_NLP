@@ -6,59 +6,68 @@ num_samples=3, max_new_tokens=500, temperature=0.8, top_k=200, device=cuda
 === Sample 1 ===
 
 
-ANGELO:
-And cowards it was the diseasence of the graves
-Bearing him to the purpose of back: lay and sweet more
-Than the people of the officience, mark dispatch'd
-The senation of Hermione to the queen.
+KING RICHARD III:
+The lady that is thy beauteous grave:
+Beat thou bar it is not a credit would
+Have away with him, and when he been made it her,
+And well in a grief, sent in the Hercules to thee
+Will not so wander like to the clouds of his spreating spleety.
 
-DUKE VINCENTIO:
-The walls have concluded up himself
-At fall to us. But, this love my life lies and oath,
-And that it seems myself will not meet his mouth
-To under him not the son; which must not know
-Into fail or death? If you shall find you
-Are all his gracious honour accase
-His profession carel
+KING RICHARD III:
+Then, my lord; mother, on my knee there as the most right.
+
+BUCKINGHAM:
+
+KING RICHARD III:
+From what are great late, I know not for dear?
+
+KING RICHARD III:
+Why, is that a curtain for his blood?
+
+QUEEN ELIZABETH:
+Why vouc
 
 --------------------------------------------------------------------------------
 
 === Sample 2 ===
 
-Men part of marriage.
+Men part, and go too.
 
 ROMEO:
-It says an house put on the meats and shows
-That with the blood of much friends.
+It shall not stir not between throats the crown
+To the watchful death: if some should sol.
 
-ROMEO:
-What an old that was thou ever with moved,
-And thou to the flatterings of the hand,
-Or Romeo's side to make his heart, and he need out
-And throat his palace but with some victory:
-For thou welcomest in her tears of his heir,
-And brother'd with thy soul, to this determinate.
-Thy mother right will I not stand all thee,
-Stamp of some merry in my watchers all thee,
-And from my gaole
+JULIET:
+What is the sea?
+
+PRINCE EDWARD:
+My lord?
+
+CATESBY:
+Sir, the state of Warwick before the Montague,
+And then let her entreat and the beauty of Richmond;
+And the violent of my desires and the deed,
+Which art the sweet placent sons Caesar set the Tower,
+Who done thee for a king, and leave that thou shalt help me made
+To hear the boar to the Lord Warwick for Gloucester.
+
+
 
 --------------------------------------------------------------------------------
 
 === Sample 3 ===
 
-Messenger:
-The seal'd of the news of his most bed,
-He shall not leave away or words, not weep to jest;
-Being his body's body grave for their children breasts.
-Speak not, a cause of prayers' sakes
-In the blamentation of pleasure, manhing shall
-I would inforgive the forlish her mother brother's mood;
-Upon my babes many through have made me be loath.
-
-MONTAGUE:
-Hortensio, the king must be gracious pronounce!
-Unstand the babes have way till we have been from your late,
-And so it is not a judge of th
+Most and breathe alliance will be concern'd
+Against the disance of the cheeks, and men,
+To wave the skill of his blood-storms
+That false his child from her brotherIng state
+And that may sent an empty of his house.
+Look, Richard, man, to him so parted in the deed;
+And herefore more lively than my life entreat's so born,
+My hand, and bear the Duke of Albanish be redeed.
+What news her should see the head? where is my villae?
+I never weeport no tongue's ears and therein,
+And yet as I am rejourned th
 
 --------------------------------------------------------------------------------
 

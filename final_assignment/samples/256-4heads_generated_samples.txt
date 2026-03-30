@@ -6,81 +6,70 @@ num_samples=3, max_new_tokens=500, temperature=0.8, top_k=200, device=cuda
 === Sample 1 ===
 
 
-MENENIUS:
-No, will be one better to my best end.
+DUKE OF AUMERLE:
+Shall I, be much an unbeot envy.
+O, this again he was the purpose to be determine,
+And the heavy day in the king, and forget it,
+Or who long estimation have latest in our speeding.
 
-VOLUMNIA:
-I'll speak thee upon thee: and therefore will put
-What's no other town.
+DUKE OF AUMERLE:
+Nay, my lord; I would by my prince's love.
 
-VOLUMNIA:
-He may not an act in the necessity; no, more than
-the noble people of else nor earthly he counterfeit
-That she would love us or does in thy bearing: thou
-art our country, evils, where there are now me
-strange: the restore of thy father armies to short
-A male of whose breathe former from thy fiery
-Was advanced to help him to the arm.
+KING RICHARD II:
+My good lord, demand me on thy head,
+And yet thou dost quarrel in his soul:
+Thou shalt be none, thou art not some morrow.
 
-CAMILLO:
-Ay, a crown
+KING RICHARD II:
+What murder? what thy discoversed and Edward?
+
+GLOUCESTER:
+And I, that have forgot
 
 --------------------------------------------------------------------------------
 
 === Sample 2 ===
 
-MenENIUS:
-I must think it be that
-That will so put up the meal of yours
-With her that you owe.
+Men pardon, I shall be not any master and seen:
+Some present mayor may be blood.
 
-COMINIUS:
-What is you lord?
+BUCKINGHAM:
+The rest flowers that sound my castle lord.
 
-MENENIUS:
-Nay, masters!
+GLOUCESTER:
+But in the matter came on the heir of York?
 
-AUFIDIUS:
-Let them come on.
+KING EDWARD IV:
+Thy brother gives not him like to the flower.
 
-MENENIUS:
-Well the heart fellow, sir, come, sir, strike, on you.
+GLOUCESTER:
+The virtue of the world may most royall'd him.
 
-VOLUMNIA:
-I'll have been the country of your voices, who,
-Whose lady wounds and speaking, if I should be be proud? and
-your time of the princent come to me with the city; I would
-he shall be belike, one of the ready.
-
-VOLUMNIA:
-You are glad us your wits. 
+KING EDWARD IV:
+Clarence, the virtue of Clarence, the queen usurps on,
+The sun and approachess be that thou shalt have like
+To this an oath back with this own teeth,
+Having king our
 
 --------------------------------------------------------------------------------
 
 === Sample 3 ===
 
-MARIANA:
-I beseech you, I would were her men
-To the princely of your back of him!
+Men that I be spoke in the sink of two out
+And how shall be too late, and born and
+As being strikes and endured.
 
-DUKE VINCENTIO:
-O what wording!
-
-ISABELLA:
-This is the news?
-
-ANGELO:
-He is but I have a cause.
-
-ISABELLA:
-And sink to do't! O, tell me, let me for a tale
-To see the great that thou wouldst her most life
-And trancherous world a deep of the field,
-Should I speak it in the markets reason of the vain
-Brass to the cold, never to be commanded eleven
-By a thing with our common enemy.
-Welcome, sir, I am come to her head
-
+MENENIUS:
+One word, word, what says he
+He bid me I have a cause of a love.
+Leave me to my lady, to the people goes men
+The shade of the best: a dozen years have pass'd
+To make good colours of justice: 'tis not half,
+That banished with his; and whose men have done
+As he cause double and new to be so,
+His facient heart and in the poor of mine,
+And deliver his soul with such a wolf,
+The
 
 --------------------------------------------------------------------------------
 

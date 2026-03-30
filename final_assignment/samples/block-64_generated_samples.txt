@@ -6,71 +6,72 @@ num_samples=3, max_new_tokens=500, temperature=0.8, top_k=200, device=cuda
 === Sample 1 ===
 
 
-Clown:
-So, who is a proud blood, and but by that great Mercure?
+COMINIUS:
+Now will you be broken and boar to take and my dagger
+My wrath is unquit to be determined with war.
 
-CORIOLANUS:
-That I do as delay as,
-If I will not dark how my tongue to the child
-Of words but somewhat necessities there best it;
-Where is it was the prince, and the midnighty state
-Of splitty and make no more sights
-To thy woes to adversaries when every I had
-too right in him as poor good sir
-To know the fields are great upon thy fleece,
-That Prince Edward and Lord Angelo saw honest
-To Edward's in the cause. So reprove and for hi
+GREMIO:
+Go on,
+You shall be the confixen'd in a grief, sent in this:
+Give me the death of his lives and his death in his conceit
+To craft is his young Baptista's earth,
+Even thy world that more would do ever so,
+Some other she had no more more for the king.
+
+HENRY PERCY:
+I have forgot in Montagues, Pompey, Somerset;
+Let him do it behold him so, for his blood and tears,
+It most made a w
 
 --------------------------------------------------------------------------------
 
 === Sample 2 ===
 
-Men pardon me summon the highest son,
-And seem and forth and madam straight in the cloudy of
-the multitus' citizens will turn and the people.
+Men pardon, marry, I will give me a part of the noble.
 
-LUCIO:
-Ah, sir! that did I beseech you the stimple is all
-the grace of your golden changed with you.
+Second Servant:
+Why dost thou utter her more? where is thy mighty motion?
 
-DUKE VINCENTIO:
-Ha! here's a countenance of thy burthen's death
-In some rive, and advised in his knee.
+Shepiner:
+Is it not beloved to my pardon made in me;
+More mistrust his remedy and neighbour is changed wind.
 
-ROMEO:
-Let me them for a piteous steel,
-In their gracious and lip and grieves us.
+MARIANA:
+Worthy lady!
+And that what's twenty of my hour, who, thou well not?
 
-ESCALUS:
-He shall be convert.
+KING RICHARD III:
+There is possible.
 
-BENVOLIO:
-You shall not fly.
+GREMIO:
+Where is our impostable?
 
-Messeng
+MERCUTIO:
+Come, an't with that the rugans, which keeps me here will be
+That I love, would have us you well he
 
 --------------------------------------------------------------------------------
 
 === Sample 3 ===
 
-Men than to wash against the common with the country,
-And take all the children gallow, methinks,
-A several pointing the beauty of fair which heard
-With a danger of him.
+Men than I beseech you, I wonder you.
+Madam, if you did disance and that had he died,
+And sweet not so men of infinent sovereign:
+How would I have forgot thy wife I have a cause.
 
-First Citizen:
-Here and inkeep in a holy man
-The leisure will it was well to be inform'd.
+GREY:
+A comforting to do I hold myself, aside, if my talk had
+See the dismal state and love and taperflues
+And traitors consully and frankly.
 
-CORIOLANUS:
-Shame the land.
+KING EDWARD IV:
+Richard, why, what says you?
 
-ANGELO:
-Not on joy, I fear, the former admirate
-Of the fire can make brief on the duke:
-I here comes here come but for you, my very free friends,
-I am number'd with ten that clog to see,
-I have been wholesome 
+KING RICHARD III:
+She was a causer of Rome, and there else now,
+I think that God is in ten thing, and find you of the duke's!
+
+KING
 
 --------------------------------------------------------------------------------
 

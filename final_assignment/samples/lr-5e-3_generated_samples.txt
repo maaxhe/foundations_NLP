@@ -5,70 +5,71 @@ num_samples=3, max_new_tokens=500, temperature=0.8, top_k=200, device=cuda
 
 === Sample 1 ===
 
-When thy brows will be laid the disgrace of thy valour,
-And take him from him what he that did have,
-And that thou darest to heaven his fair heart my help.
 
-RICHARD:
-Stand in this man, or thou defend'st,
-Wilt thou else no more than thou have stay'd in thee years?
-
-EDWARD:
-I think so, my lord: my lord, and I have Courageous.
-
-RICHARD:
-Ay, for Edward, my heart is king, brother so;
-And he would find leave with dear death-many-buried!
-
-EDWARD:
-What a care of thy husband kiss and dire thee?
+YORK:
+I trust you her law of my cheek, be gone.
 
 WARWICK:
+What news? that foul hath but redemptioned with my face,
+And my most own proof is her to revelling before:
+Yet have laid my life to the king I have sworn
+Well and mean to see my heart that aid me.
+
+LADY ANNE:
+How doth thou show my word to age on thy head?
+
+GLOUCESTER:
+
+LADY ANNE:
+To make me my life to the day or farewell;
+And to speak the league of fearful monument.
+The king, you say advance the Duke of Gloucester?
+
+KING EDWARD IV:
+So wi
 
 --------------------------------------------------------------------------------
 
 === Sample 2 ===
 
-Menenius, and graves your gatesmen had embraced?
+Men pleased me you of a while; my brother,
+Not possess'd with reason; and being not like but
+One much from your atclining morning,
+That which seems to be so vengeanced by the shrougher
+You mistake a six of Richard: there looks
+The court-sick hein, and take an unbark to great England.
 
-BRUTUS:
-Well, we shall speak with the consent of courts:
-I should so, my man should perjust of evil.
-Be thou to deck the excuse. My very time:
-He is so remember'd with the movereignity,
-And what need our tongues bear the wars but with soul.
+BUSHY:
+But, let me speak there; if they say is brood.
 
-CORIOLANUS:
-What lack with him, come I speak their hands?
+KING RICHARD III:
+Commend me to to me, God and I stand up.
 
-MENENIUS:
-Wherefore?
+KING RICHARD III:
+Why then stand you like to me that wrong'd me?
 
-CORIOLANUS:
-I need need.
-
-MENENIUS:
-These eyes are here well else behinded of their
-father watch the officer, which you come he
+DUCHESS OF YORK:
+What, think you 
 
 --------------------------------------------------------------------------------
 
 === Sample 3 ===
 
-Menenius is well, as I can say, when he is
-A great corner than a months that he is
-As we would these will were noble the white of thistory,
-And the rest of your father. Call them all their tongue
-In the blamentation of woes
-And witness what she would inform your love,
-He would perflue your traitoriest of justice: 'Tis not he,
-That he hath been force.
+Men take it well, as I can speak to what they see,
+To see them all the children to the embracements of tears
+Till think to his victory to draw cold.
 
-LUCIO:
-How doth he do not come?
-The duke more precious to this name be present,
-And taken him more for even and lights as years
-As that whiles we 
+CAPULET:
+Speak not to their cares of the deadly blood,
+And I cannot feeling but made my hands away.
+Sirrah, you had so much that must be spoken,
+To created justice o' the Montague's life,
+And the fair counsel of triumph'd the noble hand,
+Which was not but fortune, must be expresent;
+And then who small be tended to light instantly.
+
+BRAKENBURY:
+O ex
 
 --------------------------------------------------------------------------------
 

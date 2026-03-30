@@ -6,82 +6,96 @@ num_samples=3, max_new_tokens=500, temperature=0.8, top_k=200, device=cuda
 === Sample 1 ===
 
 
-KING RICHARD II:
-Shall we be made to be a deer with a mind?
+Clown:
+Ready, will you not see to stay? you will go a man?
 
-QUEEN ELIZABETH:
-Ay, be that ding of end the morning throne.
+LUCENTIO:
+What, uncle, there's that a full of my faces,
+And I must be spring in my countryman
+Who ever we sent in law Hermione to the queen.
 
-QUEEN ELIZABETH:
-I would the wind, even weeping in the sea,
-Who the duke in heaven and sendless die all thee,
-The very burther stand years in the roome.
+DUKE VINCENTIO:
+The wall the matter, you shall see, why have you not
+To tell them in your love.
 
-KING RICHARD II:
-Bear thou not the treasure with thy right.
+ISABELLA:
+Ah, Caius Marcius Cominius Marcius!
 
-QUEEN ELIZABETH:
-Nor God king thrust for the great king,
-I may not still to the whole remember!
+DUKE VINCENTIO:
+Now, none, the son; I know you when all of which Prince.
 
-QUEEN ELIZABETH:
-That he must have known to kill thee from thee.
+DUKE VINCENTIO:
+Noble matroad Warwick, stay in course.
+
+ANGELO:
+Why, and for th
 
 --------------------------------------------------------------------------------
 
 === Sample 2 ===
 
-Men part kneels.
+Men part knows you shall have hanging and seems.
 
-FLORIZEL:
-Our honourables,
-She was at earth.
+KING EDWARD IV:
+Rest thou dissemble us, and wilt confess your words:
+What an our thumb are sorrow?
 
-CORIOLANUS:
-What is the consul?
+ABHORSON:
+Let them call them.
 
-CORIOLANUS:
-Why, come, my monart, that would show her
-Be thou to did thee to the people. Here come to thee
-Than talk you, good my son?
+POMPEY:
+Why, then sir, 'tis a world come,
+As is the sword of her express'd.
 
-MARCIUS:
-I do, sir; and with all what we have content of.
+PERDITA:
+I am swell.
 
-CORIOLANUS:
-What lady, I will, my son?
+SAMPSON:
+Pray you, my lord.
 
-CORIOLANUS:
-My consider,
-I was the poor country's deed nose. O my mother!
+GREMIO:
+I shall know it, sir, my lord.
 
-MARCIUS:
-Ay, and here well met like to the MOWBray, be reward, the
-duke in the colour wombs. 
+GREGORY:
+I was your grace:
+Here is no noble more man is yourselves.
+
+PRINCE EDWARD:
+Ay, sir, and that was your company.
+
+LOVEL:
+He is forth your wife.
+
 
 --------------------------------------------------------------------------------
 
 === Sample 3 ===
 
-Men than I be show'd, I will not hear it to avoid,
-Than till of any that have loved me, make me not so.
+Messenger:
+The peace, I have no more.
+My mother, I can take home, and away!
 
-KING RICHARD II:
-I thank to my knee, sir, where I did call night.
+Servant:
+Now, sir, none.
 
-QUEEN ELIZABETH:
-What sign is dead? O, therefore sing,
-Sweet in the wear of my part death,
-And in his employ'd that I give to the earth,
-Which to prove his death, and still it is conducted.
+Second Murderer:
+O hath my tongue did come to the course.
 
-KING RICHARD II:
-When such desert cannot be the English king.
+SICINIUS:
+Why, then I cannot be seen.
 
-KING RICHARD II:
-What means of ends and leg to see it of Richard?
+Second Citizen:
+Let him be witness.
 
-QUEEN E
+CORIOLANUS:
+Sir; the county will determine.
+
+Servant:
+The old conscience hath not slaughter'd him, sir, he is in him
+Betwixt you the lady of your first: he
+was not but not of commands and whose wall in eyes to me,
+And ten the people, insolence masters,
+And he is
 
 --------------------------------------------------------------------------------
 

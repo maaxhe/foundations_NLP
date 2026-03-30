@@ -1,0 +1,276 @@
+Checkpoint directory: pbe
+Prompt: '\n'
+num_samples=3, max_new_tokens=500, temperature=0.8, top_k=200, device=cuda
+================================================================================
+
+=== Sample 1 ===
+ 
+AGE:
+And when the king to the Duke of Gloucester,
+I am a proclaimed by that mighty.
+
+ISABELLA:
+Ay,
+Clas!
+If you be less.
+
+ANGELO:
+He's a fault, though the devil,
+Most welcome, but by book'd,
+Lest that my dear Isabel.
+
+ANGELO:
+Then, that's a thousand of what thou a cardencrow,
+For no others in
+To make the heavens in thy advice.
+
+ANGELO:
+Ay, sir!
+
+ANGELO:
+No, I will.
+
+LUCIO:
+I am too.
+
+ANGELO:
+I do not lose.
+
+ISABELLA:
+Has, sir?
+
+CLUCIO:
+He would you more to make the laws of the easy,
+That he can crain that our general obedient?
+
+ISABELLA:
+In O, he, think there were a word,
+It is: but yet thou art a world;
+And by, as they are as they know not.
+
+ISABELLA:
+For you to, and entreat you.
+
+ANGELO:
+True, my lord.
+
+ANGELO:
+ISABELLA:
+Say, I would for the be a thing.
+
+ANGELO:
+From offence, I do not as one oftaint.
+
+LUCIO:
+ISABELLA:
+Why, Isabel.
+
+ANGELO:
+And the a poor soul?
+
+ISABELLA:
+So to, I know the law.
+
+ANGELO:
+I know you, my complain.
+
+Ay, to, if you use it you.
+
+ANGELO:
+I do not know it.
+' it. Answer me ne,
+That I will stay, to give it.
+ISABELLA:
+I think you, I am fretch.
+
+ANGELO:
+And knew the to-morrow.
+
+ISABELLA:
+No
+
+--------------------------------------------------------------------------------
+
+=== Sample 2 ===
+ 
+No more, good lord: I'll be yours.
+
+CAMILLO:
+I will, sir.
+
+LEONTES:
+Anft, my lord.
+
+LEONTES:
+Why, my lord?
+
+LEONTES:
+How'st with the namest?
+She is the boy.
+
+CAMILLO:
+How!
+I was a consul lady!
+
+FLORIZEL:
+This lady!
+
+CAMILLO:
+She is not honest:
+He would say 'two 'For a wife.'
+
+LEONTES:
+Lest daughter,
+You and son,
+You has gone--as my wife--
+And now the fancONTES:
+Do stood Peria,
+And, 'twas a play'd,
+As it is lover; and that she is something, not the queen,
+Then, the shepherd, my wife; and I see,
+Her wife, a wife, she
+Go, and her; I say.
+
+CAMILLO:
+If I shall be granted,
+I think you, and that, for this, my lord,
+And in this cleanous.
+
+LEONTES:
+The sworn brother,
+These is a name?
+
+LEONTES:
+Do not so; then I'll not see it.
+
+FLORIZEL:
+No, my lord, if you know not?
+
+PAULINA:
+I know not so.
+I have done:
+Your oath that was drunk, my lord;
+Good sir, I mean it, and
+I know not: 'twas my brother,
+My wife and my brother's son and daughter!
+
+PAULINA:
+She's pardon,
+And, if my lord, nor honour, it may my lord.
+
+LEONTES:
+It is no honesty and be
+To't is a cares.
+
+LEONTES:
+Would he so?
+
+LEONTES:
+You will do.
+
+MAMILLIUS:
+Ay, 'twas it now?
+
+He's not do't neither.
+
+LEONTES
+
+--------------------------------------------------------------------------------
+
+=== Sample 3 ===
+ 
+And in the greaterle deast
+Of no more creature forference: therefore,
+Since what is that he?
+
+LUCIO:
+Sir, I beseech you, sir.
+
+DUKE VINCENTIO:
+Many me?
+
+LUCIO:
+What, sirrah?
+
+DUKE VINCENTIO:
+And that, sir.
+
+DUKE VINCENTIO:
+How I thank you, friar! how?
+Sirrah, a villain a word. Friarry?
+
+LUCIO:
+Pray you, sir, sirrah? the friar?
+
+DUKE VINCENTIO:
+A match, sir; I find him be gone to do it.
+
+DUKE VINCENTIO:
+A spare me, sir, good friend.
+
+LUCIO:
+LUCIO:
+He's one another, I hear, this way.
+
+LUCIO:
+Ay, sirrah, sirrah, a man; he, I it: come.
+
+LUCIO:
+I say you, sir, sir, sir.
+
+DUKE VINCENTIO:
+If I'll not hear you, I say you, sir.
+
+LUCIO:
+I think you, sir.
+
+DUKE VINCENTIO:
+LUCIO:
+I think it is not so: and a devil,
+draw your own husband.
+
+DUKE VINCENTIO:
+Leave this, ha?
+
+LUCIO:
+Pet her hence.
+
+LUCIO:
+How! what! my lord?
+
+DUKE VINCENTIO:
+Come hither, sir.
+
+LUCIO:
+To my lord, I fear.
+
+LUCIO:
+I do believe her, and speaks you.
+
+LUCIO:
+I do
+That I know me what?
+
+DUKE VINCENTIO:
+I do not, sir.
+
+DUKE VINCENTIO:
+Come you well.
+
+LUCIO:
+Sirrah, I do not.
+
+DUKE VINCENTIO:
+A thousand a word.
+
+LUCIO:
+I think you well.
+
+DUKE VINCENTIO:
+Nay, I'll speak.
+
+LUCIO:
+It is a word
+
+--------------------------------------------------------------------------------
+

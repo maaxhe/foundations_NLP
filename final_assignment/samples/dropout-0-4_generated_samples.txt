@@ -5,69 +5,72 @@ num_samples=3, max_new_tokens=500, temperature=0.8, top_k=200, device=cuda
 
 === Sample 1 ===
 
+When the bride will be look'd of it?
 
-DUCHESS OF YORK:
-She would the disposition of all the streams
-To seek him foul command? We thank you, and my faces
-To meet the other to the court and now
-Which you were access to make the space.
-Where is the justice of the court?
+MENENIUS:
+Signior Marcius Cominius, I push alone,
+As did have, are not a scarce of him;
+But there for the confirm of the earth,
+Your citizens may revenge and the noble.
 
-DUKE OF YORK:
-I am such tyranny of thy foot?
+First Senator:
+The triumphant in the princess, why have not known
+The gods have left to the law that he doth it?
 
-DUKE OF YORK:
-A mother's ancient brother's leave, and with her,
-We stand to the seatest of three proud;
-And he must not know her forfeit in my own.
+Second Murderer:
+And now is the law to hear him breathe his;
+And therefore you should, and so do I am.
 
-KING EDWARD IV:
-That same heaven, that he stares and fire to chance!
-And,
+CLARENCE:
+Well, we are all content to die course.
+
+First Murderer:
+If I wi
 
 --------------------------------------------------------------------------------
 
 === Sample 2 ===
 
-Men pleased me yourself; the dumbs of all severals,
-And set the air whom I can swear to yours.
+Men part, being great contraded to have my forest;
+Therefore is a weary man in this law;
+To-day, much from the father of thy castle,
+My worst shall be been lost to die.
 
-JULIET:
-I may stay as long to ask your evils.
+LUCIO:
+For he that may be done, and Romeo's side,
+Come; counsellor, let her eye have shown
+Than what we have content of his self-man
+To supply him a speedy.
 
-LADY CAPULET:
-I tell thee, because I meet thee what my heart
-Thou art not content; and therefore I have,
-To make heart a belong with but with some victory
-And death to call the people and subject.
+LUCIO:
+Come, let him have none weathy fellows:
+Your son is not the submission; and will not so.
 
-LADY CAPULET:
-And that you have told me of thy face.
-
-CAPULET:
-I thank you, that I have learn'd to keep your hands:
-So sit was done for the greater you welcome
+MERCUTIO:
+He like to the hum of this man that is
+In the glorious leisure. Y
 
 --------------------------------------------------------------------------------
 
 === Sample 3 ===
 
-Messenger:
-The people, the sinking of Montague had been
-Till of an extremes should see, make this sister,
-And in their sovereign things there scald at him.
+Men that I bear. Their fit find whence I mean,
+Which in the door, and acquaint against their blinds,
+And bear in their sovereign, to be shurl'd
+The brave Edward and his cause in blood.
 
-Shepherd:
-You are in company, and all in this blame
-In my breasts death man's life
-To exposite and descent your friends and mine:
-And, then live to me as defend the murderer.
+KING EDWARD IV:
+Believe the Lord of Hereford and my hearted to her:
+But where you have here for love of granted crowns?
 
-HERMIONE:
-This is some justice of the law of the head of
-The war and but from the place. And I have mute to
-the tongue of my son, there was no man of the root of him
-A
+EXETER:
+Then, Margaret, and the sun thirst was done,
+And then the duke and harsh souls with his hell.
+
+KING EDWARD IV:
+I am not the deed of the wreck,
+And therefore is no more, so art all thou
+
 
 --------------------------------------------------------------------------------
 

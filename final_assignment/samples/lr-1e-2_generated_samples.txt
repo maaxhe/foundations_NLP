@@ -6,67 +6,60 @@ num_samples=3, max_new_tokens=500, temperature=0.8, top_k=200, device=cuda
 === Sample 1 ===
 
 
-DUCHESS OF YORK:
-Shall be blessed to bear the arthrone?
+KING RICHARD III:
+The lay be made the way to take and my dead;
+Unsuaded him unto the tractor that every run.
 
-DUKE OF YORK:
-You put on his back that all are not a king,
-You have banish'd of your brother with this mirth,
-You have time in overtainted me nor play.
+KING RICHARD III:
+Right, for I can think I lie at mine.
 
-DUCHESS OF YORK:
-How my dear loves mine early yet love!
-I came to-day to be the Tower, and only son,
-Had I brook'd my curse and his eyes so.
+KING RICHARD III:
+Go to the Warwick of York,
+Welcome, meaning unto the by prepartise.
 
-ANGELO:
-The women repair so;
-And he must not male on, to find the wood.
-
-HENRY BOLINGBROKE:
-Sad all his great honour to my long Richard,
-And for hi
+WARWICK:
+If I came to-day Edward like to the king,--
+And the city o' the doubtful gentleman poor great touch
+Of my brother son; and therefore you not the sea
+Will be offer'd but a still is a hosted with her,
+And best a cravey in the charge of th
 
 --------------------------------------------------------------------------------
 
 === Sample 2 ===
 
-Men pleased me you of the gatest of all.
-When you may the gentleman? when you mistake you on,
-The scorn speaks of castle. And you have ever
-Of his pardon's love, if you cannot stake you being:
-He does be fellow, sir, come, sir, sir, then; you come.
+Men pardon, I will not so gently so a child,
+As you should be ready that I can so live.
 
-FLORIZEL:
-Noble lord, sir.
+ISABELLA:
+I do speak to-morrow.
 
-POLIXENES:
-Provost, let her son, he would yourself I say.
+ANGELO:
+Provost:
+Sir, well, when I would have stay'd:
+If I had not strain in the create of my brother mistress
+You should feel of the heart bear the world's court soul.
 
-POLIXENES:
-I am in the external time of the other nor the fellow.
-
-SICINIUS:
-Be that the custom, we well all the hands of bed
-By this is our terrible. So the good 
+DUKE VINCENTIO:
+I love you shall know it, he did not think
+Have no gently fellows of the duke one to her to the mother. Then that the must perverse keep in the means,
+I do welcome the preserve and you were he
 
 --------------------------------------------------------------------------------
 
 === Sample 3 ===
 
-Men than you swear'd, I have no mark.
-My lord, how spirit the cause to you or war
-But we wish mine enemy and his breath to his life;
-Whose days a blood and block of him to their close,
-As come as we to do as take their please birth.
-They have eatient in the determiness,
-Deserved upon my prince forth their beauty: 'tis not hand,
-That they be loved his; the flower doth him quench.
+Men that I beseech your husband; and yet you are,
+The king and not your for such a mon,
+To sent you and end your brother well to Westmins,
+If you do so goes his father, to their cause of the dead
+In their widow that true side brother to surpereign in paint, and he would deserve
+The king private of the world a deed of them had read;
+That she love in conductions red their duty and himself:
+He was not but need to be the bastardy words him.
 
-ANTHASAMUS:
-So planet, sir; that's very for him;
-You have widow'd your father, and let him so.
-I am as a law old and 
+RICHARD III:
+The Tower, let him so in the souls will have 
 
 --------------------------------------------------------------------------------
 

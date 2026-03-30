@@ -6,78 +6,88 @@ num_samples=3, max_new_tokens=500, temperature=0.8, top_k=200, device=cuda
 === Sample 1 ===
 
 
-All:
-If this is a pursuivant man to my bed,
-I'll graze you to answer. What is this true?
+Clown:
+So you will be long to be so much but talk'd-day.
 
-CORIOLANUS:
-Her mother's noble lord
-You shall bear your marriage.
+Clown:
+I'll be gentle alone.
 
-CORIOLANUS:
-I hear them, lieve them.
+Clown:
+Hark! what, ho! fast?
 
-AUFIDIUS:
-Fear me, less have me like a children!
+Clown:
 
-CORIOLANUS:
-The very senators of their powers, their king
-Will not their strength forth a chest-meast,--
+Lords, to Citizen:
+Alais, what, then we send, will it to revenge,
+the know of itself our princes; let him be chide:
+therefore he tyranny and not open it.
 
-VOLUMNIA:
-Ay, but not the son; if he must not know him,
-The Paris Marcius Marcius!
+First Citizen:
+Say, our country, evil sound it, sure a gentleman poor
+of his guideral; thrust for the greater to the fled
+at the duke?
 
-VOLUMNIA:
-What canst thou not? Veril?
+MENENIUS:
+I see!
 
-MARCIUS:
-It is a man to y
+COMINIUS:
+What cannot he make him to accept him?
+
+MENENIUS:
+I wi
 
 --------------------------------------------------------------------------------
 
 === Sample 2 ===
 
-Men part, and summer'd with me masters;
-And so put all well through themselves with their faces
-Than their cost at mighty motions,
-That which she did shepherve from Clarence,
-This move their sons double and flatterers,
-Makes such nights, for her eyes may shape have wrought
-This contract fever unlawful despised shooking herself.
+Men your knees you shall have hang you well to purpose
+To men reason; and yet I will begin along
+The defendings of mine.
 
-GLOUCESTER:
+AUTOLYCUS:
+My lord.
 
-YORK:
-My lord, we must be the offence of our feast.
+Clown:
+A most very indicts!
 
-Lord Mayor:
-These eyes so the sileness of behalf as heaven.
+AUTOLYCUS:
+It something soundly fellow, sir, it should
+spend the side he is more than the bear
+than a comfort an oath. Do you not denied lack to his hearts
+honours?
 
-Lord Marshal:
-My lord is not Gloucester's 
+ISABELLA:
+I am prophet at your hands: this is no noble eyes
+an oath that we be that taken it to me, let him be heard
+and be reward, therefore is no more than any 
 
 --------------------------------------------------------------------------------
 
 === Sample 3 ===
 
-Men tale present flowers, which we did not
-But hear the disadventure of the sun
-And see me with a silk men: but I do revenge them,
-And then, I call them at black of him.
+Messenger.
 
-FRIAR LAURENCE:
-And all diversadventurations from him:
-His majesty have eaten friends, for his country
-That himself spurr'd him; consort'd his storm,
-Makes him all the sun blies his; and fled redeem'd
-When he comes upon himself himself.
+MERCUTIO:
+Well she is a witness and the princess;
+Then we are a subjects for a wealing instruction.
 
-GLOUCESTER:
-You shall not tell you, them that I end.
+SICINIUS:
+He was, in the death's noble good sir,
+AI, as time the canople in the common of his death.
 
-LADY ANNE:
-Why, you came on me; for t
+BRUTUS:
+Sir, we are all awayed to grieve a death.
+But Heaven and let us on!
+And for the other and the world upon the life,
+Which with his part.
+
+SICINIUS:
+So they are heard to the consul,
+Or need that love's eleven was well and unto me,
+And tender them!
+
+MENENIUS:
+He was all's late th
 
 --------------------------------------------------------------------------------
 

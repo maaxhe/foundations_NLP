@@ -5,64 +5,74 @@ num_samples=3, max_new_tokens=500, temperature=0.8, top_k=200, device=cuda
 
 === Sample 1 ===
 
-And they bring with the sweet man!
-They be done angry tribunes and barn their will,
-And free lascales with my father, and to heaven from their bloods.
 
-JULIET:
-Which is not will it till God save the prince.
+Clown:
+So inclinal, is the servants of blood:
+What then?
 
-Nurse:
-Ah, nor what they would by my grief;
-Or why she is she rather is dead.
+Clown:
+Come on, foul of his back: let me, away!
 
-Nurse:
-Not a lady, nurse, nurse! when they saw her have no son,
-So she is a pardon breathe son; if he would find leave a fair
-When I do not die. But, if you warrant you be so,
-To have prevented it not conceal'd to
+AUTOLYCUS:
+Here's a band, to the child market-place
+of the senators and man; over-beaten and therefore so
+else no more.
+
+AUTOLYCUS:
+Now! what's the tyrants of the moon?
+
+AUTOLYCUS:
+I think, an't a pass of the iballad that said
+The shore of some were the execution that work
+some to shall be all good, and so death? It is it is strong
+to be a brace of the hoin of king, thy very smooth thee.
+
+
 
 --------------------------------------------------------------------------------
 
 === Sample 2 ===
 
-Men passion may be so long and master they
-come not by well.
+Men pardons me you shall have hang you;
+And to put your swift reason; and you should be your
+Of much if something case, most instruction.
 
-First Citizen:
-What news withdraw of confesses should sul.
+Servant:
+Peace, more one discovery of your commanded:
+He doth be me not, sir, he's a gracious son,
+When he did out of all the king shepherd's way so!
+
+BRUTUS:
+You, sir, welcome.
 
 AEdile:
-What is the sea of his health and dissolutions course?
-Your will make you fear the next to prove him hence,
-Where is it not he was barbarism
-That but we must be found, and denied
-In the crown, as your subjects in his present.
+Welcome, Cominius, the voices, sir, tell me the people
+With should eyes an all your country's house:
+He speaks of kindred and tell him.
 
-Provost:
-He that of the duke on him a subject prove of what thou wilt say
-This is beloved so he more about what to heaven
-Than the queen's body
+BRUTUS:
+He
+Can tell him for the gods 
 
 --------------------------------------------------------------------------------
 
 === Sample 3 ===
 
-Men that I bear
-The proceed now when I did save the princess;
-That it are born and my behave briefs and ends
-Since the son at the time of Tranio; but then they say,
-And take the city and the deadly place,
-And all their woes and witness where they were
-The devotion of her weep mock'd by our brother;
-How does the friends rid their hatred brought them still
-Well bring up the duke of the bending of York.
+Me stand to wash all, I have no more.
+My lord, how so death to the court
+That was much, my woman, sir; therefore,
+Which is it were for the day called by
+Her hand an home a cause of a lord comes begun.
 
-RIVERS:
-My loving for his monument shall be my greater son.
+DUKE VINCENTIO:
+I think you, not my lord; I would
+Between thou wert hear me for them of grace
+To the world and friends. Thou hast not, madam; nor in so die.
 
-QUEEN:
-Here is the garland, and th
+Provost:
+For thou art these sorrow me not by the post,
+Whose babes her man the deed, thou canst tender therein,
+Such a doubt a word of thy h
 
 --------------------------------------------------------------------------------
 

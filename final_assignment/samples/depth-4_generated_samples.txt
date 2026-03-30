@@ -6,63 +6,63 @@ num_samples=3, max_new_tokens=500, temperature=0.8, top_k=200, device=cuda
 === Sample 1 ===
 
 
-KING RICHARD III:
-The last throats of Barbary, Signior Clarence
-Hath not her heart to be the thought with my father,
-An one he only made it for the land;
-Who ever we send, will in the orator,
-Be the next way about lost to the tent;
-Honest thou art in thy tyranny.
+AUTOLYCUS:
+O, will you be strong and bear to take and me.
 
-HORTENSIO:
-Against my lord; my lord, and I have desired thee
-For thou wilt press thee of thy burthern nuns,
-Which thou art meft the male of the fiery death?
+AUTOLYCUS:
+What, shall I be?
 
-BENVOLIO:
-Bring forth and brawling forth in this earth,
-When thou art for th
+Clown:
+If, sweet sir, faith, you must be so.
+
+Clown:
+When you did.
+
+Clown:
+I send it not you, sir: so it is none: if you mean, like
+me let him be come to us; and therefore it is not
+open i' the court: the gods and the king their
+assembling tribunes, his consorts, and the
+the banks that seeks of his face, he slew him, and
+are good sirrah; some still in a roar and himself
+his business, and in his changing, hi
 
 --------------------------------------------------------------------------------
 
 === Sample 2 ===
 
-Men pardon'd thy throat three hands and myself,
-Some presently tardy with glistering watch;
-The morning speaks they shall not ask the people.
-
-LADY ANNE:
-Holy father! what says it? here being a king!
-When my lords, they shall change their duty?
-
-GLOUCESTER:
-Not bear their waving wraths slew them, and dearly lack.
-
-LADY ANNE:
-Thou art a hair of points in the eager sea,
-And in their horns them further: I this is beggar intend.
-
-GLOUCESTER:
-
-LADY ANNE:
-Happy been at homic, would I were too know?
-
-G
+Men part, and such a pennywonted son,
+And seem an anger of the day,
+Who should so have their suitors in some stones
+Of breathing death in their bed-bed-sheep,
+And makes them out. My commitself them as
+Are ended, and, as the victor hath no doubt together
+For the bearing blows but with such victory,
+For these lady wounds and their subjects in his part;
+Made with their time of the destiny,
+The sun manly mothers with the common all the bold
+That the harm of Rome, when the rocks
+The fatal bleeder of 
 
 --------------------------------------------------------------------------------
 
 === Sample 3 ===
 
-Men take it well, and I'll send the war, that I woo'd not
-Say 'I,' not we'll not well entreat the sea;
-Be we his infirm to his life and which he should see
-Be call'd in the air world, and be an end
-Being the warlike true side, two natures
-With patentain that stabbings and terms the hours.'
-And told thee, just defend thee, wherefore be not so;
-But how I would torment thee, thou art as bold any oath
-As blow to thy lave and dangerous things number
-And fortenance thee, this our queen and all thyself
+Me run, and we seal'd to the common with the coronation.
+
+KING EDWARD IV:
+What art, see, we will, sir; be within, a crutch,
+Or else a word, and a son and false
+Her nights and in close and devotion.
+Being banish'd their power, brother Gloucester,
+I will not speak a forlorn to the land;
+And give to the earth and so soon as for her head,
+Nor both this statue. If thou didst didst be harse.
+
+GLOUCESTER:
+Such a town, my villain! One more heart not on my side,
+And deliver'd in by the bosom of hell,
+The
 
 --------------------------------------------------------------------------------
 

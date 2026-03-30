@@ -5,80 +5,71 @@ num_samples=3, max_new_tokens=500, temperature=0.8, top_k=200, device=cuda
 
 === Sample 1 ===
 
+When the brids will be lay be made to bear
+Upon my reason: alas, he's not hear the heat?
+For lady, enjoy the confess, and I'll
+Yourself forth your mile, in this miserable content;
+For the time of the next is wanton like diseased:
+My body my soul with speak your virtue.
+But, I will be my lord to thee
+To Willond do evil so, and for the cheeks,
+As if I must be so prayer not the son;
+To hear for thy fledge, for dear?
 
-ANGELO:
-And come, which you that you bear to take and my daughters:
-Whither us he had been that are away,
-And none a wife our absent to the heart
-Of would be empire, sentenced time,
-Thou tell thee none: though I see line on my life,
-The mayor carries that you love's not
-To this love my life to thee, only son her eyes,
-I'll make thee with in his son of his business;
-And first of some thought thy fled at thee Prince,
-So murder, being, you are advance.
+KING RICHARD III:
+Will you are a cause of my huncles.
 
-EDWARD:
-It is to marches you to change thee,
+DUKE OF YORK:
+What may love
 
 --------------------------------------------------------------------------------
 
 === Sample 2 ===
 
-Men pardon, I shall be not been honour;
-And then they the man.
+Men pardon, marry, I'll not my master and seem and forth.
 
-CORIOLANUS:
-What is they bear him,
-Shall permise that lome this poor of worshipe?
-In a better the duke socience sighs exception:
-He shall be gone as not come, she sun?
-What, if I condemn me to do home, what
-They but we must be the manner, these ladys?
+PRINCE:
+Your master son, my good lord, I have peaced
+Do might to England lord.
 
-Citizen:
-Well, good desire
-My sovereign, where you for a pity understand?
+SOMERSET:
+This like to my part,
+Which if you to the stings and make me all:
+What Clarence! I know, if I condemn me
+For this any that from the way so learn that I
+A despire of the right commision, if I shall play
+To sunder they see thee for us at once.
 
-First Murderer:
-For what thou was much persons before the hand!
+KING RICHARD III:
+Sir, to be come on, sir, let be the more face.
 
-Second Servingman:
-You thank upon thee, or 
+LADY ANNE:
+Well, would I fear; you have me
 
 --------------------------------------------------------------------------------
 
 === Sample 3 ===
 
-Messenger:
-The seals, I husband where it me again,
-Than till of an expactions, and to be rest the
-sink to whither.
+Men than I beseech your husband; good Montague,
+Which not take and the world in good foe.
 
-CAPULET:
-The king was now,
-And where's day bear not that is no commanded.
+ROMEO:
+A sweet word, first to be the matter-than a mine own.
 
-BALTHASBY:
-And me, the Lord Hastings, my highness she would in
-the determines.
+HERMIONE:
+In the advice, but I see thee as I have blament thee
+The leisure witness what she would in this
+That you have her mother'd as there; or then the base of York.
 
-DORSET:
-Then below great of the world.
+Nurse:
+She's a babe love is come about true than the news.
 
-CAMILLO:
-Are he have lied me?
+POLIXENES:
+Good voices, that thou not been what made him.
 
-FLORIZEL:
-O doubtless! What's the news hears begun?
+CLAUDIO:
+He cannot make light in our queen, and wholesome
 
-Second Senator:
-The king and leave them?
-
-ISABELLA:
-Am I know, sir, there plains yet of Romeo?
-
-AUFIDIUS:
 
 --------------------------------------------------------------------------------
 

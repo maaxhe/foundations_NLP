@@ -5,73 +5,66 @@ num_samples=3, max_new_tokens=500, temperature=0.8, top_k=200, device=cuda
 
 === Sample 1 ===
 
-And they bring will be love to be set be so letter?
 
-QUEEN MARGARET:
-What is nothing but state?
+ANGELO:
+And coward to life the disposition of all revent:
+What of the babie us are to be determity,
+And now he follow'd upon the flowerful in blood?
 
-GLOUCESTER:
-What's a wind of thousand of this blood?
+KING RICHARD II:
+In contradient, I'll speak the prince.
 
-KING EDWARD IV:
-Even in this maid overtal thou long'st.
+WARWICK:
+Nay, my lord; I would by myself in the tyrant in the royal eyes
+To knowl what the king Wilton her else?
 
-GLOUCESTER:
-For all thy mind with a childish how you love's king.
+STANLEY:
+What we had no grown of heaven the day?
 
-YORK:
-What's you demand?
+WARWICK:
+This honour that I leave, for England, Sir.
 
-GLOUCESTER:
-Good by, the most right in him, whose movereign
-To kill thrust for their honour's fellowers than first?
-
-KING EDWARD IV:
-What, didst advance? What stovein court?
-
-LADY GREY:
-Who comfort? 
+HENRY BOLINGBROKE:
+Sadier God's heart:
+Go to know and Hermion change to th
 
 --------------------------------------------------------------------------------
 
 === Sample 2 ===
 
-Men be so bestruction of the earth; and myself and fortune
-Will any the crown of the world-den, of courts:
-I should so, my lords, I love the sovereign.
+Menenius, and such of another hand;
+She which we would were throat these success the weeks.
 
-GREMIO:
-I may so, to the grace to time:
-Here is the god talk: there I shall now the side heir,
-To make hear the king grace but with some voice;
-Where is the lords thing, and should have mine.
+DUKE VINCENTIO:
+What case?
 
-PRINCE EDWARD:
-Wherefore is our imposter now the sun of York?
+DUKE VINCENTIO:
+A stronger Peter, if the duke the words of mercy?
 
-GLOUCESTER:
-So, brother, Blassake, of Aufidius part.
-
-BUCKINGHAM:
-Would have most the gione
+POMPEY:
+I have no Roman so that Claudio, the queen of George,
+To the wanto have been what I will speak the manner,
+Whose lady is no dear to him; but therefore, I and not
+The merried that it is determined to them
+That I am the better of her bless well be too:
+A husband; and therefore, a worthir fair;
+To know our
 
 --------------------------------------------------------------------------------
 
 === Sample 3 ===
 
-MARIANA:
-Ay, you are too the news of my lord,
-Who, sir Lord Bona, whom you are and my better thines so?
-
-CLARENCE:
-You should think a word, and a born ware:
-Shall I have a cause of a loving senate keep.
-The doubter borne expection nature have each of it;
-So doth a forward thrant last mask grace of the world
-Did from the murderer of my master of the county.
-What's now heaven be come? The daggerous precious power
-Whose boels hobeyonded to the tongue's foe? The glale poor son eyes,
-But where is wel
+Menenius is well,
+For I have no more denied an endured to take the
+conduction, and my love with the skiee word,
+finding to his like a word, and all as weak is callIng
+my admition: the severeign beggar, if I do,
+therefore expection not my hearted of grief, a determy
+will tentermining to speak, thou art of just the vow
+through have mine and born to his; and thou redeed'st
+thy very hand been so mock, now the power
+of victory who was we in the poor of the tent, and let him so, I am
+country's lawful 
 
 --------------------------------------------------------------------------------
 

@@ -6,73 +6,63 @@ num_samples=3, max_new_tokens=500, temperature=0.8, top_k=200, device=cuda
 === Sample 1 ===
 
 
-Clown:
-So, we'll fit up you that were absent: and that's the earth
-are the public by the world's feast.
+KING RICHARD II:
+So is the time: thou wast a taven to my chair,
+As I did censure thee by the room of wicked course,
+And never to the tof interior malice,
+Which miserable constable that Gloucester met.
 
-POLIXENES:
-You have dances
-More in heaven in this business,
-She had that Henry over-beated me now:
-And as I else now, as the heart is, so she are,
-Where he's not known, this dead many world that
-moves more dower by the time, and he will not pass
-The forename of his trifles are great liver'd in exchange.
+DERBY:
+What like the court?
 
-PRINCE:
-So doth his bear, do it:
-Saddle is here, my disposition, that remains
-He made hi
+CLIFFORD:
+Ay, my liege, tyrannous; I may perceive
+The queen demand of our countrymenting wearymen.
+
+KING RICHARD II:
+Let us be guilty of three-picket; and therefore peace
+Entired in his body and full of strength:
+And all his gracious friends are no means for you;
+And,
 
 --------------------------------------------------------------------------------
 
 === Sample 2 ===
 
-Men part, and summer'd, that that
-The centre of your head is made well.
+Menenius, and such secrets as hand as an hour
+sentenced on't. You were barbariage, calling
+In promise freedoms: and so, I must speak a carbut
+of every beastly to die. But to the people, sir, sir,
+if I be fearful, I have spoke a strift, it is a
+very oxlant. What bears it? He chances a soul in beast?
 
-MENENIUS:
-Have you bound to? for yours, that love
-Is as forlorecasions, every beautives, if you
-cannot stake you both so use us, you shall say,
-'tis move the court, if I condemn more.
+Clown:
+Welcome to him, come I shall desire by the nointed gentleman.
 
-FRIAR LAURENCE:
-This is a thousand bum on my despite.
-
-PARIS:
-I'll tell you, my lord,
-I pray thee, do not your time of time.
-
-Lords:
-Whereupon mine own despair?
-
-PAULINA:
-And help me much as he;
-For thou must continue of mine ear;
-To know our
+AUTOLYCUS:
+At once, the sun of it consorts being so the silent,
+and be thought with a father was done a courtier
+A courteous body
 
 --------------------------------------------------------------------------------
 
 === Sample 3 ===
 
-Men take it off. This deep shall seem to the crown,
-That we hope, with child her well be rest to death.
+Messenger:
+The peace, I have not seen in the coronation.
 
-Clown:
-By him, by his life; and here scarce shall be with In
-repeal'd in the day, and all in this blament of his
-faces
-and will take him of the great time.
+Shepherd:
+Come, sir, you may, marry; I will feel their breasts.
+I think to be shed with the barket-place.I have a cat,
+to take the king for them our daughter to plead
+The mangless have eaten unto the death. But He is
+A mother to speak, though thou just for the truth that was butched
+thy fair country, but thou art to be a mother.
 
-First Watchman:
-Now, I say, good fortune with him to the truth:
-Where have I stand it in so dishonour'd head?
-
-Second Watchman:
-Then comes the letters to lay that plant make him speak
-And three ten thousand plains him of Rome,
-That art th
+CATESBY:
+My brother Clifford, and that bear her banishment
+I will tell my leisure in our queen and justly,
+Tha
 
 --------------------------------------------------------------------------------
 
