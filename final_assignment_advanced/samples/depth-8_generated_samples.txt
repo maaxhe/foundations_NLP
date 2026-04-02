@@ -1,0 +1,93 @@
+Checkpoint directory: depth-8
+Prompt: '\n'
+num_samples=3, max_new_tokens=500, temperature=0.8, top_k=200, device=cuda
+================================================================================
+
+=== Sample 1 ===
+
+
+Clown:
+So you will be long to be so much but talk'd-day.
+
+Clown:
+I'll be gentle alone.
+
+Clown:
+Hark! what, ho! fast?
+
+Clown:
+
+Lords, to Citizen:
+Alais, what, then we send, will it to revenge,
+the know of itself our princes; let him be chide:
+therefore he tyranny and not open it.
+
+First Citizen:
+Say, our country, evil sound it, sure a gentleman poor
+of his guideral; thrust for the greater to the fled
+at the duke?
+
+MENENIUS:
+I see!
+
+COMINIUS:
+What cannot he make him to accept him?
+
+MENENIUS:
+I wi
+
+--------------------------------------------------------------------------------
+
+=== Sample 2 ===
+
+Men your knees you shall have hang you well to purpose
+To men reason; and yet I will begin along
+The defendings of mine.
+
+AUTOLYCUS:
+My lord.
+
+Clown:
+A most very indicts!
+
+AUTOLYCUS:
+It something soundly fellow, sir, it should
+spend the side he is more than the bear
+than a comfort an oath. Do you not denied lack to his hearts
+honours?
+
+ISABELLA:
+I am prophet at your hands: this is no noble eyes
+an oath that we be that taken it to me, let him be heard
+and be reward, therefore is no more than any 
+
+--------------------------------------------------------------------------------
+
+=== Sample 3 ===
+
+Messenger.
+
+MERCUTIO:
+Well she is a witness and the princess;
+Then we are a subjects for a wealing instruction.
+
+SICINIUS:
+He was, in the death's noble good sir,
+AI, as time the canople in the common of his death.
+
+BRUTUS:
+Sir, we are all awayed to grieve a death.
+But Heaven and let us on!
+And for the other and the world upon the life,
+Which with his part.
+
+SICINIUS:
+So they are heard to the consul,
+Or need that love's eleven was well and unto me,
+And tender them!
+
+MENENIUS:
+He was all's late th
+
+--------------------------------------------------------------------------------
+

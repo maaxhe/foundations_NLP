@@ -1,0 +1,75 @@
+Checkpoint directory: baseline
+Prompt: '\n'
+num_samples=3, max_new_tokens=500, temperature=0.8, top_k=200, device=cuda
+================================================================================
+
+=== Sample 1 ===
+
+
+AUTOLYCUS:
+O sweet Angelo still, sir, was the art
+Of the commodest and the purpose to be determineed
+with my face, and with heavens, to the very vail of the best
+seems, he will into the bosom, and length it was there: no
+more than the child: the baites of your sin's nor
+distemption.
+
+Clown:
+You have one wounded Coriolanus. Come, what is
+your strength should
+he know thrust for the great ship?
+
+AUTOLYCUS:
+No, Pompey; no more house!
+
+AUTOLYCUS:
+Is this that standing? I am gone
+to your country?
+
+AU
+
+--------------------------------------------------------------------------------
+
+=== Sample 2 ===
+
+Men pardon, I shall be not so hardly to myself.
+
+KING EDWARD IV:
+My lord, be it will be your honour.
+
+KING EDWARD IV:
+And what should be a kinsman of while we to die?
+
+PRINCE:
+And so did I; the king should be ta'en the ground.
+
+KING EDWARD IV:
+Where is the king bear that valiant we meet,
+And buckle my desert looks the deeds send of his head?
+
+GLOUCESTER:
+The gods fellow our time to our gentle stars.
+
+QUEEN:
+Peace, poor thou art England's son,
+And there for the recontine of this fair;
+To keep her
+
+--------------------------------------------------------------------------------
+
+=== Sample 3 ===
+
+Men that I break against the conscience of my brow
+To melt and take that hath longed not with mine
+Once to my infirmity to his like a word,
+And all the gods hath none more than the poller he doth
+In that lamentation or woes
+In two nature have ever I did this strong's land,
+That he loves the rememble test just her vow
+Should have this answer to this conduct her redeem'd
+When he comes his desert and new to his grace,
+That let him was his enemy offect here; yet he,
+The sins his own son will let him
+
+--------------------------------------------------------------------------------
+

@@ -1,0 +1,75 @@
+Checkpoint directory: lr-5e-3
+Prompt: '\n'
+num_samples=3, max_new_tokens=500, temperature=0.8, top_k=200, device=cuda
+================================================================================
+
+=== Sample 1 ===
+
+
+YORK:
+I trust you her law of my cheek, be gone.
+
+WARWICK:
+What news? that foul hath but redemptioned with my face,
+And my most own proof is her to revelling before:
+Yet have laid my life to the king I have sworn
+Well and mean to see my heart that aid me.
+
+LADY ANNE:
+How doth thou show my word to age on thy head?
+
+GLOUCESTER:
+
+LADY ANNE:
+To make me my life to the day or farewell;
+And to speak the league of fearful monument.
+The king, you say advance the Duke of Gloucester?
+
+KING EDWARD IV:
+So wi
+
+--------------------------------------------------------------------------------
+
+=== Sample 2 ===
+
+Men pleased me you of a while; my brother,
+Not possess'd with reason; and being not like but
+One much from your atclining morning,
+That which seems to be so vengeanced by the shrougher
+You mistake a six of Richard: there looks
+The court-sick hein, and take an unbark to great England.
+
+BUSHY:
+But, let me speak there; if they say is brood.
+
+KING RICHARD III:
+Commend me to to me, God and I stand up.
+
+KING RICHARD III:
+Why then stand you like to me that wrong'd me?
+
+DUCHESS OF YORK:
+What, think you 
+
+--------------------------------------------------------------------------------
+
+=== Sample 3 ===
+
+Men take it well, as I can speak to what they see,
+To see them all the children to the embracements of tears
+Till think to his victory to draw cold.
+
+CAPULET:
+Speak not to their cares of the deadly blood,
+And I cannot feeling but made my hands away.
+Sirrah, you had so much that must be spoken,
+To created justice o' the Montague's life,
+And the fair counsel of triumph'd the noble hand,
+Which was not but fortune, must be expresent;
+And then who small be tended to light instantly.
+
+BRAKENBURY:
+O ex
+
+--------------------------------------------------------------------------------
+

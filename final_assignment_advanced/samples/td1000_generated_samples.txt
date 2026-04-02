@@ -1,0 +1,70 @@
+Checkpoint directory: td1000
+Prompt: '\n'
+num_samples=3, max_new_tokens=500, temperature=0.8, top_k=200, device=cuda
+================================================================================
+
+=== Sample 1 ===
+
+
+ANGELO:
+And coward to life the disposition of all revent:
+What of the babie us are to be determity,
+And now he follow'd upon the flowerful in blood?
+
+KING RICHARD II:
+In contradient, I'll speak the prince.
+
+WARWICK:
+Nay, my lord; I would by myself in the tyrant in the royal eyes
+To knowl what the king Wilton her else?
+
+STANLEY:
+What we had no grown of heaven the day?
+
+WARWICK:
+This honour that I leave, for England, Sir.
+
+HENRY BOLINGBROKE:
+Sadier God's heart:
+Go to know and Hermion change to th
+
+--------------------------------------------------------------------------------
+
+=== Sample 2 ===
+
+Menenius, and such of another hand;
+She which we would were throat these success the weeks.
+
+DUKE VINCENTIO:
+What case?
+
+DUKE VINCENTIO:
+A stronger Peter, if the duke the words of mercy?
+
+POMPEY:
+I have no Roman so that Claudio, the queen of George,
+To the wanto have been what I will speak the manner,
+Whose lady is no dear to him; but therefore, I and not
+The merried that it is determined to them
+That I am the better of her bless well be too:
+A husband; and therefore, a worthir fair;
+To know our
+
+--------------------------------------------------------------------------------
+
+=== Sample 3 ===
+
+Menenius is well,
+For I have no more denied an endured to take the
+conduction, and my love with the skiee word,
+finding to his like a word, and all as weak is callIng
+my admition: the severeign beggar, if I do,
+therefore expection not my hearted of grief, a determy
+will tentermining to speak, thou art of just the vow
+through have mine and born to his; and thou redeed'st
+thy very hand been so mock, now the power
+of victory who was we in the poor of the tent, and let him so, I am
+country's lawful 
+
+--------------------------------------------------------------------------------
+

@@ -1,0 +1,84 @@
+Checkpoint directory: dropout-0-1
+Prompt: '\n'
+num_samples=3, max_new_tokens=500, temperature=0.8, top_k=200, device=cuda
+================================================================================
+
+=== Sample 1 ===
+
+
+ANGELO:
+And coward that we should stay be done.
+
+DUKE VINCENTIO:
+I am no mean to the traitor.
+
+Have you now a king's regard with the tofting common?
+
+DUKE VINCENTIO:
+Even in this maids, by the devil of your wars
+Well and peace the melace of preventices,
+Stying statue or doth live whom the odd top.
+
+Provost:
+Here comes on me, sirrah, we have her sound the rest.
+
+DUKE VINCENTIO:
+There is not wretchled at the duke?
+
+Provost:
+This is still is a hope of the helmsout of the arm.
+
+DUKE VINCENTIO:
+And,
+
+--------------------------------------------------------------------------------
+
+=== Sample 2 ===
+
+Menenius, and such seems that hath not her ever nor been with ready
+that she hath not us born. I must be patient,
+case by my instruction.
+
+SICINIUS:
+Tell him here him to Lord:
+And meet him when the heart of Marcius,
+She Cominius Coriolanus with the oxercisuse here,
+That were but what soul voice long of the world.
+
+MENENIUS:
+We have here the cause o'er hundred?
+
+BRUTUS:
+He is i' the other the sun of Romeo!
+
+SICINIUS:
+They could prove the matter of Rome proceed with them
+With us, we could know our
+
+--------------------------------------------------------------------------------
+
+=== Sample 3 ===
+
+MARIANA:
+I beseech you, my lord; I was not so.
+
+LEONTES:
+Plantagenet, awake shall put up.
+
+LADY ANNE:
+No, we his body's worth.
+
+LADY ANNE:
+I'll along for Edward:
+AI profess and true fastication sinks
+And lament their report
+In two neighbour sues of grief the crown for Henry's mother.
+Who should old constance more than crown'd?
+
+Second Murderer:
+No, still believe their lady and cheers beguns
+To cave but forty to planet. I am not warrant to be of my face,
+And therefore issue to the father of their
+
+--------------------------------------------------------------------------------
+

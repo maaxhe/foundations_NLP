@@ -1,0 +1,75 @@
+Checkpoint directory: 256-4heads
+Prompt: '\n'
+num_samples=3, max_new_tokens=500, temperature=0.8, top_k=200, device=cuda
+================================================================================
+
+=== Sample 1 ===
+
+
+DUKE OF AUMERLE:
+Shall I, be much an unbeot envy.
+O, this again he was the purpose to be determine,
+And the heavy day in the king, and forget it,
+Or who long estimation have latest in our speeding.
+
+DUKE OF AUMERLE:
+Nay, my lord; I would by my prince's love.
+
+KING RICHARD II:
+My good lord, demand me on thy head,
+And yet thou dost quarrel in his soul:
+Thou shalt be none, thou art not some morrow.
+
+KING RICHARD II:
+What murder? what thy discoversed and Edward?
+
+GLOUCESTER:
+And I, that have forgot
+
+--------------------------------------------------------------------------------
+
+=== Sample 2 ===
+
+Men pardon, I shall be not any master and seen:
+Some present mayor may be blood.
+
+BUCKINGHAM:
+The rest flowers that sound my castle lord.
+
+GLOUCESTER:
+But in the matter came on the heir of York?
+
+KING EDWARD IV:
+Thy brother gives not him like to the flower.
+
+GLOUCESTER:
+The virtue of the world may most royall'd him.
+
+KING EDWARD IV:
+Clarence, the virtue of Clarence, the queen usurps on,
+The sun and approachess be that thou shalt have like
+To this an oath back with this own teeth,
+Having king our
+
+--------------------------------------------------------------------------------
+
+=== Sample 3 ===
+
+Men that I be spoke in the sink of two out
+And how shall be too late, and born and
+As being strikes and endured.
+
+MENENIUS:
+One word, word, what says he
+He bid me I have a cause of a love.
+Leave me to my lady, to the people goes men
+The shade of the best: a dozen years have pass'd
+To make good colours of justice: 'tis not half,
+That banished with his; and whose men have done
+As he cause double and new to be so,
+His facient heart and in the poor of mine,
+And deliver his soul with such a wolf,
+The
+
+--------------------------------------------------------------------------------
+
