@@ -10,4 +10,4 @@ report in a table/plot the differences
 or analysing what the model produces
 where does the model fail the most - form hypotheses
 
-PDF report + github repo or yptnb
+PDF report + github repo or ipynb
