@@ -4,6 +4,7 @@ data_sets/generated_npcs.json
 .env
 telegram_bot.py
 final_assignment/models
+final_assignment_advanced/models
 
 
 
