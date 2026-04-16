@@ -6,70 +6,68 @@ num_samples=3, max_new_tokens=500, temperature=0.8, top_k=200, device=cuda
 === Sample 1 ===
 
 
-AUTOLYCUS:
-O sweet Angelo still, sir, was the art
-Of the commodest and the purpose to be determineed
-with my face, and with heavens, to the very vail of the best
-seems, he will into the bosom, and length it was there: no
-more than the child: the baites of your sin's nor
-distemption.
+KING RICHARD III:
+The lady that is thy beauteous grave:
+Beat thou bar it is not a credit would
+Have away with him, and when he been made it her,
+And well in a grief, sent in the Hercules to thee
+Will not so wander like to the clouds of his spreating spleety.
 
-Clown:
-You have one wounded Coriolanus. Come, what is
-your strength should
-he know thrust for the great ship?
+KING RICHARD III:
+Then, my lord; mother, on my knee there as the most right.
 
-AUTOLYCUS:
-No, Pompey; no more house!
+BUCKINGHAM:
 
-AUTOLYCUS:
-Is this that standing? I am gone
-to your country?
+KING RICHARD III:
+From what are great late, I know not for dear?
 
-AU
+KING RICHARD III:
+Why, is that a curtain for his blood?
+
+QUEEN ELIZABETH:
+Why vouc
 
 --------------------------------------------------------------------------------
 
 === Sample 2 ===
 
-Men pardon, I shall be not so hardly to myself.
+Men part, and go too.
 
-KING EDWARD IV:
-My lord, be it will be your honour.
+ROMEO:
+It shall not stir not between throats the crown
+To the watchful death: if some should sol.
 
-KING EDWARD IV:
-And what should be a kinsman of while we to die?
+JULIET:
+What is the sea?
 
-PRINCE:
-And so did I; the king should be ta'en the ground.
+PRINCE EDWARD:
+My lord?
 
-KING EDWARD IV:
-Where is the king bear that valiant we meet,
-And buckle my desert looks the deeds send of his head?
+CATESBY:
+Sir, the state of Warwick before the Montague,
+And then let her entreat and the beauty of Richmond;
+And the violent of my desires and the deed,
+Which art the sweet placent sons Caesar set the Tower,
+Who done thee for a king, and leave that thou shalt help me made
+To hear the boar to the Lord Warwick for Gloucester.
 
-GLOUCESTER:
-The gods fellow our time to our gentle stars.
 
-QUEEN:
-Peace, poor thou art England's son,
-And there for the recontine of this fair;
-To keep her
 
 --------------------------------------------------------------------------------
 
 === Sample 3 ===
 
-Men that I break against the conscience of my brow
-To melt and take that hath longed not with mine
-Once to my infirmity to his like a word,
-And all the gods hath none more than the poller he doth
-In that lamentation or woes
-In two nature have ever I did this strong's land,
-That he loves the rememble test just her vow
-Should have this answer to this conduct her redeem'd
-When he comes his desert and new to his grace,
-That let him was his enemy offect here; yet he,
-The sins his own son will let him
+Most and breathe alliance will be concern'd
+Against the disance of the cheeks, and men,
+To wave the skill of his blood-storms
+That false his child from her brotherIng state
+And that may sent an empty of his house.
+Look, Richard, man, to him so parted in the deed;
+And herefore more lively than my life entreat's so born,
+My hand, and bear the Duke of Albanish be redeed.
+What news her should see the head? where is my villae?
+I never weeport no tongue's ears and therein,
+And yet as I am rejourned th
 
 --------------------------------------------------------------------------------
 
