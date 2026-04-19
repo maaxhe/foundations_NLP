@@ -7,67 +7,86 @@ num_samples=3, max_new_tokens=500, temperature=0.8, top_k=200, device=cuda
 
 
 KING RICHARD III:
-The lady that is thy beauteous grave:
-Beat thou bar it is not a credit would
-Have away with him, and when he been made it her,
-And well in a grief, sent in the Hercules to thee
-Will not so wander like to the clouds of his spreating spleety.
+The lady that is thy become and ready;
+For thou wast thy purpose to be determined
+Two royal pansage thoughts of the office
+Becomes well in begging then contration,
+Thou that thou lovest it was to like to earth:
+The courteous creature hath denied in Romeo,
+Thou dost please thy that moan--
+And thy city and thy curse and my meddle--
 
-KING RICHARD III:
-Then, my lord; mother, on my knee there as the most right.
+First Servingman:
+From this army.
 
-BUCKINGHAM:
+Second Servingman:
+If the rest be of thy house!
 
-KING RICHARD III:
-From what are great late, I know not for dear?
+Third Servant:
+Well, get thee hence.
 
-KING RICHARD III:
-Why, is that a curtain for his blood?
-
-QUEEN ELIZABETH:
-Why vouc
+Second Servingman:
+By the 
 
 --------------------------------------------------------------------------------
 
 === Sample 2 ===
 
-Men part, and go too.
+MenENIUS:
+I may my friends, my master and
+To meet me here that they should be so to live.
 
-ROMEO:
-It shall not stir not between throats the crown
-To the watchful death: if some should sol.
+CORIOLANUS:
+You cannot call him to your tale worship.
 
-JULIET:
-What is the sea?
+CORIOLANUS:
+Mark you, sir.
 
-PRINCE EDWARD:
-My lord?
+CORIOLANUS:
+How! say!
 
-CATESBY:
-Sir, the state of Warwick before the Montague,
-And then let her entreat and the beauty of Richmond;
-And the violent of my desires and the deed,
-Which art the sweet placent sons Caesar set the Tower,
-Who done thee for a king, and leave that thou shalt help me made
-To hear the boar to the Lord Warwick for Gloucester.
+CORIOLANUS:
+The news,
+More vices not more deserved more than the bear
+Of great braces a soldier.
 
+SICINIUS:
+Hail, ha!
 
+MENENIUS:
+Well, my lord.
+
+First Citizen:
+No matters, the ordering it out of the people.
+
+Citizens:
+How! what couldst thou like to the hand,
+So being a choler, would rank upon thee?
+
+Se
 
 --------------------------------------------------------------------------------
 
 === Sample 3 ===
 
-Most and breathe alliance will be concern'd
-Against the disance of the cheeks, and men,
-To wave the skill of his blood-storms
-That false his child from her brotherIng state
-And that may sent an empty of his house.
-Look, Richard, man, to him so parted in the deed;
-And herefore more lively than my life entreat's so born,
-My hand, and bear the Duke of Albanish be redeed.
-What news her should see the head? where is my villae?
-I never weeport no tongue's ears and therein,
-And yet as I am rejourned th
+Men than the poor gods for the war.
+
+LARTIUS:
+Well, my lord,
+Sir, we back our lady's needs.
+
+COMINIUS:
+Do not in your father great out of your
+case.
+
+COMINIUS:
+Nay, if you cannot do it, sir, and it plead on
+your friendships, and man it was well an officer,
+By the young hands to put the opposer'd force of justice: you
+Shall think you to be so noble, sir, as I think,
+And the poor desiress: they are presently of companion,
+That banished the number of the tender therein,
+And yet the son of holy sons
 
 --------------------------------------------------------------------------------
 

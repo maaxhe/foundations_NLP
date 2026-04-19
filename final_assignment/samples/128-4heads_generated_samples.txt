@@ -5,71 +5,63 @@ num_samples=3, max_new_tokens=500, temperature=0.8, top_k=200, device=cuda
 
 === Sample 1 ===
 
-When the brids will be lay be made to bear
-Upon my reason: alas, he's not hear the heat?
-For lady, enjoy the confess, and I'll
-Yourself forth your mile, in this miserable content;
-For the time of the next is wanton like diseased:
-My body my soul with speak your virtue.
-But, I will be my lord to thee
-To Willond do evil so, and for the cheeks,
-As if I must be so prayer not the son;
-To hear for thy fledge, for dear?
+When the bridle?
+
+STANLEY:
+He may seek of Buckingham, I cannot answer'd thee
+The word to come that ever cry of himself,
+And make the moof the courtesy of the beg in eyes.
+
+WARWICK:
+Give me thee the longer is wanton like die;
+The hunt of his cousin and plaw you love.
+I cannot be to your mistress that moaths of him.
+I beseech you, my lord, here stand me should
+To know the first of my know which I may be thee.
+
+PRINCE EDWARD:
+This is still is a rose of the heart.
 
 KING RICHARD III:
-Will you are a cause of my huncles.
-
-DUKE OF YORK:
-What may love
+I smother for th
 
 --------------------------------------------------------------------------------
 
 === Sample 2 ===
 
-Men pardon, marry, I'll not my master and seem and forth.
+Men part, being my soul of a woman of all,
+Nor not fortune's madam. What say he will surp on
+Our friends of the pecks of the castle lord.
 
-PRINCE:
-Your master son, my good lord, I have peaced
-Do might to England lord.
+Servant:
+Peace, move, the part, to the farewell:
+To sting a six a grace, so that Clarence!
 
-SOMERSET:
-This like to my part,
-Which if you to the stings and make me all:
-What Clarence! I know, if I condemn me
-For this any that from the way so learn that I
-A despire of the right commision, if I shall play
-To sunder they see thee for us at once.
+ROMEO:
+Why, then, of the hands bear the world uncle
+Of Tranio Summon Sir Warwick and Margaret,
+Which art we made by the name of Capulets,
+But to this deter no streets more protent.
 
-KING RICHARD III:
-Sir, to be come on, sir, let be the more face.
-
-LADY ANNE:
-Well, would I fear; you have me
+MERCUTIO:
+Do not speak me be too much a more in me;
+But, therefore it for Gloucester, e
 
 --------------------------------------------------------------------------------
 
 === Sample 3 ===
 
-Men than I beseech your husband; good Montague,
-Which not take and the world in good foe.
-
-ROMEO:
-A sweet word, first to be the matter-than a mine own.
-
-HERMIONE:
-In the advice, but I see thee as I have blament thee
-The leisure witness what she would in this
-That you have her mother'd as there; or then the base of York.
-
-Nurse:
-She's a babe love is come about true than the news.
-
-POLIXENES:
-Good voices, that thou not been what made him.
-
-CLAUDIO:
-He cannot make light in our queen, and wholesome
-
+Most and breath. Their churchyard with Richard him spirit
+Say your country of his presence within so kill worth.
+So in this is much a word, and a blood and blood
+AInd my advices betwixt it. Well.
+If thou lament thee the leisure witness what you would in
+this strong's landers to much below!
+And for the world a defended crown'd affroing man,
+When they take below you that they be compassion
+Have of vonture to you, my villain, hold,
+I think you to me, mine enemies, let him so,
+I am not a gladly sole
 
 --------------------------------------------------------------------------------
 

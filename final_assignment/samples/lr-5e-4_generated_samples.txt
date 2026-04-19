@@ -7,65 +7,62 @@ num_samples=3, max_new_tokens=500, temperature=0.8, top_k=200, device=cuda
 
 
 Clown:
-Ready, will you not see to stay? you will go a man?
+Ready, will you not see the way? you will grave you?
 
-LUCENTIO:
-What, uncle, there's that a full of my faces,
-And I must be spring in my countryman
-Who ever we sent in law Hermione to the queen.
+TRANIO:
+Matching hath my back that any moon,
+I have said your mother, and full of me mildness.
 
-DUKE VINCENTIO:
-The wall the matter, you shall see, why have you not
-To tell them in your love.
+CAMILLO:
+Even in this maid, God save you to him.
 
-ISABELLA:
-Ah, Caius Marcius Cominius Marcius!
+GREMIO:
+I would all the manner have and needs,
+why shall I with your lady shoulder, do I love on,--
 
-DUKE VINCENTIO:
-Now, none, the son; I know you when all of which Prince.
+FRIAR LAURENCE:
+I thought he did me strong-marriage
+To keep her father and my soul mouth in excellent.
 
-DUKE VINCENTIO:
-Noble matroad Warwick, stay in course.
+ROMEO:
+So murder, I have done, and say you are so?
 
-ANGELO:
-Why, and for th
+BENVOLIO:
+A very rest foot and voic
 
 --------------------------------------------------------------------------------
 
 === Sample 2 ===
 
-Men part knows you shall have hanging and seems.
+Men pass'd, marry, so I will that bear himself.
 
-KING EDWARD IV:
-Rest thou dissemble us, and wilt confess your words:
-What an our thumb are sorrow?
+Lord:
+Well, madam, what a court in the court.
 
-ABHORSON:
-Let them call them.
+TYBALT:
+I may stay as lord of as I do perjured.
 
-POMPEY:
-Why, then sir, 'tis a world come,
-As is the sword of her express'd.
+CAPULET:
+Halve mad?
+Can come, sir. I cannot see the guilty fear.
 
-PERDITA:
-I am swell.
+LUCENTIO:
+I shall not so.
 
-SAMPSON:
-Pray you, my lord.
+Clown:
+Tell her, she hath a world from the way of land.
 
-GREMIO:
-I shall know it, sir, my lord.
+LUCENTIO:
+Hail, ha! O noble duke! I say!
 
-GREGORY:
-I was your grace:
-Here is no noble more man is yourselves.
+TRANIO:
+He is nothing Caius Marcius, or time
+The shoulder full of protectors, and give him sleep,
+He like a care-house pain.
 
-PRINCE EDWARD:
-Ay, sir, and that was your company.
-
-LOVEL:
-He is forth your wife.
-
+BRUTUS:
+He hath served us,
+And what e
 
 --------------------------------------------------------------------------------
 
@@ -78,24 +75,21 @@ My mother, I can take home, and away!
 Servant:
 Now, sir, none.
 
-Second Murderer:
-O hath my tongue did come to the course.
+Second Servingman:
+I thank, if the noble Padua be
+Hear you none more than the pointed king begun,
+Like a warrant friendship in manish.
 
-SICINIUS:
-Why, then I cannot be seen.
+Second Servingman:
+Not he is here,
+That's all slow'd upon him, not joy'd him out;
+Madam, after marriage love along.
 
-Second Citizen:
-Let him be witness.
+Third Servingman:
+He is a harship: and to prove, the post,
+His face of his man the deeds to me wretched
+That clogging sovereign's army: old soe
 
-CORIOLANUS:
-Sir; the county will determine.
-
-Servant:
-The old conscience hath not slaughter'd him, sir, he is in him
-Betwixt you the lady of your first: he
-was not but not of commands and whose wall in eyes to me,
-And ten the people, insolence masters,
-And he is
 
 --------------------------------------------------------------------------------
 

@@ -5,72 +5,70 @@ num_samples=3, max_new_tokens=500, temperature=0.8, top_k=200, device=cuda
 
 === Sample 1 ===
 
-When the bride will be look'd of it?
 
-MENENIUS:
-Signior Marcius Cominius, I push alone,
-As did have, are not a scarce of him;
-But there for the confirm of the earth,
-Your citizens may revenge and the noble.
+Clown:
+So, who is here and the disease? What a man that we?
 
-First Senator:
-The triumphant in the princess, why have not known
-The gods have left to the law that he doth it?
+Third Servingman:
+Why they see how a full of my face?
 
-Second Murderer:
-And now is the law to hear him breathe his;
-And therefore you should, and so do I am.
+AUTOLYCUS:
+I have offended to my father, and if ever I
+heard it be rovered and the next is wanton like a peace
+thing on him.
 
-CLARENCE:
-Well, we are all content to die course.
+Second Servingman:
+I am surely at law to the law, the paint and so doth evil
+see home, this accused easy so move-born
+her body, the poor rock is a little pins of the
+pedlar?
 
-First Murderer:
-If I wi
+SICINIUS:
+I shall tell you are all his gentleman to the
+army your honour.
+
+BENVOLI
 
 --------------------------------------------------------------------------------
 
 === Sample 2 ===
 
-Men part, being great contraded to have my forest;
-Therefore is a weary man in this law;
-To-day, much from the father of thy castle,
-My worst shall be been lost to die.
+Men pardon, I cannot go what you should show.
 
-LUCIO:
-For he that may be done, and Romeo's side,
-Come; counsellor, let her eye have shown
-Than what we have content of his self-man
-To supply him a speedy.
+LEONTES:
+Not that I should be her than you are.
 
-LUCIO:
-Come, let him have none weathy fellows:
-Your son is not the submission; and will not so.
+LARTIUS:
+So that these brother should be absolute
+In all the very dispatch'd with your brother son,
+Even to me, that you come, sir, sir, then is
+My father may change bear the wars but with some villain,
+For these lady to his hearts down,
+And I am his partners of Captains,
+But to this determined that thou art,
+And let him go with us.
 
-MERCUTIO:
-He like to the hum of this man that is
-In the glorious leisure. Y
+ESCALUS:
+He shall have a fit for a charity;
+But if you should have e
 
 --------------------------------------------------------------------------------
 
 === Sample 3 ===
 
-Men that I bear. Their fit find whence I mean,
-Which in the door, and acquaint against their blinds,
-And bear in their sovereign, to be shurl'd
-The brave Edward and his cause in blood.
+Men that I bear the prince of the earth, though thou,
+Your ancient could not have put our sweet peece;
+Being his brother will this fair which he speaks
+Make him and his cause in calling in the field.
 
-KING EDWARD IV:
-Believe the Lord of Hereford and my hearted to her:
-But where you have here for love of granted crowns?
-
-EXETER:
-Then, Margaret, and the sun thirst was done,
-And then the duke and harsh souls with his hell.
-
-KING EDWARD IV:
-I am not the deed of the wreck,
-And therefore is no more, so art all thou
-
+LUCIO:
+O, therefore him to wail the shade
+Of the dismal secret dies. But that he loves
+Have been creature beauty a dangerous house!
+He, master mark his part flatterer, and then a
+courts is deserved in but finger: the very earth,
+But when then have been from your letter,
+And yet you shall not after 
 
 --------------------------------------------------------------------------------
 

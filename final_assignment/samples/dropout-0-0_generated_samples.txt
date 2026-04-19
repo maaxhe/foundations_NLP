@@ -6,57 +6,79 @@ num_samples=3, max_new_tokens=500, temperature=0.8, top_k=200, device=cuda
 === Sample 1 ===
 
 
-NORTHUMBERLAND:
-Now, sir, by my father be done.
+Nurse:
+So you will keep you that you bear you.
+Signior Mars, have been that us heard that did his eye.
 
-BORNARDINE:
-Take the babe, us he had bar dill'd,
-But when he wanton of her heavens, to his heart
-His noise, and if ever he will is the or time,
-Which now of the sepulchred of his husbace,
-And stand never let in love shall do this love
-To like the makest lips of thy high wear me,
-And shall him he power with the excure throperform;
-And he must not half off thy days dog not.
-What shall thy discovers doth have stood?
-And so all no vrols' chaster? Why
+PRINCE EDWARD:
+Go on, to the toft, I can take no longer mine.
+
+RICHARD:
+With slaop that deadl prophesied by tell in your delivery
+Than you shall so have done to see you all gold
+More you did thank out you when miscarried my suit,
+The shame stood most forger than your part son; which my monger sleep
+Than first?
+
+KING EDWARD IV:
+Why, bring ards bear the foul of the king's name?
+
+LADY GREY:
+I wi
 
 --------------------------------------------------------------------------------
 
 === Sample 2 ===
 
-Menen:
-Make married from his losses a child, means, between
-Yet and show he is so not us, or while confess
-I should solemng and poison in the sea
-Which he is at a map to be so sighs victory
-Of these six manner and yield Clarence;
-The good duke is enough to do him;
-The charic-but with some vows make more stools
-Which in her spences by his sweet points in the east,
-Though to make offer his cheer to the mother with.
-Thou wilt shame, we were thou should thy blood;
-But, thou would have more exceeding
+MOPSON:
+Peace, you shall have harborn the sea-son; and we met.
+
+POMPEY:
+I pray you, sir; I will not share you.
+
+AUTOLYCUS:
+I was for you.
+
+AUTOLYCUS:
+A sison! to made the words i' the traitor: in shall you
+will show the Clarence to strange here to move
+a shall bear with which a coward. I will serve my death
+lacknowled your sped in my love, and pain
+nothing Capter: if I do it is deter not the sun of it.
+
+GLOUCESTER:
+Why, here well, let the loyal husband; and make come.
+
+GLOUCESTER:
+If you well, t
 
 --------------------------------------------------------------------------------
 
 === Sample 3 ===
 
-Men than it was. Then, let me know us Marquina's,
-The necks of Edward's fools, and more mannerly
-Than fee we his in her worth to Warwick.
-The scare of Barnardine aI have a case:
-O, that is the fiend to do't! O, there's plead, brother,
-I shall even me in the deed idows.
+MARIANA:
+I beseech you, must not see him to avoid,
+To see the common back of his womb.
 
-DUKE OF AUMERLE:
-How now, lords, the band of York?
+RIVERS:
+Besides, you have deceived his like a work,
+And a sorrow'd abstisenInt my advance can make me say.
 
-KING RICHARD II:
-Give me me so down lost of the lady of your field:
-He was not but no more, monthou will not quiet your hate,
-And so tender the queen's of your chair and last,
-A
+DORCALIS:
+Now, sirrah! when I stir not my hands I do?
+
+GLOUCESTER:
+I will have many like mark grant of the world
+Doth made through his daughter?
+
+QUEEN MARGARET:
+What you did late your mother?
+
+QUEEN MARGARET:
+The offer laves of my noble women.
+
+QUEEN MARGARET:
+My mother! what say your will I will have 
 
 --------------------------------------------------------------------------------
 

@@ -7,64 +7,76 @@ num_samples=3, max_new_tokens=500, temperature=0.8, top_k=200, device=cuda
 
 
 ANGELO:
-And coward to life the disposition of all revent:
-What of the babie us are to be determity,
-And now he follow'd upon the flowerful in blood?
+And coward to life the disposition of all
+On the chair of the babye us arms.
 
-KING RICHARD II:
-In contradient, I'll speak the prince.
+PAULINA:
+Hare you now he for a wife of those proclaim.
 
-WARWICK:
-Nay, my lord; I would by myself in the tyrant in the royal eyes
-To knowl what the king Wilton her else?
+PERDITA:
+I lit beg it:
+You have late made overtainted me now
+Will absently in your loving poison:
+The princess, why have I should passion sometimely,
+And make only so what evil to your fortune weep,
+That poor own for the king three of son; if he must not in exort
+To fight him for that is an all bride
+Arms bearing her biding me as it.
 
-STANLEY:
-What we had no grown of heaven the day?
-
-WARWICK:
-This honour that I leave, for England, Sir.
-
-HENRY BOLINGBROKE:
-Sadier God's heart:
-Go to know and Hermion change to th
+HERMIONE:
+An all of 
 
 --------------------------------------------------------------------------------
 
 === Sample 2 ===
 
-Menenius, and such of another hand;
-She which we would were throat these success the weeks.
+Menenius, and such of the gallames of the sea-senate
+he sentence, we would confess'd with one.
 
-DUKE VINCENTIO:
-What case?
+TYBALT:
+I must there in.
 
-DUKE VINCENTIO:
-A stronger Peter, if the duke the words of mercy?
+ANGELO:
+Pray you, myself, Peter, my lord.
 
-POMPEY:
-I have no Roman so that Claudio, the queen of George,
-To the wanto have been what I will speak the manner,
-Whose lady is no dear to him; but therefore, I and not
-The merried that it is determined to them
-That I am the better of her bless well be too:
-A husband; and therefore, a worthir fair;
-To know our
+CLARENCE:
+This more is in so much sixt fearfull of the Claumerly.
+
+CAPULET:
+My lord, for the children to the court with some victory:
+For therefore I shall be come I subject.
+
+PAGULINA:
+Sirrah, Camillo.
+
+LADY CAPULET:
+Let him the subjection;
+For we be than the must people like to the hand:
+If I cannot do it, would I fear;
+To know you
 
 --------------------------------------------------------------------------------
 
 === Sample 3 ===
 
-Menenius is well,
-For I have no more denied an endured to take the
-conduction, and my love with the skiee word,
-finding to his like a word, and all as weak is callIng
-my admition: the severeign beggar, if I do,
-therefore expection not my hearted of grief, a determy
-will tentermining to speak, thou art of just the vow
-through have mine and born to his; and thou redeed'st
-thy very hand been so mock, now the power
-of victory who was we in the poor of the tent, and let him so, I am
-country's lawful 
+MARIANA:
+I beseech you, I would what he is
+A vow, he is cold; I am not well should
+As your wife, you will were not, if I will tell it was now,
+An if I was a sword I have a cannot confession.
+
+BAPTISTA:
+Somethout must report
+And will take him the news in that stand for Henry.
+
+Nurse:
+There's the old conscient of London,
+Make her coming made her fair confiness torment:
+So he is your feets: and to pronountent of Montague.
+
+POLIXENES:
+Where in he immodies tender to light:
+Here is the garland, and th
 
 --------------------------------------------------------------------------------
 

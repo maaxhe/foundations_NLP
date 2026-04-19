@@ -6,68 +6,78 @@ num_samples=3, max_new_tokens=500, temperature=0.8, top_k=200, device=cuda
 === Sample 1 ===
 
 
-KING RICHARD III:
-The lady that is thy beauteous grave:
-Beat thou bar it is not a credit would
-Have away with him, and when he been made it her,
-And well in a grief, sent in the Hercules to thee
-Will not so wander like to the clouds of his spreating spleety.
-
-KING RICHARD III:
-Then, my lord; mother, on my knee there as the most right.
-
-BUCKINGHAM:
-
-KING RICHARD III:
-From what are great late, I know not for dear?
-
-KING RICHARD III:
-Why, is that a curtain for his blood?
+KING RICHARD II:
+Say thou stir a senatory of thy grave?
 
 QUEEN ELIZABETH:
-Why vouc
+Now queen, that didst afend the word,
+That will make out or office come more diligious in thee.
+
+KING RICHARD II:
+Then in me now that a most plant to my life,
+Nor let me go alone, why shall be no more.
+
+QUEEN ELIZABETH:
+Be not on that which I beseech you, that we have done.
+
+KING RICHARD III:
+Northumberland, I think thee in this,
+To fight the house of Norfolk, you say and brings
+The mother could all no meanting from the c
 
 --------------------------------------------------------------------------------
 
 === Sample 2 ===
 
-Men part, and go too.
+Men pardon, I shall be not better.
 
-ROMEO:
-It shall not stir not between throats the crown
-To the watchful death: if some should sol.
+SICINIUS:
+Well, by well.
 
-JULIET:
-What is the sea?
+BRUTUS:
+He hath seen the gods.
 
-PRINCE EDWARD:
-My lord?
+Third Citizen:
+Why, come, my lord?
 
-CATESBY:
-Sir, the state of Warwick before the Montague,
-And then let her entreat and the beauty of Richmond;
-And the violent of my desires and the deed,
-Which art the sweet placent sons Caesar set the Tower,
-Who done thee for a king, and leave that thou shalt help me made
-To hear the boar to the Lord Warwick for Gloucester.
+Second Citizen:
+I had not one of my sovereign sirk o' the sea:
+He doth be respected: there longs have strong out
+to entreat him the bear to give him content of him
+That he deserves his success, change our kin.
 
+Second Citizen:
+The gods keep him in it.
 
+LEONTES:
+I am too lip.
+
+First Murderer:
+Do not speak him keep his house: but he
+can choose him to him; and let him he
 
 --------------------------------------------------------------------------------
 
 === Sample 3 ===
 
-Most and breathe alliance will be concern'd
-Against the disance of the cheeks, and men,
-To wave the skill of his blood-storms
-That false his child from her brotherIng state
-And that may sent an empty of his house.
-Look, Richard, man, to him so parted in the deed;
-And herefore more lively than my life entreat's so born,
-My hand, and bear the Duke of Albanish be redeed.
-What news her should see the head? where is my villae?
-I never weeport no tongue's ears and therein,
-And yet as I am rejourned th
+MARIANA:
+I beseech you, I would what you had contrived to
+take the conduct of this.
+
+DUKE VINCENTIO:
+Why, what, first, sir, it must be thy daughter?
+
+CLAUDIO:
+Speak not to their country, the deadly place
+Of that murdered side by men's mistrustery.
+
+ISABELLA:
+Good displease that did I slew thee forth,
+Which is the very crown'd and liberty be love in still,
+Whose destroyled statute thy bloody with vineyard
+In this laving elevy blood the deed,
+To make me tender the queen as yet of thy drown,
+That t
 
 --------------------------------------------------------------------------------
 

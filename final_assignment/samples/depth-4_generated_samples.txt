@@ -5,64 +5,66 @@ num_samples=3, max_new_tokens=500, temperature=0.8, top_k=200, device=cuda
 
 === Sample 1 ===
 
+And they begin with the sweeter and the beauteous graves
+Bearing his rank after his very complaint.
+Why crown far say 'tis much off from the consul!
+What, in a grieve sense might be cluep'd with him there!
+For both like dive likeness of his soul,
+May speed yet lean upon my deeds do not myself,
+But keep the king their should make a falce of men,
+And more for the king three from their heads to thy flesh tears.
 
-AUTOLYCUS:
-O, will you be strong and bear to take and me.
+RICHARD:
+In all their stood is darkness, and hereafter course.
 
-AUTOLYCUS:
-What, shall I be?
-
-Clown:
-If, sweet sir, faith, you must be so.
-
-Clown:
-When you did.
-
-Clown:
-I send it not you, sir: so it is none: if you mean, like
-me let him be come to us; and therefore it is not
-open i' the court: the gods and the king their
-assembling tribunes, his consorts, and the
-the banks that seeks of his face, he slew him, and
-are good sirrah; some still in a roar and himself
-his business, and in his changing, hi
+QUEEN ELIZABETH:
+Even w
 
 --------------------------------------------------------------------------------
 
 === Sample 2 ===
 
-Men part, and such a pennywonted son,
-And seem an anger of the day,
-Who should so have their suitors in some stones
-Of breathing death in their bed-bed-sheep,
-And makes them out. My commitself them as
-Are ended, and, as the victor hath no doubt together
-For the bearing blows but with such victory,
-For these lady wounds and their subjects in his part;
-Made with their time of the destiny,
-The sun manly mothers with the common all the bold
-That the harm of Rome, when the rocks
-The fatal bleeder of 
+Men pardon'd, good nurse, good masters; and then, many
+weary madam, whom I can so longer. I have much found
+them that lords and more blew than he did she
+say he is dissolute out.
+
+ANGELO:
+Tell him, he has ever a son, a most grave.
+
+DUKE VINCENTIO:
+To make him home, what were it content of his
+self a man to that his disposition with
+his head hath broken on his merries to touching it. What
+the sun is a mother? what thou? there was held an earth so harmful as it?
+
+LUCIO:
+You are guess! So else is e
 
 --------------------------------------------------------------------------------
 
 === Sample 3 ===
 
-Me run, and we seal'd to the common with the coronation.
+Men that I beseech you, let me away.
 
-KING EDWARD IV:
-What art, see, we will, sir; be within, a crutch,
-Or else a word, and a son and false
-Her nights and in close and devotion.
-Being banish'd their power, brother Gloucester,
-I will not speak a forlorn to the land;
-And give to the earth and so soon as for her head,
-Nor both this statue. If thou didst didst be harse.
+MENENIUS:
+Come, sir, and I would yet bring you not be some jest;
+Be worthy in you to high him a word,
+And all a brace bencherIng my advance.
 
-GLOUCESTER:
-Such a town, my villain! One more heart not on my side,
-And deliver'd in by the bosom of hell,
-The
+CORIOLANUS:
+Ay, good my lord,
+Would tender death men in the world of grievous death.
+But Heaven and lastly springs forth,
+Whose band frowards murder, and bare spent it in so
+That lost itself late your honour.
+
+CORIOLANUS:
+Ay, sir; what's that ever you?
+
+Messenger:
+Them in me; even yet, against the power, and whole
+The 
 
 --------------------------------------------------------------------------------
 

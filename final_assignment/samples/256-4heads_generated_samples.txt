@@ -6,70 +6,91 @@ num_samples=3, max_new_tokens=500, temperature=0.8, top_k=200, device=cuda
 === Sample 1 ===
 
 
-DUKE OF AUMERLE:
-Shall I, be much an unbeot envy.
-O, this again he was the purpose to be determine,
-And the heavy day in the king, and forget it,
-Or who long estimation have latest in our speeding.
+ANGELO:
+And come, my Lord Hastings, and you not shall stand
+That shall this unquit to be determine,
+And now he follow'd upon him.
 
-DUKE OF AUMERLE:
-Nay, my lord; I would by my prince's love.
+LUCIO:
+Have I talk of life
+When we sent in the sea drop to another presently
+That else no more.
 
-KING RICHARD II:
-My good lord, demand me on thy head,
-And yet thou dost quarrel in his soul:
-Thou shalt be none, thou art not some morrow.
+ISABELLA:
+I would be so low you love.
 
-KING RICHARD II:
-What murder? what thy discoversed and Edward?
+LUCIO:
+I will be my lord.
 
-GLOUCESTER:
-And I, that have forgot
+ISABELLA:
+I shall not in so oftending with him;
+And if he were touch'd him breathe so;
+And he must not have got to him.
+
+DUKE VINCENTIO:
+But then is a royal thing:
+For his brother, and you have hand for hi
 
 --------------------------------------------------------------------------------
 
 === Sample 2 ===
 
-Men pardon, I shall be not any master and seen:
-Some present mayor may be blood.
+MONTAGUE:
+And so thou art not harsh a charged-fond fortune's lady.
 
-BUCKINGHAM:
-The rest flowers that sound my castle lord.
+DUKE OF AUMERLE:
+Welcome, we must be perfect that lord
+In all the people.
 
-GLOUCESTER:
-But in the matter came on the heir of York?
+LUCIO:
+A pleasant and passage, or if you think
+He is done, and Richard: there is gone.
 
-KING EDWARD IV:
-Thy brother gives not him like to the flower.
+HORTENSIO:
+It is a good charge beauty against the way.
 
-GLOUCESTER:
-The virtue of the world may most royall'd him.
+POLIXENES:
+Nay, be so lack, I will, must die to thee.
 
-KING EDWARD IV:
-Clarence, the virtue of Clarence, the queen usurps on,
-The sun and approachess be that thou shalt have like
-To this an oath back with this own teeth,
-Having king our
+POMPEY:
+My protectors.
+
+POMPEY:
+Nay, be strong and earnest will take it.
+
+CAMILLO:
+Why, sir, let me see the hand of a birth?
+
+POLIXENES:
+The fire;
+The contagi
 
 --------------------------------------------------------------------------------
 
 === Sample 3 ===
 
-Men that I be spoke in the sink of two out
-And how shall be too late, and born and
-As being strikes and endured.
+MARIANA:
+I beseech you, I would shake Montague to him.
+
+POMPEY:
+In the children give him be villain to me.
+
+CLAUDIO:
+Why shall I know the news?
+
+ANGELO:
+He be call'd as ta'en in clock, be come about the
+blame and liberty exception and my hand; and I
+will be done a fool, and having left out. The old consuls
+and so soon from the fire and breath it is clear'd, but
+then the duke and harsh serving of his child to the
+lawful election.
 
 MENENIUS:
-One word, word, what says he
-He bid me I have a cause of a love.
-Leave me to my lady, to the people goes men
-The shade of the best: a dozen years have pass'd
-To make good colours of justice: 'tis not half,
-That banished with his; and whose men have done
-As he cause double and new to be so,
-His facient heart and in the poor of mine,
-And deliver his soul with such a wolf,
-The
+How may'st be? The mark!
+
+MENENIUS:
+He was a little tong
 
 --------------------------------------------------------------------------------
 
