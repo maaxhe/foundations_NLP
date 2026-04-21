@@ -1,290 +1,298 @@
-[SPEAKER] This day should Clarence closely be mew'd up, [ANSWER] GLOUCESTER [END]
-[SPEAKER] Accept of him, or else you do me wrong: [ANSWER] PETRUCHIO [END]
-[SPEAKER] To gratify his noble service that [ANSWER] MENENIUS [END]
-[SPEAKER] A thousand times the worse, to want thy light. [ANSWER] ROMEO [END]
-[SPEAKER] More wonderful, when angels are so angry. [ANSWER] GLOUCESTER [END]
-[SPEAKER] Uncle, even in the glasses of thine eyes [ANSWER] KING RICHARD II [END]
-[SPEAKER] I will be sure my Katharina shall be fine. [ANSWER] PETRUCHIO [END]
-[SPEAKER] Good night, good night! parting is such [ANSWER] JULIET [END]
-[SPEAKER] Father, 'tis thus: yourself and all the world, [ANSWER] PETRUCHIO [END]
-[SPEAKER] I have no joy of this contract to-night: [ANSWER] JULIET [END]
-[SPEAKER] We were not born to sue, but to command; [ANSWER] KING RICHARD II [END]
-[SPEAKER] lady a merited benefit; redeem your brother from [ANSWER] DUKE VINCENTIO [END]
-[SPEAKER] I will perform it to enfranchise you. [ANSWER] GLOUCESTER [END]
-[SPEAKER] A senseless villain! Good Hortensio, [ANSWER] PETRUCHIO [END]
-[SPEAKER] peradventure he shall ever return to have hearing of [ANSWER] DUKE VINCENTIO [END]
-[SPEAKER] Son, I have overheard what hath passed between you [ANSWER] DUKE VINCENTIO [END]
-[SPEAKER] What's he that follows there, that would not dance? [ANSWER] JULIET [END]
-[SPEAKER] And by my body's action teach my mind [ANSWER] CORIOLANUS [END]
-[SPEAKER] Not her that chides, sir, at any hand, I pray. [ANSWER] PETRUCHIO [END]
-[SPEAKER] More fit to do another such offence [ANSWER] DUKE VINCENTIO [END]
-[SPEAKER] Affection's edge in me, were she as rough [ANSWER] PETRUCHIO [END]
-[SPEAKER] A match, sir. There's in all two worthy voices [ANSWER] CORIOLANUS [END]
-[SPEAKER] Out of her favour, where I am in love. [ANSWER] ROMEO [END]
-[SPEAKER] That thou consent to marry us to-day. [ANSWER] ROMEO [END]
-[SPEAKER] And clap thyself my love: then didst thou utter [ANSWER] LEONTES [END]
-[SPEAKER] Then was your sin of heavier kind than his. [ANSWER] DUKE VINCENTIO [END]
-[SPEAKER] As Phaethon would whip you to the west, [ANSWER] JULIET [END]
-[SPEAKER] Let that suffice. I have trusted thee, Camillo, [ANSWER] LEONTES [END]
-[SPEAKER] Perchance she cannot meet him: that's not so. [ANSWER] JULIET [END]
-[SPEAKER] I know you can do very little alone; for your helps [ANSWER] MENENIUS [END]
-[SPEAKER] Got my lord chamberlain his liberty. [ANSWER] GLOUCESTER [END]
-[SPEAKER] Retain that dear perfection which he owes [ANSWER] JULIET [END]
-[SPEAKER] Swear by the duty that you owe to God-- [ANSWER] KING RICHARD II [END]
-[SPEAKER] And, touching hers, make blessed my rude hand. [ANSWER] ROMEO [END]
-[SPEAKER] To deck our soldiers for these Irish wars. [ANSWER] KING RICHARD II [END]
-[SPEAKER] Tush, tush! fear boys with bugs. [ANSWER] PETRUCHIO [END]
-[SPEAKER] He that bereft thee, lady, of thy husband, [ANSWER] GLOUCESTER [END]
-[SPEAKER] With this night's revels and expire the term [ANSWER] ROMEO [END]
-[SPEAKER] Weak men must fall, for heaven still guards the right. [ANSWER] KING RICHARD II [END]
-[SPEAKER] Had she affections and warm youthful blood, [ANSWER] JULIET [END]
-[SPEAKER] Our purpose to them: and to our noble consul [ANSWER] MENENIUS [END]
-[SPEAKER] Be taken from the people. [ANSWER] CORIOLANUS [END]
-[SPEAKER] And have prepared great store of wedding cheer; [ANSWER] PETRUCHIO [END]
-[SPEAKER] My Lady Grey his wife, Clarence, 'tis she [ANSWER] GLOUCESTER [END]
-[SPEAKER] Alack, for lesser knowledge! how accursed [ANSWER] LEONTES [END]
-[SPEAKER] And is it not well served in to a sweet goose? [ANSWER] ROMEO [END]
-[SPEAKER] An honour! were not I thine only nurse, [ANSWER] JULIET [END]
-[SPEAKER] Shamed their aspect with store of childish drops: [ANSWER] GLOUCESTER [END]
-[SPEAKER] Now put it, God, in the physician's mind [ANSWER] KING RICHARD II [END]
-[SPEAKER] Come, night; come, Romeo; come, thou day in night; [ANSWER] JULIET [END]
-[SPEAKER] That will say anything but were they false [ANSWER] LEONTES [END]
-[SPEAKER] Are daily given to ennoble those [ANSWER] GLOUCESTER [END]
-[SPEAKER] They do consume the thing that feeds their fury: [ANSWER] PETRUCHIO [END]
-[SPEAKER] and therein am I constant to my profession. [ANSWER] AUTOLYCUS [END]
-[SPEAKER] To the people! Coriolanus, patience! [ANSWER] MENENIUS [END]
-[SPEAKER] The king is not at the palace; he is gone aboard a [ANSWER] AUTOLYCUS [END]
-[SPEAKER] Than those that have more cunning to be strange. [ANSWER] JULIET [END]
-[SPEAKER] I am content you shall entreat me stay; [ANSWER] PETRUCHIO [END]
-[SPEAKER] As old as Sibyl and as curst and shrewd [ANSWER] PETRUCHIO [END]
-[SPEAKER] Though first in question, is thy secondary. [ANSWER] DUKE VINCENTIO [END]
-[SPEAKER] To study fashions to adorn my body: [ANSWER] GLOUCESTER [END]
-[SPEAKER] wife was brought to bed of twenty money-bags at a [ANSWER] AUTOLYCUS [END]
-[SPEAKER] For the in which doth control't. [ANSWER] CORIOLANUS [END]
-[SPEAKER] That tempers him to this extremity. [ANSWER] GLOUCESTER [END]
-[SPEAKER] So much as of a thought of ill in him. [ANSWER] KING RICHARD II [END]
-[SPEAKER] It is a quarrel most unnatural, [ANSWER] GLOUCESTER [END]
-[SPEAKER] But, so it is, it is not. Was this taken [ANSWER] LEONTES [END]
-[SPEAKER] Touching the weal o' the common, you shall find [ANSWER] MENENIUS [END]
-[SPEAKER] You would entreat me rather go than stay. [ANSWER] PETRUCHIO [END]
-[SPEAKER] Why, what's a moveable? [ANSWER] PETRUCHIO [END]
-[SPEAKER] Mowbray, impartial are our eyes and ears: [ANSWER] KING RICHARD II [END]
-[SPEAKER] Are not thine own so proper as to waste [ANSWER] DUKE VINCENTIO [END]
-[SPEAKER] stuck in ears: you might have pinched a placket, it [ANSWER] AUTOLYCUS [END]
-[SPEAKER] bewitchment of some popular man and give it [ANSWER] CORIOLANUS [END]
-[SPEAKER] Make motion through my lips, and my arm'd knees, [ANSWER] CORIOLANUS [END]
-[SPEAKER] One fairer than my love! the all-seeing sun [ANSWER] ROMEO [END]
-[SPEAKER] That seest a game play'd home, the rich stake drawn, [ANSWER] LEONTES [END]
-[SPEAKER] The evil that thou causest to be done, [ANSWER] DUKE VINCENTIO [END]
-[SPEAKER] And that bare vowel 'I' shall poison more [ANSWER] JULIET [END]
-[SPEAKER] will make much of your voices, and so trouble you no further. [ANSWER] CORIOLANUS [END]
-[SPEAKER] How high a pitch his resolution soars! [ANSWER] KING RICHARD II [END]
+[SPEAKER] And, for our coffers, with too great a court [ANSWER] KING RICHARD II [END]
+[SPEAKER] That thou her maid art far more fair than she: [ANSWER] ROMEO [END]
+[SPEAKER] Or shall we on without a apology? [ANSWER] ROMEO [END]
+[SPEAKER] Nurse, commend me to thy lady and mistress. I [ANSWER] ROMEO [END]
+[SPEAKER] this sister of mine do with rice? But my father [ANSWER] AUTOLYCUS [END]
+[SPEAKER] How hath your lordship brook'd imprisonment? [ANSWER] GLOUCESTER [END]
+[SPEAKER] Why, uncle, what's the matter? [ANSWER] KING RICHARD II [END]
+[SPEAKER] tell you you have good faces. If you see this in [ANSWER] MENENIUS [END]
+[SPEAKER] I would I were thy bird. [ANSWER] ROMEO [END]
+[SPEAKER] Now, good sweet nurse,--O Lord, why look'st thou sad? [ANSWER] JULIET [END]
+[SPEAKER] And merrily hent the stile-a: [ANSWER] AUTOLYCUS [END]
+[SPEAKER] And given his deputation all the organs [ANSWER] DUKE VINCENTIO [END]
+[SPEAKER] She is not hot, but temperate as the morn; [ANSWER] PETRUCHIO [END]
+[SPEAKER] Why, then is my pump well flowered. [ANSWER] ROMEO [END]
+[SPEAKER] Indeed, I should have ask'd you that before. [ANSWER] ROMEO [END]
+[SPEAKER] an he had stayed by him, I would not have been so [ANSWER] MENENIUS [END]
+[SPEAKER] Then hie you hence to Friar Laurence' cell; [ANSWER] JULIET [END]
+[SPEAKER] Tale-porter, and five or six honest wives that were [ANSWER] AUTOLYCUS [END]
+[SPEAKER] Who lets it hop a little from her hand, [ANSWER] JULIET [END]
+[SPEAKER] Remain a pinch'd thing; yea, a very trick [ANSWER] LEONTES [END]
+[SPEAKER] The nature of their crimes, that I may minister [ANSWER] DUKE VINCENTIO [END]
+[SPEAKER] The dateless limit of thy dear exile; [ANSWER] KING RICHARD II [END]
+[SPEAKER] your complexion, shall keep the body of it ever [ANSWER] DUKE VINCENTIO [END]
+[SPEAKER] Where and what time thou wilt perform the rite; [ANSWER] JULIET [END]
+[SPEAKER] A sweeter and a lovelier gentleman, [ANSWER] GLOUCESTER [END]
+[SPEAKER] I hear some noise within; dear love, adieu! [ANSWER] JULIET [END]
+[SPEAKER] I had rather you did lack than I, my lord, [ANSWER] LEONTES [END]
+[SPEAKER] Give me the boy: I am glad you did not nurse him: [ANSWER] LEONTES [END]
+[SPEAKER] at home that will not [ANSWER] MENENIUS [END]
+[SPEAKER] Play'd for a pair of stainless maidenhoods: [ANSWER] JULIET [END]
+[SPEAKER] What devil art thou, that dost torment me thus? [ANSWER] JULIET [END]
+[SPEAKER] Than sway with them in theirs. [ANSWER] CORIOLANUS [END]
+[SPEAKER] Or else be impudently negative, [ANSWER] LEONTES [END]
+[SPEAKER] As much to him, else is his thanks too much. [ANSWER] JULIET [END]
+[SPEAKER] That when she dies with beauty dies her store. [ANSWER] ROMEO [END]
+[SPEAKER] I am too sore enpierced with his shaft [ANSWER] ROMEO [END]
+[SPEAKER] Anon do meet the senate. [ANSWER] MENENIUS [END]
+[SPEAKER] To your own bents dispose you: you'll be found, [ANSWER] LEONTES [END]
+[SPEAKER] To the hopeful execution do I leave you [ANSWER] DUKE VINCENTIO [END]
+[SPEAKER] For time hath set a blot upon my pride. [ANSWER] KING RICHARD II [END]
+[SPEAKER] fidiused for all the chests in Corioli, and the gold [ANSWER] MENENIUS [END]
+[SPEAKER] To say this boy were like me. Come, sir page, [ANSWER] LEONTES [END]
+[SPEAKER] her fortune, her marriage-dowry; with both, her [ANSWER] DUKE VINCENTIO [END]
+[SPEAKER] So shows a snowy dove trooping with crows, [ANSWER] ROMEO [END]
+[SPEAKER] being, as I am, littered under Mercury, was likewise [ANSWER] AUTOLYCUS [END]
+[SPEAKER] Shall bitterly begin his fearful date [ANSWER] ROMEO [END]
+[SPEAKER] I know ye well enough. [ANSWER] AUTOLYCUS [END]
+[SPEAKER] Have I not heard the sea puff'd up with winds [ANSWER] PETRUCHIO [END]
+[SPEAKER] As glorious to this night, being o'er my head [ANSWER] ROMEO [END]
+[SPEAKER] Thou dost confirm his happiness for ever. [ANSWER] GLOUCESTER [END]
+[SPEAKER] Of civil wounds plough'd up with neighbours' sword; [ANSWER] KING RICHARD II [END]
+[SPEAKER] O, you are novices! 'tis a world to see, [ANSWER] PETRUCHIO [END]
+[SPEAKER] With harsh resounding trumpets' dreadful bray, [ANSWER] KING RICHARD II [END]
 [SPEAKER] could turn your eyes toward the napes of your necks, [ANSWER] MENENIUS [END]
-[SPEAKER] her recompense: and here, by this, is your brother [ANSWER] DUKE VINCENTIO [END]
-[SPEAKER] O, speak again, bright angel! for thou art [ANSWER] ROMEO [END]
-[SPEAKER] That, in the official marks invested, you [ANSWER] MENENIUS [END]
-[SPEAKER] I know she is an irksome brawling scold: [ANSWER] PETRUCHIO [END]
-[SPEAKER] With humble and familiar courtesy, [ANSWER] KING RICHARD II [END]
-[SPEAKER] Of this most wise rebellion, thou go'st foremost: [ANSWER] MENENIUS [END]
-[SPEAKER] Whose ignorant credulity will not [ANSWER] LEONTES [END]
-[SPEAKER] Whose double tongue may with a mortal touch [ANSWER] KING RICHARD II [END]
-[SPEAKER] So thou wilt woo; but else, not for the world. [ANSWER] JULIET [END]
-[SPEAKER] I got them in my country's service, when [ANSWER] CORIOLANUS [END]
-[SPEAKER] Fie, how my bones ache! what a jaunt have I had! [ANSWER] JULIET [END]
-[SPEAKER] And the place death, considering who thou art, [ANSWER] JULIET [END]
-[SPEAKER] And not the punishment. Therefore indeed, my father, [ANSWER] DUKE VINCENTIO [END]
-[SPEAKER] Beshrew your heart for sending me about, [ANSWER] JULIET [END]
-[SPEAKER] Which done, God take King Edward to his mercy, [ANSWER] GLOUCESTER [END]
-[SPEAKER] Being but heavy, I will bear the light. [ANSWER] ROMEO [END]
-[SPEAKER] Bound by my charity and my blest order, [ANSWER] DUKE VINCENTIO [END]
-[SPEAKER] Hie to high fortune! Honest nurse, farewell. [ANSWER] JULIET [END]
-[CLASSIFY] Thus it is: the Volsces have an army forth; against whom Cominius the general is gone, with one part of our Roman power: your lord and Titus Lartius are set [ANSWER] PROSE [END]
-[CLASSIFY] Hark you. far off!
-There is Aufidius; list, what work he makes
-Amongst your cloven army. [ANSWER] VERSE [END]
-[CLASSIFY] Of more strong link asunder than can ever Appear in your impediment. For the dearth, The gods, not the patricians, make it, and [ANSWER] PROSE [END]
-[CLASSIFY] That most are willing. If any such be here--
-As it were sin to doubt--that love this painting
-Wherein you see me smear'd; if any fear [ANSWER] VERSE [END]
-[CLASSIFY] 'They have press'd a power, but it is not known Whether for east or west: the dearth is great; The people mutinous; and it is rumour'd, [ANSWER] PROSE [END]
-[CLASSIFY] But make you ready your stiff bats and clubs:
-Rome and her rats are at the point of battle;
-The one side must have bale. [ANSWER] VERSE [END]
-[CLASSIFY] grain enough!
-Would the nobility lay aside their ruth,
-And let me use my sword, I'll make a quarry [ANSWER] VERSE [END]
-[CLASSIFY] the map of my microcosm, follows it that I am known well enough too? what barm can your bisson conspectuities glean out of this character, if I be [ANSWER] PROSE [END]
-[CLASSIFY] Our steed the leg, the tongue our trumpeter.
-With other muniments and petty helps
-In this our fabric, if that they-- [ANSWER] VERSE [END]
-[CLASSIFY] What good condition can a treaty find I' the part that is at mercy? Five times, Marcius, I have fought with thee: so often hast thou beat me, [ANSWER] PROSE [END]
-[CLASSIFY] had inkling this fortnight what we intend to do,
-which now we'll show 'em in deeds. They say poor
-suitors have strong breaths: they shall know we [ANSWER] VERSE [END]
-[CLASSIFY] When steel grows soft as the parasite's silk, Let him be made a coverture for the wars! No more, I say! For that I have not wash'd [ANSWER] PROSE [END]
-[CLASSIFY] Then reason safely with you. Therefore, be it known, As to us, to all the world, that Caius Marcius Wears this war's garland: in token of the which, [ANSWER] PROSE [END]
-[CLASSIFY] That does appear as he were flay'd? O gods
-He has the stamp of Marcius; and I have
-Before-time seen him thus. [ANSWER] VERSE [END]
-[CLASSIFY] For, look you, I may make the belly smile As well as speak--it tauntingly replied To the discontented members, the mutinous parts [ANSWER] PROSE [END]
-[CLASSIFY] compound with the major part of your syllables: and though I must be content to bear with those that say you are reverend grave men, yet they lie deadly that [ANSWER] PROSE [END]
-[CLASSIFY] malice in my breath. Meeting two such wealsmen as you are--I cannot call you Lycurguses--if the drink you give me touch my palate adversely, I make a [ANSWER] PROSE [END]
-[CLASSIFY] Beneath abhorring. What would you have, you curs,
-That like nor peace nor war? the one affrights you,
-The other makes you proud. He that trusts to you, [ANSWER] VERSE [END]
-[CLASSIFY] And Titus Lartius, a most valiant Roman, These three lead on this preparation Whither 'tis bent: most likely 'tis for you: [ANSWER] PROSE [END]
-[CLASSIFY] I' the part that is at mercy? Five times, Marcius, I have fought with thee: so often hast thou beat me, And wouldst do so, I think, should we encounter [ANSWER] PROSE [END]
-[CLASSIFY] You are transported by calamity Thither where more attends you, and you slander The helms o' the state, who care for you like fathers, [ANSWER] PROSE [END]
-[CLASSIFY] A place below the first: for what miscarries
-Shall be the general's fault, though he perform
-To the utmost of a man, and giddy censure [ANSWER] VERSE [END]
-[CLASSIFY] And call him noble that was now your hate, Him vile that was your garland. What's the matter, That in these several places of the city [ANSWER] PROSE [END]
-[CLASSIFY] Appear in your impediment. For the dearth, The gods, not the patricians, make it, and Your knees to them, not arms, must help. Alack, [ANSWER] PROSE [END]
-[CLASSIFY] He did inform the truth: but for our gentlemen,
-The common file--a plague! tribunes for them!--
-The mouse ne'er shunn'd the cat as they did budge [ANSWER] VERSE [END]
-[CLASSIFY] First Citizen:
-Well, I'll hear it, sir: yet you must not think to
-fob off our disgrace with a tale: but, an 't please [ANSWER] VERSE [END]
-[CLASSIFY] youth with comeliness plucked all gaze his way, when for a day of kings' entreaties a mother should not sell him an hour from her beholding, I, considering [ANSWER] PROSE [END]
-[CLASSIFY] If these shows be not outward, which of you But is four Volsces? none of you but is Able to bear against the great Aufidius [ANSWER] PROSE [END]
-[CLASSIFY] At home, upon my brother's guard, even there, Against the hospitable canon, would I Wash my fierce hand in's heart. Go you to the city; [ANSWER] PROSE [END]
-[CLASSIFY] Then his good report should have been my son; I therein would have found issue. Hear me profess sincerely: had I a dozen sons, each in my love [ANSWER] PROSE [END]
-[CLASSIFY] As it were sin to doubt--that love this painting Wherein you see me smear'd; if any fear Lesser his person than an ill report; [ANSWER] PROSE [END]
-[CLASSIFY] And curse that justice did it.
-Who deserves greatness
-Deserves your hate; and your affections are [ANSWER] VERSE [END]
-[CLASSIFY] Our very priests must become mockers, if they shall encounter such ridiculous subjects as you are. When you speak best unto the purpose, it is not worth the [ANSWER] PROSE [END]
-[CLASSIFY] At a crack'd drachm! Cushions, leaden spoons, Irons of a doit, doublets that hangmen would Bury with those that wore them, these base slaves, [ANSWER] PROSE [END]
+[SPEAKER] Simple, plain Clarence! I do love thee so, [ANSWER] GLOUCESTER [END]
+[SPEAKER] About a prophecy, which says that 'G' [ANSWER] GLOUCESTER [END]
+[SPEAKER] Beseech your highness, call the queen again. [ANSWER] LEONTES [END]
+[SPEAKER] The centre is not big enough to bear [ANSWER] LEONTES [END]
+[SPEAKER] That waits upon your grace? [ANSWER] GLOUCESTER [END]
+[SPEAKER] Hist! Romeo, hist! O, for a falconer's voice, [ANSWER] JULIET [END]
+[SPEAKER] In our remove be thou at full ourself; [ANSWER] DUKE VINCENTIO [END]
+[SPEAKER] done, let the law go whistle: I warrant you. [ANSWER] AUTOLYCUS [END]
+[SPEAKER] Let me see: every 'leven wether tods; every tod [ANSWER] AUTOLYCUS [END]
+[SPEAKER] That his blood flows, or that his appetite [ANSWER] DUKE VINCENTIO [END]
+[SPEAKER] That I will shortly send thy soul to heaven, [ANSWER] GLOUCESTER [END]
+[SPEAKER] My only love sprung from my only hate! [ANSWER] JULIET [END]
+[SPEAKER] To fright the souls of fearful adversaries, [ANSWER] GLOUCESTER [END]
+[SPEAKER] Though I am satisfied and need no more [ANSWER] LEONTES [END]
+[SPEAKER] Go, play, boy, play: thy mother plays, and I [ANSWER] LEONTES [END]
+[SPEAKER] You kiss by the book. [ANSWER] JULIET [END]
+[SPEAKER] But who comes here? the new-deliver'd Hastings? [ANSWER] GLOUCESTER [END]
+[SPEAKER] No, in good earnest. [ANSWER] LEONTES [END]
+[SPEAKER] Wondrous! ay, I warrant you, and not without his [ANSWER] MENENIUS [END]
+[SPEAKER] Or pile ten hills on the Tarpeian rock, [ANSWER] CORIOLANUS [END]
+[SPEAKER] which none must know but the king; and which he [ANSWER] AUTOLYCUS [END]
+[SPEAKER] I'll leave you: pray you, speak to 'em, I pray you, [ANSWER] MENENIUS [END]
+[SPEAKER] So Romeo would, were he not Romeo call'd, [ANSWER] JULIET [END]
+[SPEAKER] you give me touch my palate adversely, I make a [ANSWER] MENENIUS [END]
+[SPEAKER] Might you dispense with your leisure, I would by and [ANSWER] DUKE VINCENTIO [END]
+[SPEAKER] Still cupboarding the viand, never bearing [ANSWER] MENENIUS [END]
+[SPEAKER] Call me but love, and I'll be new baptized; [ANSWER] ROMEO [END]
+[SPEAKER] homely foolery already. I know, sir, we weary you. [ANSWER] AUTOLYCUS [END]
+[SPEAKER] And here she stands, touch her whoever dare; [ANSWER] PETRUCHIO [END]
+[SPEAKER] lying: it becomes none but tradesmen, and they [ANSWER] AUTOLYCUS [END]
+[SPEAKER] We met here both to thank and to remember [ANSWER] MENENIUS [END]
+[SPEAKER] Signior Hortensio, thus it stands with me: [ANSWER] PETRUCHIO [END]
+[SPEAKER] Say that she rail; why then I'll tell her plain [ANSWER] PETRUCHIO [END]
+[SPEAKER] To unbuild the city and to lay all flat. [ANSWER] MENENIUS [END]
+[SPEAKER] Brought hither Henry Hereford thy bold son, [ANSWER] KING RICHARD II [END]
+[SPEAKER] Petruchio is my name; Antonio's son, [ANSWER] PETRUCHIO [END]
+[SPEAKER] Which we disdain should tatter us, yet sought [ANSWER] CORIOLANUS [END]
+[SPEAKER] If she and I be pleased, what's that to you? [ANSWER] PETRUCHIO [END]
+[SPEAKER] Whom God preserve better than you would wish!-- [ANSWER] GLOUCESTER [END]
+[SPEAKER] of that fardel, the place of your dwelling, your [ANSWER] AUTOLYCUS [END]
+[SPEAKER] 'Sicilia is a so-forth:' 'tis far gone, [ANSWER] LEONTES [END]
+[SPEAKER] What you have nobly done. [ANSWER] MENENIUS [END]
+[SPEAKER] As old as Sibyl and as curst and shrewd [ANSWER] PETRUCHIO [END]
+[SPEAKER] Hourly afflict: merely, thou art death's fool; [ANSWER] DUKE VINCENTIO [END]
+[SPEAKER] Of the whole body. The belly answer'd-- [ANSWER] MENENIUS [END]
+[SPEAKER] The senate, Coriolanus, are well pleased [ANSWER] MENENIUS [END]
 [CLASSIFY] By all the battles wherein we have fought,
 By the blood we have shed together, by the vows
 We have made to endure friends, that you directly [ANSWER] VERSE [END]
-[CLASSIFY] Care for us! True, indeed! They ne'er cared for us
-yet: suffer us to famish, and their store-houses
-crammed with grain; make edicts for usury, to [ANSWER] VERSE [END]
-[CLASSIFY] My work hath yet not warm'd me: fare you well: The blood I drop is rather physical Than dangerous to me: to Aufidius thus [ANSWER] PROSE [END]
-[CLASSIFY] your worships: more of your conversation would infect my brain, being the herdsmen of the beastly plebeians: I will be bold to take my leave of you. [ANSWER] PROSE [END]
-[CLASSIFY] First Senator:
-So, your opinion is, Aufidius,
-That they of Rome are entered in our counsels [ANSWER] VERSE [END]
-[CLASSIFY] To hide your doings; and to silence that, Which, to the spire and top of praises vouch'd, Would seem but modest: therefore, I beseech you [ANSWER] PROSE [END]
-[CLASSIFY] Come:
-Half all Cominius' honours are to Marcius.
-Though Marcius earned them not, and all his faults [ANSWER] VERSE [END]
-[CLASSIFY] Five tribunes to defend their vulgar wisdoms, Of their own choice: one's Junius Brutus, Sicinius Velutus, and I know not--'Sdeath! [ANSWER] PROSE [END]
-[CLASSIFY] Condemning some to death, and some to exile; Ransoming him, or pitying, threatening the other; Holding Corioli in the name of Rome, [ANSWER] PROSE [END]
-[CLASSIFY] The way it takes, cracking ten thousand curbs
-Of more strong link asunder than can ever
-Appear in your impediment. For the dearth, [ANSWER] VERSE [END]
-[CLASSIFY] Or be accused of folly. I shall tell you A pretty tale: it may be you have heard it; But, since it serves my purpose, I will venture [ANSWER] PROSE [END]
-[CLASSIFY] There is the man of my soul's hate, Aufidius,
-Piercing our Romans: then, valiant Titus, take
-Convenient numbers to make good the city; [ANSWER] VERSE [END]
-[CLASSIFY] Wave thus, to express his disposition,
-And follow Marcius.
-O, me alone! make you a sword of me? [ANSWER] VERSE [END]
-[CLASSIFY] The strongest nerves and small inferior veins
-From me receive that natural competency
-Whereby they live: and though that all at once, [ANSWER] VERSE [END]
-[CLASSIFY] The shepherd knows not thunder from a tabour
-More than I know the sound of Marcius' tongue
-From every meaner man. [ANSWER] VERSE [END]
-[CLASSIFY] Against the wind a mile! You souls of geese,
-That bear the shapes of men, how have you run
-From slaves that apes would beat! Pluto and hell! [ANSWER] VERSE [END]
-[CLASSIFY] So, let the ports be guarded: keep your duties, As I have set them down. If I do send, dispatch Those centuries to our aid: the rest will serve [ANSWER] PROSE [END]
-[CLASSIFY] The other makes you proud. He that trusts to you, Where he should find you lions, finds you hares; Where foxes, geese: you are no surer, no, [ANSWER] PROSE [END]
-[CLASSIFY] Made all of false-faced soothing! When steel grows soft as the parasite's silk, Let him be made a coverture for the wars! [ANSWER] PROSE [END]
-[CLASSIFY] Who sensibly outdares his senseless sword, And, when it bows, stands up. Thou art left, Marcius: A carbuncle entire, as big as thou art, [ANSWER] PROSE [END]
-[CLASSIFY] The value of her own: 'twere a concealment Worse than a theft, no less than a traducement, To hide your doings; and to silence that, [ANSWER] PROSE [END]
-[CLASSIFY] That both our powers, with smiling
-fronts encountering,
-May give you thankful sacrifice. [ANSWER] VERSE [END]
-[CLASSIFY] Five tribunes to defend their vulgar wisdoms,
-Of their own choice: one's Junius Brutus,
-Sicinius Velutus, and I know not--'Sdeath! [ANSWER] VERSE [END]
-[CLASSIFY] In arms as sound as when I woo'd, in heart
-As merry as when our nuptial day was done,
-And tapers burn'd to bedward! [ANSWER] VERSE [END]
-[CLASSIFY] Now the fair goddess, Fortune, Fall deep in love with thee; and her great charms Misguide thy opposers' swords! Bold gentleman, [ANSWER] PROSE [END]
-[CLASSIFY] Have the patricians of you. For your wants,
-Your suffering in this dearth, you may as well
-Strike at the heaven with your staves as lift them [ANSWER] VERSE [END]
-[CLASSIFY] The charges of our friends. Ye Roman gods!
-Lead their successes as we wish our own,
-That both our powers, with smiling [ANSWER] VERSE [END]
+[CLASSIFY] So, let the ports be guarded: keep your duties,
+As I have set them down. If I do send, dispatch
+Those centuries to our aid: the rest will serve [ANSWER] VERSE [END]
+[CLASSIFY] Conjectural marriages; making parties strong And feebling such as stand not in their liking Below their cobbled shoes. They say there's [ANSWER] PROSE [END]
+[CLASSIFY] Your suffering in this dearth, you may as well Strike at the heaven with your staves as lift them Against the Roman state, whose course will on [ANSWER] PROSE [END]
+[CLASSIFY] how honour would become such a person. that it was no better than picture-like to hang by the wall, if renown made it not stir, was pleased to let him seek [ANSWER] PROSE [END]
+[CLASSIFY] Which yet seem shut, we, have but pinn'd with rushes;
+They'll open of themselves.
+Hark you. far off! [ANSWER] VERSE [END]
+[CLASSIFY] As they us to our trenches followed.
+So, now the gates are ope: now prove good seconds:
+'Tis for the followers fortune widens them, [ANSWER] VERSE [END]
+[CLASSIFY] compound with the major part of your syllables: and though I must be content to bear with those that say you are reverend grave men, yet they lie deadly that [ANSWER] PROSE [END]
+[CLASSIFY] But it proceeds or comes from them to you
+And no way from yourselves. What do you think,
+You, the great toe of this assembly? [ANSWER] VERSE [END]
+[CLASSIFY] won honour than in the embracements of his bed where he would show most love. When yet he was but tender-bodied and the only son of my womb, when [ANSWER] PROSE [END]
 [CLASSIFY] O' my word, the father's son: I'll swear,'tis a
 very pretty boy. O' my troth, I looked upon him o'
 Wednesday half an hour together: has such a [ANSWER] VERSE [END]
-[CLASSIFY] And made what work I pleased: 'tis not my blood Wherein thou seest me mask'd; for thy revenge Wrench up thy power to the highest. [ANSWER] PROSE [END]
-[CLASSIFY] down before their city Corioli; they nothing doubt prevailing and to make it brief wars. This is true, on mine honour; and so, I pray, go with us. [ANSWER] PROSE [END]
-[CLASSIFY] Strike at the heaven with your staves as lift them Against the Roman state, whose course will on The way it takes, cracking ten thousand curbs [ANSWER] PROSE [END]
-[CLASSIFY] Yet I can make my audit up, that all From me do back receive the flour of all, And leave me but the bran.' What say you to't? [ANSWER] PROSE [END]
-[CLASSIFY] Such a nature,
-Tickled with good success, disdains the shadow
-Which he treads on at noon: but I do wonder [ANSWER] VERSE [END]
-[CLASSIFY] Who has a charter to extol her blood, When she does praise me grieves me. I have done As you have done; that's what I can; induced [ANSWER] PROSE [END]
-[CLASSIFY] I am known to be a humorous patrician, and one that loves a cup of hot wine with not a drop of allaying Tiber in't; said to be something imperfect in [ANSWER] PROSE [END]
-[CLASSIFY] Alone I fought in your Corioli walls, And made what work I pleased: 'tis not my blood Wherein thou seest me mask'd; for thy revenge [ANSWER] PROSE [END]
-[CLASSIFY] There is the man of my soul's hate, Aufidius, Piercing our Romans: then, valiant Titus, take Convenient numbers to make good the city; [ANSWER] PROSE [END]
-[CLASSIFY] Against the Roman state, whose course will on The way it takes, cracking ten thousand curbs Of more strong link asunder than can ever [ANSWER] PROSE [END]
-[CLASSIFY] The citizens of Corioli have issued, And given to Lartius and to Marcius battle: I saw our party to their trenches driven, [ANSWER] PROSE [END]
-[CLASSIFY] Alone I fought in your Corioli walls,
-And made what work I pleased: 'tis not my blood
-Wherein thou seest me mask'd; for thy revenge [ANSWER] VERSE [END]
-[CLASSIFY] And, through the cranks and offices of man, The strongest nerves and small inferior veins From me receive that natural competency [ANSWER] PROSE [END]
-[CLASSIFY] May these same instruments, which you profane, Never sound more! when drums and trumpets shall I' the field prove flatterers, let courts and cities be [ANSWER] PROSE [END]
-[CLASSIFY] Than Hector's forehead when it spit forth blood
-At Grecian sword, contemning. Tell Valeria,
-We are fit to bid her welcome. [ANSWER] VERSE [END]
-[CLASSIFY] Rather than they shall pound us up: our gates, Which yet seem shut, we, have but pinn'd with rushes; They'll open of themselves. [ANSWER] PROSE [END]
-[CLASSIFY] We hate alike:
-Not Afric owns a serpent I abhor
-More than thy fame and envy. Fix thy foot. [ANSWER] VERSE [END]
-[CLASSIFY] established against the rich, and provide more
-piercing statutes daily, to chain up and restrain
-the poor. If the wars eat us not up, they will; and [ANSWER] VERSE [END]
-[CLASSIFY] What ever have been thought on in this state,
-That could be brought to bodily act ere Rome
-Had circumvention? 'Tis not four days gone [ANSWER] VERSE [END]
-[CLASSIFY] Let's hence, and hear
-How the dispatch is made, and in what fashion,
-More than his singularity, he goes [ANSWER] VERSE [END]
-[CLASSIFY] Still cupboarding the viand, never bearing
-Like labour with the rest, where the other instruments
-Did see and hear, devise, instruct, walk, feel, [ANSWER] VERSE [END]
-[CLASSIFY] Will the time serve to tell? I do not think.
-Where is the enemy? are you lords o' the field?
-If not, why cease you till you are so? [ANSWER] VERSE [END]
-[CLASSIFY] crammed with grain; make edicts for usury, to
-support usurers; repeal daily any wholesome act
-established against the rich, and provide more [ANSWER] VERSE [END]
-[CLASSIFY] Set me against Aufidius and his Antiates; And that you not delay the present, but, Filling the air with swords advanced and darts, [ANSWER] PROSE [END]
-[CLASSIFY] Then shall we hear their 'larum, and they ours. Now, Mars, I prithee, make us quick in work, That we with smoking swords may march from hence, [ANSWER] PROSE [END]
-[CLASSIFY] I have the letter here; yes, here it is. 'They have press'd a power, but it is not known Whether for east or west: the dearth is great; [ANSWER] PROSE [END]
-[CLASSIFY] You cry against the noble senate, who,
-Under the gods, keep you in awe, which else
-Would feed on one another? What's their seeking? [ANSWER] VERSE [END]
-[CLASSIFY] Better be held nor more attain'd than by A place below the first: for what miscarries Shall be the general's fault, though he perform [ANSWER] PROSE [END]
-[CLASSIFY] but they think we are too dear: the leanness that afflicts us, the object of our misery, is as an inventory to particularise their abundance; our [ANSWER] PROSE [END]
-[CLASSIFY] Were not so rich a jewel. Thou wast a soldier Even to Cato's wish, not fierce and terrible Only in strokes; but, with thy grim looks and [ANSWER] PROSE [END]
-[CLASSIFY] To break the heart of generosity,
-And make bold power look pale--they threw their caps
-As they would hang them on the horns o' the moon, [ANSWER] VERSE [END]
-[CLASSIFY] 'Though all at once cannot
-See what I do deliver out to each,
-Yet I can make my audit up, that all [ANSWER] VERSE [END]
-[CLASSIFY] Half all Cominius' honours are to Marcius. Though Marcius earned them not, and all his faults To Marcius shall be honours, though indeed [ANSWER] PROSE [END]
-[CLASSIFY] Thither where more attends you, and you slander
-The helms o' the state, who care for you like fathers,
-When you curse them as enemies. [ANSWER] VERSE [END]
-[CLASSIFY] Even to Cato's wish, not fierce and terrible Only in strokes; but, with thy grim looks and The thunder-like percussion of thy sounds, [ANSWER] PROSE [END]
-[CLASSIFY] O noble fellow!
-Who sensibly outdares his senseless sword,
-And, when it bows, stands up. Thou art left, Marcius: [ANSWER] VERSE [END]
+[CLASSIFY] Shall be the general's fault, though he perform To the utmost of a man, and giddy censure Will then cry out of Marcius 'O if he [ANSWER] PROSE [END]
 [CLASSIFY] Their bands i' the vaward are the Antiates,
 Of their best trust; o'er them Aufidius,
 Their very heart of hope. [ANSWER] VERSE [END]
-[CLASSIFY] And make my wars on you: look to't: come on;
-If you'll stand fast, we'll beat them to their wives,
-As they us to our trenches followed. [ANSWER] VERSE [END]
+[CLASSIFY] by your hearing: all the peace you make in their cause is, calling both the parties knaves. You are a pair of strange ones. [ANSWER] PROSE [END]
+[CLASSIFY] Hark you. far off!
+There is Aufidius; list, what work he makes
+Amongst your cloven army. [ANSWER] VERSE [END]
+[CLASSIFY] Care for us! True, indeed! They ne'er cared for us
+yet: suffer us to famish, and their store-houses
+crammed with grain; make edicts for usury, to [ANSWER] VERSE [END]
+[CLASSIFY] In arms as sound as when I woo'd, in heart
+As merry as when our nuptial day was done,
+And tapers burn'd to bedward! [ANSWER] VERSE [END]
+[CLASSIFY] cushion, or to be entombed in an ass's pack- saddle. Yet you must be saying, Marcius is proud; who in a cheap estimation, is worth predecessors [ANSWER] PROSE [END]
+[CLASSIFY] Where is that slave
+Which told me they had beat you to your trenches?
+Where is he? call him hither. [ANSWER] VERSE [END]
+[CLASSIFY] At a crack'd drachm! Cushions, leaden spoons, Irons of a doit, doublets that hangmen would Bury with those that wore them, these base slaves, [ANSWER] PROSE [END]
+[CLASSIFY] Of this most wise rebellion, thou go'st foremost: Thou rascal, that art worst in blood to run, Lead'st first to win some vantage. [ANSWER] PROSE [END]
+[CLASSIFY] That both our powers, with smiling
+fronts encountering,
+May give you thankful sacrifice. [ANSWER] VERSE [END]
+[CLASSIFY] tell you you have good faces. If you see this in the map of my microcosm, follows it that I am known well enough too? what barm can your bisson [ANSWER] PROSE [END]
+[CLASSIFY] established against the rich, and provide more piercing statutes daily, to chain up and restrain the poor. If the wars eat us not up, they will; and [ANSWER] PROSE [END]
+[CLASSIFY] Thou'ldst not believe thy deeds: but I'll report it Where senators shall mingle tears with smiles, Where great patricians shall attend and shrug, [ANSWER] PROSE [END]
+[CLASSIFY] No public benefit which you receive
+But it proceeds or comes from them to you
+And no way from yourselves. What do you think, [ANSWER] VERSE [END]
+[CLASSIFY] You cry against the noble senate, who,
+Under the gods, keep you in awe, which else
+Would feed on one another? What's their seeking? [ANSWER] VERSE [END]
+[CLASSIFY] Then his good report should have been my son; I
+therein would have found issue. Hear me profess
+sincerely: had I a dozen sons, each in my love [ANSWER] VERSE [END]
+[CLASSIFY] Able to bear against the great Aufidius
+A shield as hard as his. A certain number,
+Though thanks to all, must I select [ANSWER] VERSE [END]
+[CLASSIFY] That hunger broke stone walls, that dogs must eat, That meat was made for mouths, that the gods sent not Corn for the rich men only: with these shreds [ANSWER] PROSE [END]
+[CLASSIFY] I have the letter here; yes, here it is. 'They have press'd a power, but it is not known Whether for east or west: the dearth is great; [ANSWER] PROSE [END]
+[CLASSIFY] Since I heard thence; these are the words: I think I have the letter here; yes, here it is. 'They have press'd a power, but it is not known [ANSWER] PROSE [END]
+[CLASSIFY] And when my face is fair, you shall perceive Whether I blush or no: howbeit, I thank you. I mean to stride your steed, and at all times [ANSWER] PROSE [END]
+[CLASSIFY] 'Tis not a mile; briefly we heard their drums:
+How couldst thou in a mile confound an hour,
+And bring thy news so late? [ANSWER] VERSE [END]
+[CLASSIFY] The senators of Rome are this good belly, And you the mutinous members; for examine Their counsels and their cares, digest things rightly [ANSWER] PROSE [END]
+[CLASSIFY] Still cupboarding the viand, never bearing
+Like labour with the rest, where the other instruments
+Did see and hear, devise, instruct, walk, feel, [ANSWER] VERSE [END]
+[CLASSIFY] For, look you, I may make the belly smile
+As well as speak--it tauntingly replied
+To the discontented members, the mutinous parts [ANSWER] VERSE [END]
+[CLASSIFY] matter between party and party, if you chance to be pinched with the colic, you make faces like mummers; set up the bloody flag against all [ANSWER] PROSE [END]
+[CLASSIFY] Alone I fought in your Corioli walls,
+And made what work I pleased: 'tis not my blood
+Wherein thou seest me mask'd; for thy revenge [ANSWER] VERSE [END]
+[CLASSIFY] Whereof we have ta'en good and good store, of all The treasure in this field achieved and city, We render you the tenth, to be ta'en forth, [ANSWER] PROSE [END]
+[CLASSIFY] Even to Cato's wish, not fierce and terrible Only in strokes; but, with thy grim looks and The thunder-like percussion of thy sounds, [ANSWER] PROSE [END]
+[CLASSIFY] For that, being one o' the lowest, basest, poorest,
+Of this most wise rebellion, thou go'st foremost:
+Thou rascal, that art worst in blood to run, [ANSWER] VERSE [END]
+[CLASSIFY] Than Hector's forehead when it spit forth blood
+At Grecian sword, contemning. Tell Valeria,
+We are fit to bid her welcome. [ANSWER] VERSE [END]
+[CLASSIFY] If I must not, I need not be barren of accusations; he hath faults, with surplus, to tire in repetition. What shouts are these? The other side o' the city [ANSWER] PROSE [END]
+[CLASSIFY] That in these several places of the city
+You cry against the noble senate, who,
+Under the gods, keep you in awe, which else [ANSWER] VERSE [END]
+[CLASSIFY] The thunder-like percussion of thy sounds, Thou madst thine enemies shake, as if the world Were feverous and did tremble. [ANSWER] PROSE [END]
+[CLASSIFY] With flight and agued fear! Mend and charge home,
+Or, by the fires of heaven, I'll leave the foe
+And make my wars on you: look to't: come on; [ANSWER] VERSE [END]
+[CLASSIFY] Wears this war's garland: in token of the which, My noble steed, known to the camp, I give him, With all his trim belonging; and from this time, [ANSWER] PROSE [END]
+[CLASSIFY] you give me touch my palate adversely, I make a crooked face at it. I can't say your worships have delivered the matter well, when I find the ass in [ANSWER] PROSE [END]
+[CLASSIFY] And given to Lartius and to Marcius battle:
+I saw our party to their trenches driven,
+And then I came away. [ANSWER] VERSE [END]
+[CLASSIFY] Against the wind a mile! You souls of geese,
+That bear the shapes of men, how have you run
+From slaves that apes would beat! Pluto and hell! [ANSWER] VERSE [END]
+[CLASSIFY] With them he enters; who, upon the sudden,
+Clapp'd to their gates: he is himself alone,
+To answer all the city. [ANSWER] VERSE [END]
+[CLASSIFY] had inkling this fortnight what we intend to do,
+which now we'll show 'em in deeds. They say poor
+suitors have strong breaths: they shall know we [ANSWER] VERSE [END]
+[CLASSIFY] But is four Volsces? none of you but is Able to bear against the great Aufidius A shield as hard as his. A certain number, [ANSWER] PROSE [END]
+[CLASSIFY] The counsellor heart, the arm our soldier,
+Our steed the leg, the tongue our trumpeter.
+With other muniments and petty helps [ANSWER] VERSE [END]
+[CLASSIFY] Than gilt his trophy: the breasts of Hecuba,
+When she did suckle Hector, look'd not lovelier
+Than Hector's forehead when it spit forth blood [ANSWER] VERSE [END]
+[CLASSIFY] He did inform the truth: but for our gentlemen, The common file--a plague! tribunes for them!-- The mouse ne'er shunn'd the cat as they did budge [ANSWER] PROSE [END]
+[CLASSIFY] content to say it was for his country he did it to please his mother and to be partly proud; which he is, even till the altitude of his virtue. [ANSWER] PROSE [END]
+[CLASSIFY] Though I could wish
+You were conducted to a gentle bath
+And balms applied to, you, yet dare I never [ANSWER] VERSE [END]
+[CLASSIFY] They'll sit by the fire, and presume to know
+What's done i' the Capitol; who's like to rise,
+Who thrives and who declines; side factions [ANSWER] VERSE [END]
+[CLASSIFY] down before their city Corioli; they nothing doubt
+prevailing and to make it brief wars. This is true,
+on mine honour; and so, I pray, go with us. [ANSWER] VERSE [END]
+[CLASSIFY] The other makes you proud. He that trusts to you, Where he should find you lions, finds you hares; Where foxes, geese: you are no surer, no, [ANSWER] PROSE [END]
+[CLASSIFY] and then rejourn the controversy of three pence to a second day of audience. When you are hearing a matter between party and party, if you chance to be [ANSWER] PROSE [END]
+[CLASSIFY] Tickled with good success, disdains the shadow Which he treads on at noon: but I do wonder His insolence can brook to be commanded [ANSWER] PROSE [END]
+[CLASSIFY] With every minute you do change a mind,
+And call him noble that was now your hate,
+Him vile that was your garland. What's the matter, [ANSWER] VERSE [END]
+[CLASSIFY] from all: the rest
+Shall bear the business in some other fight,
+As cause will be obey'd. Please you to march; [ANSWER] VERSE [END]
+[CLASSIFY] Like Romans, neither foolish in our stands, Nor cowardly in retire: believe me, sirs, We shall be charged again. Whiles we have struck, [ANSWER] PROSE [END]
+[CLASSIFY] All hurt behind; backs red, and faces pale With flight and agued fear! Mend and charge home, Or, by the fires of heaven, I'll leave the foe [ANSWER] PROSE [END]
+[CLASSIFY] who in a cheap estimation, is worth predecessors since Deucalion, though peradventure some of the best of 'em were hereditary hangmen. God-den to [ANSWER] PROSE [END]
+[CLASSIFY] Thither where more attends you, and you slander
+The helms o' the state, who care for you like fathers,
+When you curse them as enemies. [ANSWER] VERSE [END]
+[CLASSIFY] Or be accused of folly. I shall tell you A pretty tale: it may be you have heard it; But, since it serves my purpose, I will venture [ANSWER] PROSE [END]
+[CLASSIFY] Touching the weal o' the common, you shall find
+No public benefit which you receive
+But it proceeds or comes from them to you [ANSWER] VERSE [END]
+[CLASSIFY] And a petition granted them, a strange one--
+To break the heart of generosity,
+And make bold power look pale--they threw their caps [ANSWER] VERSE [END]
+[CLASSIFY] Corn for the rich men only: with these shreds They vented their complainings; which being answer'd, And a petition granted them, a strange one-- [ANSWER] PROSE [END]
+[CLASSIFY] Which would increase his evil. He that depends Upon your favours swims with fins of lead And hews down oaks with rushes. Hang ye! Trust Ye? [ANSWER] PROSE [END]
+[CLASSIFY] And make my wars on you: look to't: come on; If you'll stand fast, we'll beat them to their wives, As they us to our trenches followed. [ANSWER] PROSE [END]
+[CLASSIFY] Who deserves greatness
+Deserves your hate; and your affections are
+A sick man's appetite, who desires most that [ANSWER] VERSE [END]
+[CLASSIFY] May these same instruments, which you profane, Never sound more! when drums and trumpets shall I' the field prove flatterers, let courts and cities be [ANSWER] PROSE [END]
+[CLASSIFY] Our business is not unknown to the senate; they have
+had inkling this fortnight what we intend to do,
+which now we'll show 'em in deeds. They say poor [ANSWER] VERSE [END]
+[CLASSIFY] would yield us but the superfluity, while it were wholesome, we might guess they relieved us humanely; but they think we are too dear: the leanness that [ANSWER] PROSE [END]
+[CLASSIFY] That bear the shapes of men, how have you run
+From slaves that apes would beat! Pluto and hell!
+All hurt behind; backs red, and faces pale [ANSWER] VERSE [END]
+[CLASSIFY] O, let me clip ye
+In arms as sound as when I woo'd, in heart
+As merry as when our nuptial day was done, [ANSWER] VERSE [END]
+[CLASSIFY] Either you must
+Confess yourselves wondrous malicious,
+Or be accused of folly. I shall tell you [ANSWER] VERSE [END]
+[CLASSIFY] That was the whip of your bragg'd progeny,
+Thou shouldst not scape me here.
+Officious, and not valiant, you have shamed me [ANSWER] VERSE [END]
+[CLASSIFY] But cannot make my heart consent to take A bribe to pay my sword: I do refuse it; And stand upon my common part with those [ANSWER] PROSE [END]
+[CLASSIFY] When she did suckle Hector, look'd not lovelier
+Than Hector's forehead when it spit forth blood
+At Grecian sword, contemning. Tell Valeria, [ANSWER] VERSE [END]
+[CLASSIFY] When she did suckle Hector, look'd not lovelier Than Hector's forehead when it spit forth blood At Grecian sword, contemning. Tell Valeria, [ANSWER] PROSE [END]
+[CLASSIFY] What ever have been thought on in this state, That could be brought to bodily act ere Rome Had circumvention? 'Tis not four days gone [ANSWER] PROSE [END]
+[CLASSIFY] You were conducted to a gentle bath
+And balms applied to, you, yet dare I never
+Deny your asking: take your choice of those [ANSWER] VERSE [END]
+[CLASSIFY] Worse than a theft, no less than a traducement, To hide your doings; and to silence that, Which, to the spire and top of praises vouch'd, [ANSWER] PROSE [END]
+[CLASSIFY] At a crack'd drachm! Cushions, leaden spoons,
+Irons of a doit, doublets that hangmen would
+Bury with those that wore them, these base slaves, [ANSWER] VERSE [END]
+[CLASSIFY] Beneath abhorring. What would you have, you curs,
+That like nor peace nor war? the one affrights you,
+The other makes you proud. He that trusts to you, [ANSWER] VERSE [END]
+[CLASSIFY] inventory to particularise their abundance; our sufferance is a gain to them Let us revenge this with our pikes, ere we become rakes: for the gods know I [ANSWER] PROSE [END]
+[CLASSIFY] With only suffering stain by him; for him Shall fly out of itself: nor sleep nor sanctuary, Being naked, sick, nor fane nor Capitol, [ANSWER] PROSE [END]
+[CLASSIFY] The citizens of Corioli have issued, And given to Lartius and to Marcius battle: I saw our party to their trenches driven, [ANSWER] PROSE [END]
+[CLASSIFY] There is the man of my soul's hate, Aufidius, Piercing our Romans: then, valiant Titus, take Convenient numbers to make good the city; [ANSWER] PROSE [END]
+[CLASSIFY] wear out a good wholesome forenoon in hearing a cause between an orange wife and a fosset-seller; and then rejourn the controversy of three pence to a [ANSWER] PROSE [END]
+[CLASSIFY] Hang 'em! They say!
+They'll sit by the fire, and presume to know
+What's done i' the Capitol; who's like to rise, [ANSWER] VERSE [END]
+[CLASSIFY] Wednesday half an hour together: has such a confirmed countenance. I saw him run after a gilded butterfly: and when he caught it, he let it go [ANSWER] PROSE [END]
+[CLASSIFY] Their rotten privilege and custom 'gainst My hate to Marcius: where I find him, were it At home, upon my brother's guard, even there, [ANSWER] PROSE [END]
