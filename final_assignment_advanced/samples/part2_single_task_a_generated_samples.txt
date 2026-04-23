@@ -1,14 +1,13 @@
 ===== Single-task A / sample 1 =====
 
-[SPEAKER] Thealy say with, and hears is [ANSWER] GLOUCESTER [END]
-[SPEAKER] Naush in werdings poard, suay, nevire's [ANSWER] CORIOLANUS [END]
-[SPEAKER] I save ceeging to the heart: [ANSWER] DUKE VINCENTIO [END]
-[SPEAKER]
+[SPEAKER] Theart the good, and heart is [ANSWER] KING RICHARD II [END]
+[SPEAKER] But werefore pooks, such so the love moxt mone. [ANSWER] PETRUCHIO [END]
+[SPEAKER] Your like the grave int is, and the live and have conds 
 
 ===== Single-task A / sample 2 =====
 
-[SPEAKER] Shel thread to the worgess [ANSWER] MENENIUS [END]
-[SPEAKER] What wouly me not wither is of hand go it. [ANSWER] JULIET [END]
-[SPEAKER] Your to must the grous hearths plaiple fears [ANSWER] ROMEO [END]
-[SPEAKER
+[SPEAKER] She stark pers two to gooss; [ANSWER] JULIET [END]
+[SPEAKER] Where oury manner, if lifest such to give [ANSWER] DUKE VINCENTIO [END]
+[SPEAKER] The to the bour is heasted is ence, [ANSWER] CORIOLANUS [END]
+[SPEA
 
