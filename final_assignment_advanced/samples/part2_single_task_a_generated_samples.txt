@@ -1,0 +1,14 @@
+===== Single-task A / sample 1 =====
+
+[SPEAKER] Thealy say with, and hears is [ANSWER] GLOUCESTER [END]
+[SPEAKER] Naush in werdings poard, suay, nevire's [ANSWER] CORIOLANUS [END]
+[SPEAKER] I save ceeging to the heart: [ANSWER] DUKE VINCENTIO [END]
+[SPEAKER]
+
+===== Single-task A / sample 2 =====
+
+[SPEAKER] Shel thread to the worgess [ANSWER] MENENIUS [END]
+[SPEAKER] What wouly me not wither is of hand go it. [ANSWER] JULIET [END]
+[SPEAKER] Your to must the grous hearths plaiple fears [ANSWER] ROMEO [END]
+[SPEAKER
+

@@ -1,0 +1,13 @@
+===== Multi-task A+B / sample 1 =====
+
+[CLASSIFY] Now put you may brave good Marcius:
+You shall be are to strange on would beards before-house and their city Though than of Hecuba, that dogs must not known by cannot
+Would be the noble senate, with him should 
+
+===== Multi-task A+B / sample 2 =====
+
+[SPEAKER] She perceipt when him good [ANSWER] KING RICHARD II [END]
+[SPEAKER] Thyse not company. [ANSWER] AUTOLYCUS [END]
+[SPEAKER] Only all revail'd to me strongues from them [ANSWER] LEONTES [END]
+[SPEAKER] To him cont
+
