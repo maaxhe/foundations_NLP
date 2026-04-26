@@ -1,14 +1,35 @@
 ===== Multi-task A+B / sample 1 =====
 
-[CLASSIFY] Nor us, the courtrike at enterior caresy,
-To heart bell'd against though the wind,
-And, call the whole oble senate,
-Your suffering it the will reve
-We him set the revoluck did to me wive delive [ANSWER] VERSE 
+And they be deserved in their majesty. But if they read them all
+My words are well, to be their cause with my faces,
+And I must be some further of my wounds,
+We might send in their time violence;
+Where is nothing belove to ear.
+How now! what! there is the tyrannous sense
+To this death: the other makes all the head
+Is all the town of his chiefest so more. The
+measure thrust for the great shepherd all of a fair
+And grant for this borrow. [ANSWER] VERSE [END]
+[CLASSIFY] I am not strange of my cousi
 
 ===== Multi-task A+B / sample 2 =====
 
-[SPEAKER] She staid we when him ghss of my More than are [ANSWER] LEONTES [END]
-[SPEAKER] Ithaca set up her will. Hang their no power, [ANSWER] DUKE VINCENTIO [END]
-[SPEAKER] If these base to the sounds of my how [ANSWER
+[SPEAKER] Sir, therefore I have it to hear it. [ANSWER] PROSE [END]
+[SPEAKER] Th[nk you, my lord. [ANSWER] VERSE [END]
+[SPEAKER] And what says the monster? [ANSWER] VERSE [END]
+[SPEAKER] Sir, that will I be a man to endure the brow. [ANSWER] PETRUCHIO [END]
+[CLASSIFY] I thank you, love me what is my wisdom and might I will go what you have to such a lest in a guilty faces. [ANSWER] VERSE [END]
+[CLASSIFY] Now, my lord, I have so satisfied to charge my hands, and all as you shall praise yours.
+But
+
+===== Multi-task A+B / sample 3 =====
+
+Second when you have made me beloved? [ANSWER] VERSE [END]
+[SPEAKER] Thou art too worse that you may do be rough,
+And yet do't not for us: like a duit of love,
+Nor in peace or love so still, yet to purpose.
+I'll do the very great heart ask; a man, and when it will. [ANSWER] VERSE [END]
+[SPEAKER] I am in that means to the prince's base where they have shed in my father. [ANSWER] PROSE [END]
+[CLASSIFY] I am your very business, I pray thee, I know thee, and go with me. [ANSWER] PROSE [END]
+[CLASSIF
 

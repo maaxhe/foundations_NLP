@@ -1,26 +1,65 @@
 ===== Pretrained (no SFT) / sample 1 =====
 
 
-AUTOLYCUS:
-O, ugjj rcjj wms rf[r wms ]c[p rm r[ic [lb kw afgjbpcl?
-Yms rfgli wmsp fc[b? ufcrfcp [pc wms quccr lmlc?
+NORTHUMBERLAND:
+Now, sir, by my cheek with a tale rude thee,
+Take the baby out of his barket-shorten with my face,
+And more penitent to than I could follow,
+See it enough, will it be revenged to the king
+And makes like the court? I would by prayer itself,
+If not say nor do I live it in your lips.
 
-POLIXENES:
-Ir gq mddgac wmsp kgjblcqq ]mbw kgqrcpq,
-Iq lmr rfcl gl mtcpr[j md rfc lcuq gq u[lrcb jgic 
+JULIET:
+And that is the matter right in him,
+And on my husband's body breath! I am not too:
+'Tis your poor fishing be my own rank, being beboth:
+Are all that he may in courtesy tears?
+
+LADY ANNE:
+A ma
 
 ===== Pretrained (no SFT) / sample 2 =====
 
 
-Scamlb Cgrgxcl:
-Wfgaf wms f[tc gr rm fc[pr rfc tgjj[gl'q nj[glq?
+KING RICHARD II:
+You must not kill your son? I will not like it woo.
 
-Scamlb Mspbcpcp:
-Hc gq rfc ]jmucp [lb ][grgle k[l, em lmr fgk.
+RATCLIFF:
+No, by my honour is a lander king;
+Or I can play as you good to our purpose,
+And little lives us to regal part that success
+That you have made of your grace.
 
-CORIOLANUS:
-Wfm qf[jj qf[jj ]c jgrrjc fcpc?
+KING RICHARD III:
+Well be forlot a wife, and well for this piece
+For some absolute as the face is a heart,
+Shake the infection of a mother's deed.
 
-BAGOT:
-H[! uf[r gq gr u[q [ kml[]jc gq ]cdmp
+DUCHESS OF YORK:
+My gracious lord, sir; it is not well answer.
+The king is a father of banishment is a bosom
+Of 
+
+===== Pretrained (no SFT) / sample 3 =====
+
+
+HENRY BOLINGBROKE:
+Thou art not: but I was true, I would not send
+The offence of a way of fear conceit.
+
+KING RICHARD III:
+'Tis now the lady of their life is hence,
+When thou lovest me in my body, power below
+That I can arrant a hell-blood.
+
+KING LEWIS XI:
+What should you talk of work! my lord?
+
+KING RICHARD II:
+Say thou well, sir.
+
+KING RICHARD III:
+Well, this into your middle answered court
+With survice, whose contrarys are but bornes of me,
+In heavy hath set your labours down both are smeet 
 

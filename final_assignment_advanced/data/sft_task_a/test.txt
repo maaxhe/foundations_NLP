@@ -1,100 +1,542 @@
-[SPEAKER] My ears have not yet drunk a hundred words [ANSWER] JULIET [END]
-[SPEAKER] So will it, madam till I lie with you. [ANSWER] GLOUCESTER [END]
-[SPEAKER] And the place death, considering who thou art, [ANSWER] JULIET [END]
-[SPEAKER] In half an hour she promised to return. [ANSWER] JULIET [END]
-[SPEAKER] Norfolk, for thee remains a heavier doom, [ANSWER] KING RICHARD II [END]
-[SPEAKER] Your beauty: which did haunt me in my sleep [ANSWER] GLOUCESTER [END]
-[SPEAKER] Most piteous to be wild, I have dispatch'd in post [ANSWER] LEONTES [END]
-[SPEAKER] What is thy name? and wherefore comest thou hither, [ANSWER] KING RICHARD II [END]
-[SPEAKER] The mere effusion of thy proper loins, [ANSWER] DUKE VINCENTIO [END]
-[SPEAKER] wagging of your beards; and your beards deserve not [ANSWER] MENENIUS [END]
-[SPEAKER] We have some old crab-trees here [ANSWER] MENENIUS [END]
-[SPEAKER] My lord, stand back, and let the coffin pass. [ANSWER] GLOUCESTER [END]
-[SPEAKER] Women are made to bear, and so are you. [ANSWER] PETRUCHIO [END]
-[SPEAKER] loved her: the ballad is very pitiful and as true. [ANSWER] AUTOLYCUS [END]
-[SPEAKER] What, by a horseman, or a footman? [ANSWER] AUTOLYCUS [END]
-[SPEAKER] Break ope the locks o' the senate and bring in [ANSWER] CORIOLANUS [END]
-[SPEAKER] Hermione, my dearest, thou never spokest [ANSWER] LEONTES [END]
-[SPEAKER] You will demand of me why I do this? [ANSWER] DUKE VINCENTIO [END]
-[SPEAKER] A most courteous exposition. [ANSWER] ROMEO [END]
-[SPEAKER] Here, sirrah Grumio; knock, I say. [ANSWER] PETRUCHIO [END]
-[SPEAKER] Uncle, even in the glasses of thine eyes [ANSWER] KING RICHARD II [END]
-[SPEAKER] Swear by the duty that you owe to God-- [ANSWER] KING RICHARD II [END]
-[SPEAKER] false of heart that way; and that he knew, I warrant [ANSWER] AUTOLYCUS [END]
-[SPEAKER] be a reasonable man, grew so in love with the [ANSWER] AUTOLYCUS [END]
-[SPEAKER] Are you a courtier, an't like you, sir? [ANSWER] AUTOLYCUS [END]
-[SPEAKER] put me into this apparel. [ANSWER] AUTOLYCUS [END]
-[SPEAKER] Sometime in Greece,-- [ANSWER] CORIOLANUS [END]
-[SPEAKER] But now thy beauty is proposed my fee, [ANSWER] GLOUCESTER [END]
-[SPEAKER] The cockle of rebellion, insolence, sedition, [ANSWER] CORIOLANUS [END]
-[SPEAKER] me the king's brother-in-law. [ANSWER] AUTOLYCUS [END]
-[SPEAKER] ways, wench; serve God. What, have you dined at home? [ANSWER] JULIET [END]
-[SPEAKER] It were impossible I should speed amiss. [ANSWER] PETRUCHIO [END]
-[SPEAKER] O, wilt thou leave me so unsatisfied? [ANSWER] ROMEO [END]
-[SPEAKER] Out upon him! prig, for my life, prig: he haunts [ANSWER] AUTOLYCUS [END]
-[SPEAKER] If they be senators: and they are no less, [ANSWER] CORIOLANUS [END]
-[SPEAKER] Madam, your mother craves a word with you. [ANSWER] JULIET [END]
-[SPEAKER] But that thou overheard'st, ere I was ware, [ANSWER] JULIET [END]
-[SPEAKER] That issue out of dust. Happy thou art not; [ANSWER] DUKE VINCENTIO [END]
-[SPEAKER] Did it to help thee to a better husband. [ANSWER] GLOUCESTER [END]
-[SPEAKER] This being granted in course,--and now follows [ANSWER] DUKE VINCENTIO [END]
-[SPEAKER] extempore. The prince himself is about a piece of [ANSWER] AUTOLYCUS [END]
-[SPEAKER] Wouldst thou have laugh'd had I come coffin'd home, [ANSWER] CORIOLANUS [END]
-[SPEAKER] Marry, that, I think, be young Petrucio. [ANSWER] JULIET [END]
-[SPEAKER] It beats as it would fall in twenty pieces. [ANSWER] JULIET [END]
-[SPEAKER] Saints do not move, though grant for prayers' sake. [ANSWER] JULIET [END]
-[SPEAKER] Thus from my lips, by yours, my sin is purged. [ANSWER] ROMEO [END]
-[SPEAKER] The which will I; not all so much for love [ANSWER] GLOUCESTER [END]
-[SPEAKER] She vied so fast, protesting oath on oath, [ANSWER] PETRUCHIO [END]
-[SPEAKER] Than the death-darting eye of cockatrice: [ANSWER] JULIET [END]
-[SPEAKER] And, till so much blood thither come again, [ANSWER] KING RICHARD II [END]
-[SPEAKER] For our affairs in hand: if that come short, [ANSWER] KING RICHARD II [END]
-[SPEAKER] No more words, we beseech you. [ANSWER] MENENIUS [END]
-[SPEAKER] Nor never write, regreet, nor reconcile [ANSWER] KING RICHARD II [END]
-[SPEAKER] Can sick men play so nicely with their names? [ANSWER] KING RICHARD II [END]
-[SPEAKER] Thou dost make possible things not so held, [ANSWER] LEONTES [END]
-[SPEAKER] That the precipitation might down stretch [ANSWER] CORIOLANUS [END]
-[SPEAKER] And seal the title with a lovely kiss! [ANSWER] PETRUCHIO [END]
-[SPEAKER] How but well, sir? how but well? [ANSWER] PETRUCHIO [END]
-[SPEAKER] substitute, and to save your brother? [ANSWER] DUKE VINCENTIO [END]
-[SPEAKER] wife was brought to bed of twenty money-bags at a [ANSWER] AUTOLYCUS [END]
-[SPEAKER] But you must trouble him with lewd complaints. [ANSWER] GLOUCESTER [END]
-[SPEAKER] For saints have hands that pilgrims' hands do touch, [ANSWER] JULIET [END]
-[SPEAKER] begged. I have your alms: adieu. [ANSWER] CORIOLANUS [END]
-[SPEAKER] He straight declined, droop'd, took it deeply, [ANSWER] LEONTES [END]
-[SPEAKER] I never heard the absent duke much detected for [ANSWER] DUKE VINCENTIO [END]
-[SPEAKER] Hours, minutes? noon, midnight? and all eyes [ANSWER] LEONTES [END]
-[SPEAKER] One rich enough to be Petruchio's wife, [ANSWER] PETRUCHIO [END]
-[SPEAKER] of it. A prize! a prize! [ANSWER] AUTOLYCUS [END]
-[SPEAKER] Why, then comes in the sweet o' the year; [ANSWER] AUTOLYCUS [END]
-[SPEAKER] like an impediment in the current, made it more [ANSWER] DUKE VINCENTIO [END]
-[SPEAKER] Her wondrous qualities and mild behavior, [ANSWER] PETRUCHIO [END]
-[SPEAKER] known well enough too? [ANSWER] MENENIUS [END]
-[SPEAKER] You must not speak of that: you must desire them [ANSWER] MENENIUS [END]
-[SPEAKER] That I shall blush in acting, and might well [ANSWER] CORIOLANUS [END]
-[SPEAKER] That scarce, some two days since, were worth a noble. [ANSWER] GLOUCESTER [END]
-[SPEAKER] Shall I send to thee? [ANSWER] JULIET [END]
-[SPEAKER] But tread the stranger paths of banishment. [ANSWER] KING RICHARD II [END]
-[SPEAKER] But tie him not to be their bedfellow. [ANSWER] MENENIUS [END]
-[SPEAKER] Go ask his name: if he be married. [ANSWER] JULIET [END]
-[SPEAKER] Awake, thou coward majesty! thou sleepest. [ANSWER] KING RICHARD II [END]
-[SPEAKER] He jests at scars that never felt a wound. [ANSWER] ROMEO [END]
-[SPEAKER] Is three long hours, yet she is not come. [ANSWER] JULIET [END]
-[SPEAKER] but, I'll warrant him, as gentle as a lamb. Go thy [ANSWER] JULIET [END]
-[SPEAKER] She moves me not, or not removes, at least, [ANSWER] PETRUCHIO [END]
-[SPEAKER] O, you are novices! 'tis a world to see, [ANSWER] PETRUCHIO [END]
-[SPEAKER] That little thinks she has been sluiced in's absence [ANSWER] LEONTES [END]
-[SPEAKER] Thyself upon thy virtues, they on thee. [ANSWER] DUKE VINCENTIO [END]
-[SPEAKER] scarce a maid westward but she sings it; 'tis in [ANSWER] AUTOLYCUS [END]
-[SPEAKER] is too soft for him, say I draw our throne into a [ANSWER] AUTOLYCUS [END]
-[SPEAKER] How sometimes nature will betray its folly, [ANSWER] LEONTES [END]
-[SPEAKER] That Rome should dote on: yet, by the faith of men, [ANSWER] MENENIUS [END]
-[SPEAKER] That when she dies with beauty dies her store. [ANSWER] ROMEO [END]
-[SPEAKER] My dukedom to a beggarly denier, [ANSWER] GLOUCESTER [END]
-[SPEAKER] Which our divines lose by 'em. [ANSWER] CORIOLANUS [END]
-[SPEAKER] your appointment, go in your place; if the encounter [ANSWER] DUKE VINCENTIO [END]
-[SPEAKER] And these, who often drown'd could never die, [ANSWER] ROMEO [END]
-[SPEAKER] I can bear my part; you must know 'tis my [ANSWER] AUTOLYCUS [END]
-[SPEAKER] Give way there, and go on! [ANSWER] CORIOLANUS [END]
-[SPEAKER] Will you undo yourselves? [ANSWER] MENENIUS [END]
-[SPEAKER] O dear account! my life is my foe's debt. [ANSWER] ROMEO [END]
+[SPEAKER] Because you talk of pride now,--will you not be angry? [ANSWER] MENENIUS [END]
+[SPEAKER] Peace, peace, Mercutio, peace!
+Thou talk'st of nothing. [ANSWER] ROMEO [END]
+[SPEAKER] Thy gown? why, ay: come, tailor, let us see't.
+O mercy, God! what masquing stuff is here?
+What's this? a sleeve? 'tis like a demi-cannon:
+What, up and down, carved like an apple-tart?
+Here's snip and nip and cut and slish and slash,
+Like to a censer in a barber's shop:
+Why, what, i' devil's name, tailor, call'st thou this? [ANSWER] PETRUCHIO [END]
+[SPEAKER] Now, by the world, it is a lusty wench;
+I love her ten times more than e'er I did:
+O, how I long to have some chat with her! [ANSWER] PETRUCHIO [END]
+[SPEAKER] Either this is the envy in you, folly, or mistaking:
+the very stream of his life and the business he hath
+helmed must upon a warranted need give him a better
+proclamation. Let him be but testimonied in his own
+bringings-forth, and he shall appear to the
+envious a scholar, a statesman and a soldier.
+Therefore you speak unskilfully: or if your
+knowledge be more it is much darkened in your malice. [ANSWER] DUKE VINCENTIO [END]
+[SPEAKER] I know you can do very little alone; for your helps
+are many, or else your actions would grow wondrous
+single: your abilities are too infant-like for
+doing much alone. You talk of pride: O that you
+could turn your eyes toward the napes of your necks,
+and make but an interior survey of your good selves!
+O that you could! [ANSWER] MENENIUS [END]
+[SPEAKER] Peace be with you!
+He who the sword of heaven will bear
+Should be as holy as severe;
+Pattern in himself to know,
+Grace to stand, and virtue go;
+More nor less to others paying
+Than by self-offences weighing.
+Shame to him whose cruel striking
+Kills for faults of his own liking!
+Twice treble shame on Angelo,
+To weed my vice and let his grow!
+O, what may man within him hide,
+Though angel on the outward side!
+How may likeness made in crimes,
+Making practise on the times,
+To draw with idle spiders' strings
+Most ponderous and substantial things!
+Craft against vice I must apply:
+With Angelo to-night shall lie
+His old betrothed but despised;
+So disguise shall, by the disguised,
+Pay with falsehood false exacting,
+And perform an old contracting. [ANSWER] DUKE VINCENTIO [END]
+[SPEAKER] Ay, what of that? it was my will and grant;
+And for this once my will shall stand for law. [ANSWER] KING EDWARD IV [END]
+[SPEAKER] Your horror's pardon:
+I had rather have my wounds to heal again
+Than hear say how I got them. [ANSWER] CORIOLANUS [END]
+[SPEAKER] I know her father, though I know not her;
+And he knew my deceased father well.
+I will not sleep, Hortensio, till I see her;
+And therefore let me be thus bold with you
+To give you over at this first encounter,
+Unless you will accompany me thither. [ANSWER] PETRUCHIO [END]
+[SPEAKER] As much unto my good lord chamberlain!
+Well are you welcome to the open air.
+How hath your lordship brook'd imprisonment? [ANSWER] GLOUCESTER [END]
+[SPEAKER] Why, our battalion trebles that account:
+Besides, the king's name is a tower of strength,
+Which they upon the adverse party want.
+Up with my tent there! Valiant gentlemen,
+Let us survey the vantage of the field
+Call for some men of sound direction
+Let's want no discipline, make no delay,
+For, lords, to-morrow is a busy day. [ANSWER] KING RICHARD III [END]
+[SPEAKER] We thank you both: yet one but flatters us,
+As well appeareth by the cause you come;
+Namely to appeal each other of high treason.
+Cousin of Hereford, what dost thou object
+Against the Duke of Norfolk, Thomas Mowbray? [ANSWER] KING RICHARD II [END]
+[SPEAKER] If thou love me, 'tis time thou wert away. [ANSWER] KING RICHARD II [END]
+[SPEAKER] Clarence, excuse me to the king my brother;
+I'll hence to London on a serious matter:
+Ere ye come there, be sure to hear some news. [ANSWER] GLOUCESTER [END]
+[SPEAKER] But in your daughter's womb I bury them:
+Where in that nest of spicery they shall breed
+Selves of themselves, to your recomforture. [ANSWER] KING RICHARD III [END]
+[SPEAKER] Ay, if yourself's remembrance wrong yourself. [ANSWER] KING RICHARD III [END]
+[SPEAKER] Come hither, Isabel.
+Your friar is now your prince: as I was then
+Advertising and holy to your business,
+Not changing heart with habit, I am still
+Attorney'd at your service. [ANSWER] DUKE VINCENTIO [END]
+[SPEAKER] Brothers, you muse what chat we two have had. [ANSWER] KING EDWARD IV [END]
+[SPEAKER] Unmanner'd dog! stand thou, when I command:
+Advance thy halbert higher than my breast,
+Or, by Saint Paul, I'll strike thee to my foot,
+And spurn upon thee, beggar, for thy boldness. [ANSWER] GLOUCESTER [END]
+[SPEAKER] What, will the aspiring blood of Lancaster
+Sink in the ground? I thought it would have mounted.
+See how my sword weeps for the poor king's death!
+O, may such purple tears be alway shed
+From those that wish the downfall of our house!
+If any spark of life be yet remaining,
+Down, down to hell; and say I sent thee thither:
+I, that have neither pity, love, nor fear.
+Indeed, 'tis true that Henry told me of;
+For I have often heard my mother say
+I came into the world with my legs forward:
+Had I not reason, think ye, to make haste,
+And seek their ruin that usurp'd our right?
+The midwife wonder'd and the women cried
+'O, Jesus bless us, he is born with teeth!'
+And so I was; which plainly signified
+That I should snarl and bite and play the dog.
+Then, since the heavens have shaped my body so,
+Let hell make crook'd my mind to answer it.
+I have no brother, I am like no brother;
+And this word 'love,' which graybeards call divine,
+Be resident in men like one another
+And not in me: I am myself alone.
+Clarence, beware; thou keep'st me from the light:
+But I will sort a pitchy day for thee;
+For I will buz abroad such prophecies
+That Edward shall be fearful of his life,
+And then, to purge his fear, I'll be thy death.
+King Henry and the prince his son are gone:
+Clarence, thy turn is next, and then the rest,
+Counting myself but bad till I be best.
+I'll throw thy body in another room
+And triumph, Henry, in thy day of doom.
+3 KING HENRY VI [ANSWER] GLOUCESTER [END]
+[SPEAKER] 'Tis the way
+To call hers exquisite, in question more:
+These happy masks that kiss fair ladies' brows
+Being black put us in mind they hide the fair;
+He that is strucken blind cannot forget
+The precious treasure of his eyesight lost:
+Show me a mistress that is passing fair,
+What doth her beauty serve, but as a note
+Where I may read who pass'd that passing fair?
+Farewell: thou canst not teach me to forget. [ANSWER] ROMEO [END]
+[SPEAKER] Thou wretch, despite o'erwhelm thee!
+What should the people do with these bald tribunes?
+On whom depending, their obedience fails
+To the greater bench: in a rebellion,
+When what's not meet, but what must be, was law,
+Then were they chosen: in a better hour,
+Let what is meet be said it must be meet,
+And throw their power i' the dust. [ANSWER] CORIOLANUS [END]
+[SPEAKER] Ay, nurse; what of that? both with an R. [ANSWER] ROMEO [END]
+[SPEAKER] What must the king do now? must he submit?
+The king shall do it: must he be deposed?
+The king shall be contented: must he lose
+The name of king? o' God's name, let it go:
+I'll give my jewels for a set of beads,
+My gorgeous palace for a hermitage,
+My gay apparel for an almsman's gown,
+My figured goblets for a dish of wood,
+My sceptre for a palmer's walking staff,
+My subjects for a pair of carved saints
+And my large kingdom for a little grave,
+A little little grave, an obscure grave;
+Or I'll be buried in the king's highway,
+Some way of common trade, where subjects' feet
+May hourly trample on their sovereign's head;
+For on my heart they tread now whilst I live;
+And buried once, why not upon my head?
+Aumerle, thou weep'st, my tender-hearted cousin!
+We'll make foul weather with despised tears;
+Our sighs and they shall lodge the summer corn,
+And make a dearth in this revolting land.
+Or shall we play the wantons with our woes,
+And make some pretty match with shedding tears?
+As thus, to drop them still upon one place,
+Till they have fretted us a pair of graves
+Within the earth; and, therein laid,--there lies
+Two kinsmen digg'd their graves with weeping eyes.
+Would not this ill do well? Well, well, I see
+I talk but idly, and you laugh at me.
+Most mighty prince, my Lord Northumberland,
+What says King Bolingbroke? will his majesty
+Give Richard leave to live till Richard die?
+You make a leg, and Bolingbroke says ay. [ANSWER] KING RICHARD II [END]
+[SPEAKER] 'Tis good; though music oft hath such a charm
+To make bad good, and good provoke to harm.
+I pray, you, tell me, hath any body inquired
+for me here to-day? much upon this time have
+I promised here to meet. [ANSWER] DUKE VINCENTIO [END]
+[SPEAKER] Know'st thou not any whom corrupting gold
+Would tempt unto a close exploit of death? [ANSWER] KING RICHARD III [END]
+[SPEAKER] Choler!
+Were I as patient as the midnight sleep,
+By Jove, 'twould be my mind! [ANSWER] CORIOLANUS [END]
+[SPEAKER] Lo, citizens, he says he is content:
+The warlike service he has done, consider; think
+Upon the wounds his body bears, which show
+Like graves i' the holy churchyard. [ANSWER] MENENIUS [END]
+[SPEAKER] You'll think it strange if I should marry her. [ANSWER] KING EDWARD IV [END]
+[SPEAKER] If I should be! I had rather be a pedlar:
+Far be it from my heart, the thought of it! [ANSWER] GLOUCESTER [END]
+[SPEAKER] Hear me one word;
+Beseech you, tribunes, hear me but a word. [ANSWER] MENENIUS [END]
+[SPEAKER] Let me be ta'en, let me be put to death;
+I am content, so thou wilt have it so.
+I'll say yon grey is not the morning's eye,
+'Tis but the pale reflex of Cynthia's brow;
+Nor that is not the lark, whose notes do beat
+The vaulty heaven so high above our heads:
+I have more care to stay than will to go:
+Come, death, and welcome! Juliet wills it so.
+How is't, my soul? let's talk; it is not day. [ANSWER] ROMEO [END]
+[SPEAKER] Villains, set down the corse; or, by Saint Paul,
+I'll make a corse of him that disobeys. [ANSWER] GLOUCESTER [END]
+[SPEAKER] O Romeo, Romeo! wherefore art thou Romeo?
+Deny thy father and refuse thy name;
+Or, if thou wilt not, be but sworn my love,
+And I'll no longer be a Capulet. [ANSWER] JULIET [END]
+[SPEAKER] Gentlemen and friends, I thank you for your pains:
+I know you think to dine with me to-day,
+And have prepared great store of wedding cheer;
+But so it is, my haste doth call me hence,
+And therefore here I mean to take my leave. [ANSWER] PETRUCHIO [END]
+[SPEAKER] Fie, sirrah! a bawd, a wicked bawd!
+The evil that thou causest to be done,
+That is thy means to live. Do thou but think
+What 'tis to cram a maw or clothe a back
+From such a filthy vice: say to thyself,
+From their abominable and beastly touches
+I drink, I eat, array myself, and live.
+Canst thou believe thy living is a life,
+So stinkingly depending? Go mend, go mend. [ANSWER] DUKE VINCENTIO [END]
+[SPEAKER] Tush, thou art deceived:
+Leave me, and do the thing I bid thee do.
+Hast thou no letters to me from the friar? [ANSWER] ROMEO [END]
+[SPEAKER] Alas, poor Clarence! is it for a wife
+That thou art malcontent? I will provide thee. [ANSWER] KING EDWARD IV [END]
+[SPEAKER] It is: and lo, where youthful Edward comes! [ANSWER] GLOUCESTER [END]
+[SPEAKER] When you are gentle, you shall have one too,
+And not till then. [ANSWER] PETRUCHIO [END]
+[SPEAKER] Measureless liar, thou hast made my heart
+Too great for what contains it. Boy! O slave!
+Pardon me, lords, 'tis the first time that ever
+I was forced to scold. Your judgments, my grave lords,
+Must give this cur the lie: and his own notion--
+Who wears my stripes impress'd upon him; that
+Must bear my beating to his grave--shall join
+To thrust the lie unto him. [ANSWER] CORIOLANUS [END]
+[SPEAKER] O fortune, fortune! all men call thee fickle:
+If thou art fickle, what dost thou with him.
+That is renown'd for faith? Be fickle, fortune;
+For then, I hope, thou wilt not keep him long,
+But send him back. [ANSWER] JULIET [END]
+[SPEAKER] I sometime lay here in Corioli
+At a poor man's house; he used me kindly:
+He cried to me; I saw him prisoner;
+But then Aufidius was within my view,
+And wrath o'erwhelm'd my pity: I request you
+To give my poor host freedom. [ANSWER] CORIOLANUS [END]
+[SPEAKER] Farewell! God knows when we shall meet again.
+I have a faint cold fear thrills through my veins,
+That almost freezes up the heat of life:
+I'll call them back again to comfort me:
+Nurse! What should she do here?
+My dismal scene I needs must act alone.
+Come, vial.
+What if this mixture do not work at all?
+Shall I be married then to-morrow morning?
+No, no: this shall forbid it: lie thou there.
+What if it be a poison, which the friar
+Subtly hath minister'd to have me dead,
+Lest in this marriage he should be dishonour'd,
+Because he married me before to Romeo?
+I fear it is: and yet, methinks, it should not,
+For he hath still been tried a holy man.
+How if, when I am laid into the tomb,
+I wake before the time that Romeo
+Come to redeem me? there's a fearful point!
+Shall I not, then, be stifled in the vault,
+To whose foul mouth no healthsome air breathes in,
+And there die strangled ere my Romeo comes?
+Or, if I live, is it not very like,
+The horrible conceit of death and night,
+Together with the terror of the place,--
+As in a vault, an ancient receptacle,
+Where, for these many hundred years, the bones
+Of all my buried ancestors are packed:
+Where bloody Tybalt, yet but green in earth,
+Lies festering in his shroud; where, as they say,
+At some hours in the night spirits resort;--
+Alack, alack, is it not like that I,
+So early waking, what with loathsome smells,
+And shrieks like mandrakes' torn out of the earth,
+That living mortals, hearing them, run mad:--
+O, if I wake, shall I not be distraught,
+Environed with all these hideous fears?
+And madly play with my forefather's joints?
+And pluck the mangled Tybalt from his shroud?
+And, in this rage, with some great kinsman's bone,
+As with a club, dash out my desperate brains?
+O, look! methinks I see my cousin's ghost
+Seeking out Romeo, that did spit his body
+Upon a rapier's point: stay, Tybalt, stay!
+Romeo, I come! this do I drink to thee. [ANSWER] JULIET [END]
+[SPEAKER] I neither care for the world nor your general: for
+such things as you, I can scarce think there's any,
+ye're so slight. He that hath a will to die by
+himself fears it not from another: let your general
+do his worst. For you, be that you are, long; and
+your misery increase with your age! I say to you,
+as I was said to, Away! [ANSWER] MENENIUS [END]
+[SPEAKER] Prithee, Kate, let's stand aside and see the end of
+this controversy. [ANSWER] PETRUCHIO [END]
+[SPEAKER] I know not where; but wheresoever, I wish him well. [ANSWER] DUKE VINCENTIO [END]
+[SPEAKER] Is Lewis so brave? belike he thinks me Henry.
+But what said Lady Bona to my marriage? [ANSWER] KING EDWARD IV [END]
+[SPEAKER] Pray now, your news?
+You have made fair work, I fear me.--Pray, your news?--
+If Marcius should be join'd with Volscians,-- [ANSWER] MENENIUS [END]
+[SPEAKER] Good news or bad, that thou comest in so bluntly? [ANSWER] KING RICHARD III [END]
+[SPEAKER] What must I say?
+'I Pray, sir'--Plague upon't! I cannot bring
+My tongue to such a pace:--'Look, sir, my wounds!
+I got them in my country's service, when
+Some certain of your brethren roar'd and ran
+From the noise of our own drums.' [ANSWER] CORIOLANUS [END]
+[SPEAKER] I come, anon.--But if thou mean'st not well,
+I do beseech thee-- [ANSWER] JULIET [END]
+[SPEAKER] Put them not to't:
+Pray you, go fit you to the custom and
+Take to you, as your predecessors have,
+Your honour with your form. [ANSWER] MENENIUS [END]
+[SPEAKER] Discomfortable cousin! know'st thou not
+That when the searching eye of heaven is hid,
+Behind the globe, that lights the lower world,
+Then thieves and robbers range abroad unseen
+In murders and in outrage, boldly here;
+But when from under this terrestrial ball
+He fires the proud tops of the eastern pines
+And darts his light through every guilty hole,
+Then murders, treasons and detested sins,
+The cloak of night being pluck'd from off their backs,
+Stand bare and naked, trembling at themselves?
+So when this thief, this traitor, Bolingbroke,
+Who all this while hath revell'd in the night
+Whilst we were wandering with the antipodes,
+Shall see us rising in our throne, the east,
+His treasons will sit blushing in his face,
+Not able to endure the sight of day,
+But self-affrighted tremble at his sin.
+Not all the water in the rough rude sea
+Can wash the balm off from an anointed king;
+The breath of worldly men cannot depose
+The deputy elected by the Lord:
+For every man that Bolingbroke hath press'd
+To lift shrewd steel against our golden crown,
+God for his Richard hath in heavenly pay
+A glorious angel: then, if angels fight,
+Weak men must fall, for heaven still guards the right.
+Welcome, my lord how far off lies your power? [ANSWER] KING RICHARD II [END]
+[SPEAKER] That now you are come, you will be gone. Leave me
+awhile with the maid: my mind promises with my
+habit no loss shall touch her by my company. [ANSWER] DUKE VINCENTIO [END]
+[SPEAKER] He that bereft thee, lady, of thy husband,
+Did it to help thee to a better husband. [ANSWER] GLOUCESTER [END]
+[SPEAKER] The service of the foot
+Being once gangrened, is not then respected
+For what before it was. [ANSWER] MENENIUS [END]
+[SPEAKER] As I intend to prosper and repent,
+So thrive I in my dangerous attempt
+Of hostile arms! myself myself confound!
+Heaven and fortune bar me happy hours!
+Day, yield me not thy light; nor, night, thy rest!
+Be opposite all planets of good luck
+To my proceedings, if, with pure heart's love,
+Immaculate devotion, holy thoughts,
+I tender not thy beauteous princely daughter!
+In her consists my happiness and thine;
+Without her, follows to this land and me,
+To thee, herself, and many a Christian soul,
+Death, desolation, ruin and decay:
+It cannot be avoided but by this;
+It will not be avoided but by this.
+Therefore, good mother,--I must can you so--
+Be the attorney of my love to her:
+Plead what I will be, not what I have been;
+Not my deserts, but what I will deserve:
+Urge the necessity and state of times,
+And be not peevish-fond in great designs. [ANSWER] KING RICHARD III [END]
+[SPEAKER] And live you yet?
+O my sweet lady, pardon. [ANSWER] CORIOLANUS [END]
+[SPEAKER] I say, without characters, fame lives long.
+Thus, like the formal vice, Iniquity,
+I moralize two meanings in one word. [ANSWER] GLOUCESTER [END]
+[SPEAKER] You guard like men; 'tis well: but, by your leave,
+I am an officer of state, and come
+To speak with Coriolanus. [ANSWER] MENENIUS [END]
+[SPEAKER] Well, you'll answer this one day. Fare ye well. [ANSWER] DUKE VINCENTIO [END]
+[SPEAKER] Seize on the shame-faced Henry, bear him hence;
+And once again proclaim us King of England.
+You are the fount that makes small brooks to flow:
+Now stops thy spring; my sea sha$l suck them dry,
+And swell so much the higher by their ebb.
+Hence with him to the Tower; let him not speak.
+And, lords, towards Coventry bend we our course
+Where peremptory Warwick now remains:
+The sun shines hot; and, if we use delay,
+Cold biting winter mars our hoped-for hay. [ANSWER] KING EDWARD IV [END]
+[SPEAKER] Send out a pursuivant at arms
+To Stanley's regiment; bid him bring his power
+Before sunrising, lest his son George fall
+Into the blind cave of eternal night.
+Fill me a bowl of wine. Give me a watch.
+Saddle white Surrey for the field to-morrow.
+Look that my staves be sound, and not too heavy.
+Ratcliff! [ANSWER] KING RICHARD III [END]
+[SPEAKER] Upon mine honour, thou shalt marry her.
+Thy slanders I forgive; and therewithal
+Remit thy other forfeits. Take him to prison;
+And see our pleasure herein executed. [ANSWER] DUKE VINCENTIO [END]
+[SPEAKER] Why uncle, thou hast many years to live. [ANSWER] KING RICHARD II [END]
+[SPEAKER] Ay, I thank God, my father, and yourself. [ANSWER] KING RICHARD III [END]
+[SPEAKER] O, break, my heart! poor bankrupt, break at once!
+To prison, eyes, ne'er look on liberty!
+Vile earth, to earth resign; end motion here;
+And thou and Romeo press one heavy bier! [ANSWER] JULIET [END]
+[SPEAKER] Signior Baptista, my business asketh haste,
+And every day I cannot come to woo.
+You knew my father well, and in him me,
+Left solely heir to all his lands and goods,
+Which I have better'd rather than decreased:
+Then tell me, if I get your daughter's love,
+What dowry shall I have with her to wife? [ANSWER] PETRUCHIO [END]
+[SPEAKER] No, I'll not go: you hear what he hath said
+Which was sometime his general; who loved him
+In a most dear particular. He call'd me father:
+But what o' that? Go, you that banish'd him;
+A mile before his tent fall down, and knee
+The way into his mercy: nay, if he coy'd
+To hear Cominius speak, I'll keep at home. [ANSWER] MENENIUS [END]
+[SPEAKER] And you, good brother father. What offence hath
+this man made you, sir? [ANSWER] DUKE VINCENTIO [END]
+[SPEAKER] Northumberland, say thus the king returns:
+His noble cousin is right welcome hither;
+And all the number of his fair demands
+Shall be accomplish'd without contradiction:
+With all the gracious utterance thou hast
+Speak to his gentle hearing kind commends.
+We do debase ourselves, cousin, do we not,
+To look so poorly and to speak so fair?
+Shall we call back Northumberland, and send
+Defiance to the traitor, and so die? [ANSWER] KING RICHARD II [END]
+[SPEAKER] I cry thee mercy:
+There is my purse to cure that blow of thine.
+Hath any well-advised friend proclaim'd
+Reward to him that brings the traitor in? [ANSWER] KING RICHARD III [END]
+[SPEAKER] If it be possible for you to displace it with your
+little finger, there is some hope the ladies of
+Rome, especially his mother, may prevail with him.
+But I say there is no hope in't: our throats are
+sentenced and stay upon execution. [ANSWER] MENENIUS [END]
+[SPEAKER] And Warwick, doing what you gave in charge,
+Is now dishonoured by this new marriage. [ANSWER] GLOUCESTER [END]
+[SPEAKER] What, shall this speech be spoke for our excuse?
+Or shall we on without a apology? [ANSWER] ROMEO [END]
+[SPEAKER] Marshal, demand of yonder champion
+The cause of his arrival here in arms:
+Ask him his name and orderly proceed
+To swear him in the justice of his cause. [ANSWER] KING RICHARD II [END]
+[SPEAKER] Not proud, you have; but thankful, that you have:
+Proud can I never be of what I hate;
+But thankful even for hate, that is meant love. [ANSWER] JULIET [END]
+[SPEAKER] My other self, my counsel's consistory,
+My oracle, my prophet! My dear cousin,
+I, like a child, will go by thy direction.
+Towards Ludlow then, for we'll not stay behind. [ANSWER] GLOUCESTER [END]
+[SPEAKER] There is thy gold, worse poison to men's souls,
+Doing more murders in this loathsome world,
+Than these poor compounds that thou mayst not sell.
+I sell thee poison; thou hast sold me none.
+Farewell: buy food, and get thyself in flesh.
+Come, cordial and not poison, go with me
+To Juliet's grave; for there must I use thee. [ANSWER] ROMEO [END]
+[SPEAKER] O that I had him,
+With six Aufidiuses, or more, his tribe,
+To use my lawful sword! [ANSWER] CORIOLANUS [END]
+[SPEAKER] At Crosby Place, there shall you find us both. [ANSWER] GLOUCESTER [END]
+[SPEAKER] Hold you there: farewell.
+Provost, a word with you! [ANSWER] DUKE VINCENTIO [END]
+[SPEAKER] I'll give my reasons,
+More worthier than their voices. They know the corn
+Was not our recompense, resting well assured
+That ne'er did service for't: being press'd to the war,
+Even when the navel of the state was touch'd,
+They would not thread the gates. This kind of service
+Did not deserve corn gratis. Being i' the war
+Their mutinies and revolts, wherein they show'd
+Most valour, spoke not for them: the accusation
+Which they have often made against the senate,
+All cause unborn, could never be the motive
+Of our so frank donation. Well, what then?
+How shall this bisson multitude digest
+The senate's courtesy? Let deeds express
+What's like to be their words: 'we did request it;
+We are the greater poll, and in true fear
+They gave us our demands.' Thus we debase
+The nature of our seats and make the rabble
+Call our cares fears; which will in time
+Break ope the locks o' the senate and bring in
+The crows to peck the eagles. [ANSWER] CORIOLANUS [END]
+[SPEAKER] Not according to the prayer of the people, for they
+love not Marcius. [ANSWER] MENENIUS [END]
+[SPEAKER] 'Fair cousin'? I am greater than a king:
+For when I was a king, my flatterers
+Were then but subjects; being now a subject,
+I have a king here to my flatterer.
+Being so great, I have no need to beg. [ANSWER] KING RICHARD II [END]
+[SPEAKER] What is that Barnardine who is to be executed in the
+afternoon? [ANSWER] DUKE VINCENTIO [END]
+[SPEAKER] For 'tis a sore upon us,
+You cannot tent yourself: be gone, beseech you. [ANSWER] MENENIUS [END]
+[SPEAKER] He was in the right; and so indeed it is.
+Ten the clock there. Give me a calendar.
+Who saw the sun to-day? [ANSWER] KING RICHARD III [END]
+[SPEAKER] Then get your husband's lands, to do them good. [ANSWER] KING EDWARD IV [END]
+[SPEAKER] Sin from thy lips? O trespass sweetly urged!
+Give me my sin again. [ANSWER] ROMEO [END]
+[SPEAKER] You will think you have made no offence, if the duke
+avouch the justice of your dealing? [ANSWER] DUKE VINCENTIO [END]
+[SPEAKER] O God, I have an ill-divining soul!
+Methinks I see thee, now thou art below,
+As one dead in the bottom of a tomb:
+Either my eyesight fails, or thou look'st pale. [ANSWER] JULIET [END]
+[SPEAKER] I remember you, sir, by the sound of your voice: I
+met you at the prison, in the absence of the duke. [ANSWER] DUKE VINCENTIO [END]
+[SPEAKER] By such despair, I should accuse myself. [ANSWER] GLOUCESTER [END]
+[SPEAKER] Convenient is it. Make a swift return;
+For I would commune with you of such things
+That want no ear but yours. [ANSWER] DUKE VINCENTIO [END]
+[SPEAKER] Whither you will, so I were from your sights. [ANSWER] KING RICHARD II [END]
+[SPEAKER] Whoever gave that counsel, to give forth
+The corn o' the storehouse gratis, as 'twas used
+Sometime in Greece,-- [ANSWER] CORIOLANUS [END]
+[SPEAKER] Away, I say; I charge ye, bear her hence. [ANSWER] KING EDWARD IV [END]
